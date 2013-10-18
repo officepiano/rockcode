@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8" />
+     <title>用于测试360浏览器在不同ie版本下的内核</title>
+     <meta name="description" content="测试360浏览器的ie内核版本，测试结果是，如果用户使用ie6浏览器，则安装360后第一次打开网页，是以ie6解析，第二次之后就以ie8解析">
+     <script type="text/javascript" src="../rock.js"></script>
+   </head>
+   <body>
+   		<div id="browser"></div>
+   		<script type="text/javascript">
+   			$r.gid('browser').innerHTML = $r.browser.userAgent();
+   		</script>
+   </body>
+</html>
+

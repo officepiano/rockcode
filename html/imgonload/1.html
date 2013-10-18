@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8" />
+     <title>测试img onload</title>
+     <script type="text/javascript" src="../rock.js"></script>
+     <style type="text/css">
+     	img{max-width: 400px;border: 1px solid #ccc}
+     </style>
+   </head>
+   <body>
+   		<div id="browser"></div>
+   		<script type="text/javascript">
+   			$r.gid('browser').innerHTML = $r.browser.userAgent();
+   		</script>
+
+   	    <img id="imgonload" />
+   	    <script type="text/javascript">
+   	    	var img = new Image;
+   	    	img.src="../vcenter/1.jpg";
+   	    	img.onload = function  (argument) {
+   	    		$r.gid('browser').style.background="#c00";
+   	    		alert(img.width)
+   	    	}
+   	    </script>
+   </body>
+</html>
+
