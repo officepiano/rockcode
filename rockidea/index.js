@@ -1,22 +1,9 @@
-var  express  =  require ( 'express' ), 
-	 app =express(),
-	 fs = require('fs');
-
-app.configure(function(){
-	app.use('/jic', express.static(__dirname + '/static'));
-});
-
-app.get( '/a' ,  function (req,res){ 
-	var htmls = '';
-	fs.readFile('./view/head.html','utf8',function(err,html){
-		htmls += html;
-		htmls += '123123';
-		fs.readFile('./view/foot.jade','utf8',function(err,html){
-			htmls += html;
-
-		    res.send ( htmls); 
-		})
-	})
-})
-app.listen(3000); 
-console.log ( 'start express server\n' );
+var m = require(__dirname + '/mod/config/mod.js').mod,
+	m2 = require(__dirname + '/mod/config/mod2.js').mod2;
+	
+	m.app.configure(function(){
+		m.app.use('/jic', m.express.static(__dirname + '/static'));
+	});
+	m2.setview(m.app);
+	m.app.listen(3000); 
+	console.log ( 'start express server\n' );
