@@ -4,7 +4,7 @@ var jsdom = require("jsdom");
 
 
 var jsonTohtml = function(jsons){
-	console.log(jsons.length)
+	console.log(jsons)
 }
 /**
  * [parse site's html, ]
@@ -12,17 +12,22 @@ var jsonTohtml = function(jsons){
  * @param  {[string]} type [every site type  ex:wordpress]
  * @return {[type]}      [description]
  */
-var parse = function(data,type){
+var parse = function(data){
 	var o = data;
-	jsdom.env({
+	var op = {
 	  url: o.site,
+      decoding : o.charset,
 	  scripts: ["http://code.jquery.com/jquery.js"],
 	  done: function (errors, window) {
 		    var $ = window.$;
 		    var jsons = getJson($,o.select);
 		    jsonTohtml(jsons);
 	   }
-	})
+	}
+	if(o.charset){
+		op['encoding'] = null;
+	}
+	jsdom.env(op)
 }
 /**
  * [getJson description]
@@ -40,15 +45,21 @@ var getJson = function($,select){
 		}
 		jsons.push({
 			title : $(this).html(),
-			des : $(this).parents('.post').find(s.des).html()
+			des : $(this).parents(s.desPrant).find(s.des).html()
 		}) 
 		k++;
 	})
 	return jsons;
 }
-for(var type in $c ){
-	var item = $c[type];
+
+var parseData = function  (key) {
+	
+	var item = $c[key];
 	for(var name in item ){
-		parse(item[name],type)
+		parse(item[name])
 	}
+
 }
+
+parseData('news')
+

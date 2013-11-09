@@ -7,11 +7,48 @@ var data = {
 		}	
 	}
 }
+
+/**
+ * [news 咨询频道]
+ * @type {Object}
+ */
+data.news = {
+	csdn : {
+		site : 'http://news.csdn.net/',
+		select : 2,
+		charset : 'utf8'
+	},
+	pcbeta : {
+		site : 'http://www.pcbeta.com/news/',
+		select : 3,
+		charset : 'GBK'
+	}
+}
+/**
+ * [select 每一个网站选择模版的解析方式]
+ *  @param  {[string]} parent [选择器 所有数据的父元素]
+ *  @param  {[string]} title [选择器 title]
+ *  @param  {[string]} des [选择器 des]
+ *  @param  {[string]} desPrant [选择器 des 父元素]
+ * @type {Object}
+ */
 var select = {
 	1: {   //wordpress 1
 		parent: '#main',
 		title: 'header h1',
 		des: '.entry-content'
+	},
+	2: {
+		parent : '.news',
+		title : '.unit h1',
+		des : 'dd',
+		desPrant : '.unit'
+	},
+	3 : {
+		parent : '#pt_list',
+		title : 'h3 a',
+		des : 'li p',
+		desPrant : 'div'
 	}
 }
 
