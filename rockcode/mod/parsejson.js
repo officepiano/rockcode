@@ -1,10 +1,51 @@
 var $c = require('./con.js').myjson.data;
 var $sel = require('./con.js').myjson.select;
 var jsdom = require("jsdom");
+var info =function  (text) {
+	console.log('the info is : ' + text);
+}
 
+var getLength = function(ob){
+	var len = 0;
+	for (var i in ob) {
+		len++;
+	};
+	return len;
+}
+var datajson = {
 
-var jsonTohtml = function(jsons){
-	console.log(jsons)
+}
+var _lens = {
+
+}
+var cat0_lens = getLength($c);
+console.log(getLength($c))
+var _nowcat1lens = 0;
+var _nowlens = {//当前状态cat1的解析json数量
+
+}
+var createJson = function(jsons,cat1,cat2){
+	if(cat1 in datajson){
+
+	}else{
+		datajson[cat1] = {}
+	}
+	datajson[cat1][cat2] = jsons;
+}
+
+var cat0jsonDone = function(){
+	console.log(datajson)
+}
+
+var cat1jsonDone = function(){
+	_nowcat1lens++;
+	console.log(_nowcat1lens)
+	if(_nowcat1lens == cat0_lens){
+		cat0jsonDone();
+		return
+	}
+	
+	
 }
 /**
  * [parse site's html, ]
@@ -12,16 +53,27 @@ var jsonTohtml = function(jsons){
  * @param  {[string]} type [every site type  ex:wordpress]
  * @return {[type]}      [description]
  */
-var parse = function(data){
+var send = function(data,cat1,cat2){
+	info(cat1 + ' -- ' + cat2 +' start')
 	var o = data;
 	var op = {
 	  url: o.site,
       decoding : o.charset,
 	  scripts: ["http://code.jquery.com/jquery.js"],
 	  done: function (errors, window) {
+	  		info(cat1 + ' -- ' + cat2 +' is done')
 		    var $ = window.$;
 		    var jsons = getJson($,o.select);
-		    jsonTohtml(jsons);
+		    createJson(jsons,cat1,cat2);
+		    if(cat1 in _nowlens){
+		    	_nowlens[cat1]++
+		    }else{
+		    	_nowlens[cat1]=0;
+		    	_nowlens[cat1]++
+		    }
+		    if(_lens[cat1] == _nowlens[cat1]){//当前解析数量与总数相等的时候表示cat1中大cat2都加载完成
+		    	cat1jsonDone();
+		    }
 	   }
 	}
 	if(o.charset){
@@ -52,14 +104,15 @@ var getJson = function($,select){
 	return jsons;
 }
 
-var parseData = function  (key) {
-	
-	var item = $c[key];
-	for(var name in item ){
-		parse(item[name])
+var parseData = function  (cat1) {
+	var item = $c[cat1];
+	var len = getLength($c[cat1]);
+	_lens[cat1] = len;
+	for(var cat2 in item ){
+		send(item[cat2],cat1,cat2)
 	}
-
 }
 
-parseData('news')
+parseData('php')
 
+parseData('news')
