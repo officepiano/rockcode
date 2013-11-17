@@ -19,7 +19,6 @@ var _lens = {
 
 }
 var cat0_lens = getLength($c);
-console.log(getLength($c))
 var _nowcat1lens = 0;
 var _nowlens = {//当前状态cat1的解析json数量
 
@@ -37,9 +36,10 @@ var cat0jsonDone = function(){
 	console.log(datajson)
 }
 
-var cat1jsonDone = function(){
+var cat1jsonDone = function(callback){
 	_nowcat1lens++;
 	console.log(_nowcat1lens)
+	callback(datajson)
 	if(_nowcat1lens == cat0_lens){
 		cat0jsonDone();
 		return
@@ -53,7 +53,7 @@ var cat1jsonDone = function(){
  * @param  {[string]} type [every site type  ex:wordpress]
  * @return {[type]}      [description]
  */
-var send = function(data,cat1,cat2){
+var send = function(data,cat1,cat2,callback){
 	info(cat1 + ' -- ' + cat2 +' start')
 	var o = data;
 	var op = {
@@ -72,7 +72,7 @@ var send = function(data,cat1,cat2){
 		    	_nowlens[cat1]++
 		    }
 		    if(_lens[cat1] == _nowlens[cat1]){//当前解析数量与总数相等的时候表示cat1中大cat2都加载完成
-		    	cat1jsonDone();
+		    	cat1jsonDone(callback);
 		    }
 	   }
 	}
@@ -104,15 +104,15 @@ var getJson = function($,select){
 	return jsons;
 }
 
-var parseData = function  (cat1) {
+var parseData = function  (cat1,callback) {
 	var item = $c[cat1];
 	var len = getLength($c[cat1]);
 	_lens[cat1] = len;
 	for(var cat2 in item ){
-		send(item[cat2],cat1,cat2)
+		send(item[cat2],cat1,cat2,callback)
 	}
 }
 
-parseData('php')
-
-parseData('news')
+exports.m = {
+	parseData : parseData
+}
