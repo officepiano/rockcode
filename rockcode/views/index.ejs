@@ -165,11 +165,12 @@
 						<div class="pricing-table-space"></div>
 						<!-- CONTENT BOX-->
 						<div class="pricing-table-features">
-							   <% for(var i=0; i<php100arr.length; i++) {%>
-								   <li><%= php100arr[i]['title'] %></li>
-								<% } %>
-							
-						</div>
+							<% for(var cat2 in php) {%>
+							<% for(var i = 0 ; i < php[cat2].length ; i++) {%>
+							<p>
+								<%= php[cat2][i]['title'] %></p>
+							<% } %>
+							<% } %></div>
 						<!-- /  CONTENT BOX-->
 
 						<div class="pricing-table-sign-up">
@@ -203,28 +204,11 @@
 						<div class="pricing-table-space"></div>
 						<!-- CONTENT BOX-->
 						<div class="pricing-table-features">
-							<p>
-								<strong>Single</strong>
-								installation
-							</p>
-							<p>
-								<strong>Unlimited</strong>
-								Support
-							</p>
-							<p>
-								<strong>Validation</strong>
-								W3C
-							</p>
-							<p>
-								<strong>Bootstrap</strong>
-								2.3.0
-							</p>
-							<p>
-								<strong>HTML5</strong>
-								&amp;
-								<strong>CSS3</strong>
-							</p>
-						</div>
+							<% for(var cat2 in news) {%>
+							<% for(var i = 0 ; i < news[cat2].length ; i++) {%>
+								<p><a href=<%= news[cat2][i]['link'] %>><%= news[cat2][i]['title'] %></a></p>
+							<% } %>
+							<% } %></div>
 						<!-- /  CONTENT BOX-->
 
 						<div class="pricing-table-sign-up">
@@ -258,12 +242,10 @@
 						<div class="pricing-table-space"></div>
 						<!-- CONTENT BOX-->
 						<div class="pricing-table-features">
-							<p>
-								<strong>Single</strong>
+							<p> <strong>Single</strong>
 								installation
 							</p>
-							<p>
-								<strong>Unlimited</strong>
+							<p> <strong>Unlimited</strong>
 								Support
 							</p>
 							<p>
@@ -846,8 +828,6 @@
 		<!-- /CONTAINER-->
 	</section>
 	<!-- / SECTION-3 -->
-
-	 
 
 	<!-- FOOTER -->
 	<footer id="foot-sec">

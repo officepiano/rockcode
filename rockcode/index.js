@@ -16,15 +16,18 @@ app.get('/', function(req, res) {
 		/*
 			取php文章数据,然后将数据渲染为ejs，最后发送到浏览器
 		 */
-		pjson.parseData('php',function(json){
-			console.log(json.php.php100)
+		pjson.parseAllData(['news','php'],function(json){
+			console.log(json.news.csdn)
+
+
 			var htmls = ejs.render(html,{
 							"title":"testddd",
-							'php100arr' : json.php.php100
+							"php" : json.php,
+							"news" : json.news
 						})
 			res.send(htmls);
 		});
-		
+
 	})
 
 });

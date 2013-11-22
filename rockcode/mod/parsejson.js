@@ -32,16 +32,14 @@ var createJson = function(jsons,cat1,cat2){
 	datajson[cat1][cat2] = jsons;
 }
 
-var cat0jsonDone = function(){
-	console.log(datajson)
+var cat0jsonDone = function(callback){
+	callback(datajson);
 }
 
 var cat1jsonDone = function(callback){
 	_nowcat1lens++;
-	console.log(_nowcat1lens)
-	callback(datajson)
 	if(_nowcat1lens == cat0_lens){
-		cat0jsonDone();
+		cat0jsonDone(callback);
 		return
 	}
 	
@@ -97,8 +95,9 @@ var getJson = function($,select){
 		}
 		jsons.push({
 			title : $(this).html(),
+			link : $(this).attr('href'),
 			des : $(this).parents(s.desPrant).find(s.des).html()
-		}) 
+		}); 
 		k++;
 	})
 	return jsons;
@@ -112,7 +111,13 @@ var parseData = function  (cat1,callback) {
 		send(item[cat2],cat1,cat2,callback)
 	}
 }
-
-exports.m = {
-	parseData : parseData
+var parseAllData = function(arr,callback){
+	for(var i = 0 ; i< arr.length; i ++){
+		parseData(arr[i],callback);
+	}
 }
+//parseAllData(['news','php'])
+exports.m = {
+	parseAllData : parseAllData
+}
+

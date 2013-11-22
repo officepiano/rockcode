@@ -49,8 +49,9 @@ var select = {
 	},
 	2: {
 		parent : '.news',
-		title : '.unit h1',
+		title : '.unit h1 a',
 		des : 'dd',
+		link : '',
 		desPrant : '.unit'
 	},
 	3 : {
