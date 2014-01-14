@@ -1,0 +1,61 @@
+
+/* reset css for howto pages */
+@media only screen and (min-width: 480px){  
+	#content.videos .videos_intro_holder div.video_pic div.crop_large {
+		display: block;
+		float: left;
+		width: 460px;
+		height: 289px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	#content.videos .videos_intro_holder div.video_pic div.crop_large img {
+		width: 543px;
+		height: 303px;
+		float: left;
+		/*
+		margin-top: -46px;
+		margin-left: -10px;
+		*/
+	}
+
+}
+
+
+@media only screen and (min-width: 700px){  
+	#content.videos .videos_intro_holder div.video_pic div.crop_large {
+		display: block;
+		float: left;
+		width: 620px;
+		height: 400px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	#content.videos .videos_intro_holder div.video_pic div.crop_large img {
+		width: 640px;
+		height: auto;
+		position: absolute;
+		top: -44px;
+		left: 0;
+		/*
+		margin-top: -46px;
+		margin-left: -10px;
+		*/
+	}
+
+}
+
+#content.videos .video_post div.video_pic div.crop_thumb {
+	width: 220px;
+	height: 122px;
+	overflow: hidden;
+}
+
+#content.videos .video_post div.video_pic div.crop_thumb img {
+	width: 220px;
+	margin: -22px 0 0 0;
+}
+
+}

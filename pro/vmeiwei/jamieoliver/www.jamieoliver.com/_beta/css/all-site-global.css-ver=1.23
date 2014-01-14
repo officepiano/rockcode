@@ -1,0 +1,1164 @@
+/* CSS Document */
+
+@import url("xmas-2013.css");
+
+a {
+   outline: 0;
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+	outline: none;
+}
+button:focus { 
+    outline: none; 
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+	border:0;
+}
+
+
+
+
+	/* ALV: little change, to put on its place: */
+	#member_info .sign_out img{ width:22px; height:22px; } /* for the ehader when logged in, avatar */
+
+
+/* CSS Document */
+
+	/* general btns */
+	div#content a.button {
+		font: 1em "Courier New", Courier, monospace;
+		text-align: center;
+		text-transform: uppercase;
+		cursor: pointer;
+		display: inline-block;
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		
+		-webkit-box-shadow: 0px 0px 1px #b4b4b4;
+		   -moz-box-shadow: 0px 0px 1px #b4b4b4;
+		     -o-box-shadow: 0px 0px 1px #b4b4b4;
+			    box-shadow: 0px 0px 1px #b4b4b4;
+	}
+	
+	
+	
+	/* slider */
+	#content .slider_holder {
+		display: block;
+		float: left;
+		width: 620px;
+		height: 400px;
+		position: relative;
+		background: #fff;
+		margin-bottom: 40px;
+	}
+	#content .slider_holder ul {
+	}
+	#content .slider_holder ul li {
+	}
+	
+	#content .slider_holder ul li div.left_main_pic {
+		position: relative;
+		width: 315px;
+		height: 400px;
+		display: block;
+		overflow: hidden;
+		float: left;
+	}
+	
+	
+	
+	
+	#content .slider_holder ul li div.left_main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		
+		height: 100%;
+		width: auto;
+		
+	}
+	
+	#content .slider_holder ul li div.full_main_pic {
+		position: relative;
+		width: 630px;
+		height: 400px;
+		display: block;
+		overflow: hidden;
+		float: left;
+	}
+	
+	#content .slider_holder ul li div.full_main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		
+		height: 100%;
+		width: auto;
+		
+	}
+
+	
+	#content .slider_holder ul li div.right_pic_data {
+		width: 300px;
+		height: 400px;
+		display: block;
+		float: left;
+		position: relative;
+	}
+	
+	#content .slider_holder ul li div.pancake_promo {
+	background: #e5ebeb;	
+	}
+	
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.8em Georgia;
+		width: 70%;
+		display: block;
+		float: left;
+		text-align: center;
+		padding: 20px 0 15px;
+		text-transform: none;
+		margin-left: 15%;
+		margin-bottom: 5px;
+		margin-top: 0;
+		background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header_dashed_line.png) no-repeat bottom;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h4 {
+		width: 70%;
+		display: block;
+		float: left;
+		text-align: center;
+		font: normal 1.2em "Courier New", Courier, monospace;
+		color: #666;
+		/*background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header_dashed_line.png) no-repeat bottom;*/
+		padding: 20px 0 0;
+		text-transform: none;
+		margin-left: 15%;
+		margin-bottom: 5px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data small { 
+		line-height: normal;
+		display: block;
+		margin: 10px 0;
+		font-size: 0.9em;
+		line-height: 1.5em;
+		float: left;
+		width: 90%;
+		margin-left: 5%;
+		text-align: center;
+	}
+	#content .slider_holder ul li div.right_pic_data small a {
+		color: #47A8D8;
+		text-decoration: none;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data p {
+		width: 70%;
+		display: block;
+		float: left;
+		text-align: center;
+		padding: 5px 0;
+		margin-left: 15%;
+		text-transform: none;
+	}
+	#content .slider_holder ul li div.right_pic_data p a {
+		color: #47a8d8;
+	}
+	
+	#content .slider_holder .read_more_holder {
+		display: block;
+		float: left;
+		width: 80%;
+		text-align: center;
+		margin-left: 10%;
+	}
+	#content .slider_holder .read_more_holder a {
+		color: #47A8D8;
+		text-decoration: none;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider {
+		padding: 0;
+		width: 70%;
+		display: block;
+		float: left;
+		margin-left: 15%;
+		margin-top: 15px;
+	}	
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider {
+		text-align: center;
+		font-style: italic;
+		text-shadow: none;
+		font-size: 1.2em;
+		line-height: 1.5em;
+		font-family: Georgia;
+		text-transform: none;
+		font-weight: lighter !important;
+		color: #666;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider:before, .quote_slider:after { 
+		color: #47a8d8;  
+		font-size: 1.8em;
+		line-height: 0; 
+		vertical-align: middle; 
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider:before { 
+		/*content: '"';*/
+		padding-right: 0;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider:after { 
+		/*content: '"';*/
+		padding-left: 5px;
+		line-height: 0;
+		vertical-align: text-bottom;
+	}
+	
+	
+	
+	/* promo-portrait style no need for it 
+	#content .slider_holder.promo-portrait .right_pic_data { 
+		text-align: center; 
+		padding: 0 20px; 
+		width: 260px; 
+	}
+
+	#content .slider_holder.promo-portrait ul li div.right_pic_data h2 { 
+		padding: 0;
+		margin: 0;
+		display: block;
+		width: 70%;
+		margin-left: 15%;
+		font-size: 1.8em;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		line-height: 1.4em;
+	}
+	
+	div#content.restaurants .main_pic_data h2 {
+		font-family: Georgia;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 10px 0px 8px 10px;
+		line-height: 16px;
+		text-transform: none;
+	}
+
+	#content .slider_holder.promo-portrait .right_pic_data small { 
+		line-height: normal;
+		display: block;
+		margin: 10px 0;
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
+	#content .slider_holder.promo-portrait .right_pic_data small a {
+		color: #47A8D8;
+		text-decoration: none;
+	}
+	
+	#content .slider_holder.promo-portrait ul li div.right_pic_data .quote_box_slider { 
+		width: auto; 
+		float: none; 
+		margin: 0;
+	}		
+	#content .slider_holder.promo-portrait .slides img {
+		height: 100%; 
+		width: auto;
+	}
+	
+	#content .slider_holder.promo-portrait .read_more_holder {
+		display: block;
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	#content .slider_holder.promo-portrait .read_more_holder a {
+		color: #47A8D8;
+		text-decoration: none;
+	}
+	*/
+	/* end alv */
+	/* end slider -------------------------------------------  */
+
+	
+	
+	
+	/* landscape slider */
+	#content .slider_holder.promo-landscape {
+    	width: 620px;
+		height: 390px;
+	}
+	
+	#content .slider_holder.promo-landscape ul li div.main_pic {
+		width: 620px;
+		position: relative;
+		height: 390px;
+		display: block;
+		overflow: hidden;
+	}
+	
+	#content .slider_holder.promo-landscape ul li div.main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	
+	#content .slider_holder.promo-landscape ul li div.main_pic .main_pic_data {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		z-index: 2;
+		width: 580px;
+		height: 76px;
+		background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/slider_pic_main_data_bg.png);
+	}
+	
+	#content .slider_holder.promo-landscape .main_pic_data h2 {
+		font: normal 2.2em Georgia;
+		margin: 10px 0px 8px 10px;
+		line-height: 1em;
+		text-transform: none;
+	}
+	
+	
+	#content .slider_holder.promo-landscape .main_pic_data a.slide_btn {
+		width: auto;
+		margin-left: 12px;
+		margin-top: 5px;
+		border: 1px solid #c5c5c5;
+		background: #f6f6f6;
+		color: #999;
+		padding: 5px 14px 2px;
+	}
+	#content .slider_holder.promo-landscape .main_pic_data a.slide_btn:hover {
+		background: #fff;
+		color: #999;
+	}
+	
+	
+	
+	
+	
+	#content a.slide_btn {
+		width: 150px;
+		margin-left: 75px;
+		margin-top: 15px;
+		border: 1px solid #c5c5c5;
+		background: #f6f6f6;
+		color: #999;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+	#content a.slide_btn:hover {
+		background: #fff;
+		color: #999;
+	}
+	
+	/* end landscape slider */
+	
+	
+	
+	
+	/* default slider style doesn't effect any style*/
+	.flexslider { 
+		margin: 0; 
+		padding: 0;
+		zoom: 1;
+	}
+	
+	.flexslider .slides > li {
+		display: none; 
+		-webkit-backface-visibility: hidden;
+	} 
+	/* Hide the slides before the JS is loaded. Avoids image jumping */
+	.flexslider .slides img {
+		width: 100%; 
+		display: block;
+	}
+	*+html .flexslider .slides img {
+		width: auto;
+	}
+	
+	/* Clearfix for the .slides element */
+	.slides:after {
+		content: "."; 
+		display: block; 
+		clear: both; 
+		visibility: hidden; 
+		line-height: 0; 
+		height: 0;
+	}
+	
+	html[xmlns] .slides {
+		display: block;
+	} 
+	* html .slides {
+		height: 1%;
+	}
+	
+	/*.no-js .slides > li:first-child {display: block;}*/
+	.flex-viewport {
+		max-height: 2000px; 
+		-webkit-transition: all 1s ease; 
+		-moz-transition: all 1s ease; 
+		transition: all 1s ease;
+	}
+	
+	.loading .flex-viewport {
+		max-height: 300px;
+	}
+	
+	.flexslider .slides {
+		zoom: 1;
+	}
+	
+	/* Direction Nav */
+	.flex-direction-nav a {
+		text-indent: -9999px;
+		opacity: 0;
+	}
+	
+	/* Control Nav */
+	.flex-control-nav {
+		width: 100%; 
+		position: absolute; 
+		bottom: -40px;
+		text-align: center;
+		z-index: 1000;
+	}
+	
+	*+html .flex-control-nav {
+		left: 0px;
+	}
+	
+	.flex-control-nav li {
+		margin: 0 6px; 
+		display: inline-block; 
+		zoom: 1; 
+		*display: inline;
+	}
+	.flex-control-paging li a {
+		width: 11px; 
+		height: 11px; 
+		display: block; 
+		background: #666; 
+		background: rgba(102,102,102,0.8); 
+		cursor: pointer; 
+		text-indent: -9999px; 
+		-webkit-border-radius: 20px; 
+		-moz-border-radius: 20px; 
+		-o-border-radius: 20px; 
+		border-radius: 20px; 
+		box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	}
+	.flex-control-paging li a:hover { 
+		background: #ccc; 
+		background: rgba(204,204,204,0.7);
+	}
+	.flex-control-paging li a.flex-active { 
+		background: #33d3a7; 
+		background: rgba(51,211,167,0.9); 
+		cursor: default; 
+	}
+	
+	ul.flex-direction-nav {
+		display: none;
+	}
+	
+	#content.promotions a.button.absolute_btn {position: absolute; z-index: 100; bottom: 65px;}
+	#content.promotions img.absolute_img  {position: absolute; z-index: 99;}
+	
+	
+	
+
+
+@media only screen and (min-width: 320px){ 
+
+	/* slider */
+	#content .slider_holder {
+		width: 300px;
+		height: auto;
+		margin-bottom: 55px;
+	}
+	
+	#content .slider_holder ul li div.left_main_pic {
+		width: 300px;
+		height: 300px;
+	}
+	
+	#content .slider_holder ul li div.full_main_pic {
+		
+	}
+	
+	#content .slider_holder ul li div.full_main_pic img {
+		max-width: 300px;
+		height: auto;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data {
+		width: 300px;
+		height: 360px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.8em Georgia;
+		width: 80%;
+		padding: 25px 0 15px;
+		margin-left: 10%;
+	}
+	#content .slider_holder ul li div.right_pic_data h4 {
+		width: 80%;
+		padding: 20px 0 0;
+		margin-left: 10%;
+	}
+	#content .slider_holder ul li div.right_pic_data p {
+		width: 80%;
+		padding: 5px 0;
+		margin-left: 10%;
+	}
+	#content .slider_holder div.right_pic_data small { 
+		line-height: normal;
+		display: block;
+		margin: 10px 0;
+		font-size: 0.9em;
+		line-height: 1.5em;
+		padding-top: 15px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider {
+		padding: 0;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 15px;
+	}
+	#content .slider_holder.promo-landscape .main_pic_data h2 { font-size:1.2em;}
+
+	
+	
+	/* Control Nav */
+	.flex-control-nav {
+		width: 100%; 
+		position: absolute; 
+		bottom: -40px;
+		text-align: center;
+		z-index: 1000;
+	}
+	
+	/* ALV: added more classes 
+	#content .slider_holder.promo-portrait  .right_pic_data { 
+		text-align: center; 
+		padding: 0 20px; 
+		width: 260px; 
+	}
+	/* end alv */
+	
+	/* landscape */
+	#content .slider_holder.promo-landscape {
+    	height: 267px;
+    	width: 300px;
+	}
+	
+	div#content .slider_holder.promo-landscape ul li div.main_pic {
+		width: 300px;
+		height: 267px;
+	}
+	
+	div#content .slider_holder.promo-landscape ul li div.main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	
+	div#content .slider_holder.promo-landscape div.main_pic div.main_pic_data {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		width: 300px;
+		height: 76px;
+		background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/slider_pic_main_data_bg.png);
+	}
+	
+	
+	.bbp-pagination {
+		width: 300px;
+		overflow: hidden;
+	}
+	.bbp-pagination-links .page-numbers.current {
+		margin: 0 8px;
+	}
+	
+	
+		#content .slider_holder ul li div.left_main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	
+		height: auto;
+		width: auto;
+
+	}
+	
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.2em Georgia;
+		padding: 5px 0 15px;
+		margin-bottom: 5px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h4 {
+		font: normal 1em "Courier New", Courier, monospace;
+	}
+	
+		#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider {
+		font-size: 1em;
+	}
+	
+	
+			#content a.slide_btn {
+
+		margin-left: 75px;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 480px){ 
+
+	#content .slider_holder {
+		width: 480px;
+		height: 400px;
+		margin-bottom: 15px;
+	}
+	
+	#content .slider_holder ul li div.left_main_pic {
+		width: 240px;
+		height: 400px;
+	}
+	
+	
+	
+	#content .slider_holder ul li div.right_pic_data {
+		width: 240px;
+		height: 400px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.6em Georgia;
+		width: 80%;
+		padding: 25px 0 15px;
+		margin-left: 10%;
+		margin-bottom: 5px;
+	}
+	#content .slider_holder ul li div.right_pic_data h4 {
+		width: 80%;
+		padding: 20px 0 0;
+		margin-left: 10%;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data p {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 15px;
+	}	
+	
+	#content .slider_holder ul li div.full_main_pic {
+		
+	}
+	
+	#content .slider_holder ul li div.full_main_pic img {
+		max-width: 480px;
+	}
+	
+	
+	#content .slider_holder.promo-landscape .main_pic_data h2 { font-size:1.2em;}
+	/* Control Nav */
+	.flex-control-nav {
+		width: 100%; 
+		position: absolute; 
+		bottom: -40px;
+		text-align: center;
+		z-index: 1000;
+	}
+	
+	/* ALV: added more classes 
+	#content .slider_holder.promo-portrait .right_pic_data { 
+		text-align: center; 
+		padding: 0 20px; 
+		width: 200px; 
+	}
+	*/
+	
+	/* landscape */
+	#content .slider_holder.promo-landscape {
+    	height: 390px;
+    	width: 480px;
+	}
+	
+	div#content .slider_holder.promo-landscape ul li div.main_pic {
+		width: 480px;
+		position: relative;
+		height: 390px;
+		display: block;
+		overflow: hidden;
+	}
+	
+	div#content .slider_holder.promo-landscape ul li div.main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	
+	div#content .slider_holder.promo-landscape div.main_pic div.main_pic_data {
+		position: absolute;
+		/*bottom: 20px;*/
+		left: 20px;
+		z-index: 2;
+		width: 440px;
+		height: 76px;
+		background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/slider_pic_main_data_bg.png);
+	}
+
+	.bbp-pagination {
+		width: 460px;
+	}
+	
+	#content .slider_holder ul li div.left_main_pic img {
+		
+		height: 100%;
+		width: auto;
+		
+	}
+	
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.3em Georgia;
+		padding: 5px 0 15px;
+		margin-bottom: 5px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h4 {
+		font: normal 1.1em "Courier New", Courier, monospace;
+	}
+	
+	
+		#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider {
+		font-size: 1.1em;
+	}
+	
+	
+		#content a.slide_btn {
+
+		margin-left: 50px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 700px){ 
+	
+	
+	#content .slider_holder {
+		width: 620px;
+		height: 400px;
+		margin-bottom: 50px;
+	}
+	#content .slider_holder ul li div.left_main_pic {
+		width: 315px;
+		height: 400px;
+	}
+	#content .slider_holder ul li div.right_pic_data {
+		width: 300px;
+		height: 400px;
+	}
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.5em Georgia;
+		width: 80%;
+		padding: 25px 0 15px;
+		margin-left: 10%;
+		margin-bottom: 5px;
+	}
+	#content .slider_holder ul li div.right_pic_data h4 {
+		width: 80%;
+		padding: 20px 0 0;
+		margin-left: 10%;
+		font-size: 1.1em;
+	}
+	#content .slider_holder ul li div.right_pic_data p {
+		width: 80%;
+		padding: 5px 0;
+		margin-left: 10%;
+	}
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider {
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 15px;
+	}	
+	#content .slider_holder.promo-landscape .main_pic_data h2 { font-size:1.8em;}
+	/* Control Nav */
+	.flex-control-nav {
+		width: 100%; 
+		position: absolute; 
+		bottom: -40px;
+		text-align: center;
+		z-index: 1000;
+	}
+	
+	/* ALV: added more classes 
+	#content .slider_holder.promo-portrait  .right_pic_data { 
+		text-align: center; 
+		padding: 0 20px; 
+		width: 260px; 
+	}
+	*/
+	
+	
+	#content .slider_holder .right_pic_data small { 
+		line-height: normal;
+		display: block;
+		margin: 10px 0;
+		font-size: 0.9em;
+		line-height: 1.5em;
+		padding-top: 15px;
+	}
+	
+	#content .slider_holder ul li div.full_main_pic {
+		
+	}
+	
+	#content .slider_holder ul li div.full_main_pic img {
+		max-width: 620px;
+	}
+	
+	/* landscape */
+	#content .slider_holder.promo-landscape {
+    	height: 390px;
+		width: 300px;
+	}
+	div#content .slider_holder.promo-landscape ul li div.main_pic {
+		width: 620px;
+		height: 400px;
+	}
+	div#content .slider_holder.promo-landscape ul li div.main_pic img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	div#content .slider_holder.promo-landscape div.main_pic div.main_pic_data {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		z-index: 2;
+		width: 580px;
+		height: 76px;
+		background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/slider_pic_main_data_bg.png);
+	}
+
+	.bbp-pagination {
+		width: 610px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider:before, .quote_slider:after { 
+		font-size: 1.6em;
+	}
+	
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.5em Georgia;
+		padding: 5px 0 15px;
+		margin-bottom: 5px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h4 {
+		font: normal 1.3em "Courier New", Courier, monospace;
+	}
+	
+	
+		#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider {
+		font-size: 1.2em;
+	}
+	
+		#content a.slide_btn {
+
+		margin-left: 75px;
+	}
+	
+	#content .slider_holder ul li div.left_main_pic img {width: 315px;}
+	#content .slider_holder ul li div.right_pic_data img {width: 315px;}
+	
+}
+
+
+@media only screen and (min-width: 960px){  
+/*refer to desktop.css for this */
+	#content .slider_holder ul li div.right_pic_data .quote_box_slider
+	.quote_slider:before, .quote_slider:after {   
+		font-size: 1.8em;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h2 {
+		font: 1.8em Georgia;
+		padding: 20px 0 15px;
+		margin-bottom: 5px;
+	}
+	
+	#content .slider_holder ul li div.right_pic_data h4 {
+		
+		font: normal 1.2em "Courier New", Courier, monospace;
+	}
+	
+	#content .slider_holder ul li div.left_main_pic img {width: 315px;}
+	#content .slider_holder ul li div.right_pic_data img {width: 315px;}
+	
+}
+
+
+
+
+
+/* IE fix */
+/* ie image slide fix */
+.flexslider ul li div.main_pic img {
+	width/*\**/: 620px\9;
+	height/*\**/: auto\9;
+}
+
+
+
+
+	/* pagination */
+	.bbp-pagination {
+    	clear: both;
+    	font-family: Georgia;
+    	font-size: 18px;
+    	margin-bottom: 25px;
+    	padding: 20px 0;
+    	text-align: center;
+	}
+	
+	.bbp-pagination-links {
+    	margin: auto;
+	}
+	
+	.bbp-pagination-links .page-numbers.current {
+    	color: #33D3A7;
+    	margin: 0 12px;
+	}
+	
+	.bbp-pagination-links .page-numbers {
+    	color: #999999;
+    	margin: 0 12px;
+	}
+
+	.bbp-pagination .prev span, .bbp-pagination .next span {
+    	background: url("http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/pagination-arrows.png") no-repeat scroll left top transparent;
+    	margin-left: -40px;
+    	margin-top: -3px;
+		padding: 7px 7px 7px 23px;
+		position: absolute;
+	}
+	
+	.bbp-pagination .next span {
+		padding: 7px 17px 7px 23px;
+	}
+	
+	.bbp-pagination .prev span {
+		padding: 7px 9px 7px 23px;
+	}
+
+	.bbp-pagination .next span {
+    	background-position: -36px 0;
+    	margin-left: -10px;
+	}
+	/* end */
+	
+
+ /* ALV: there is a disyncoronization with the WP breadcrums, beacuse of Nate globals, and the styles set in every single class aoutside WP .
+ Here we put class for all pages */
+.top .breadcrumb{ font-family: courier, monospace;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+	letter-spacing: 1px;
+}
+
+#global_links li{ }
+
+.profile {
+	margin-left: -28px;
+}
+
+input.text {
+	width: 200px;
+}
+
+input.submit {
+	color: #000;
+	padding: 5px;
+}
+
+#content div#sponsor_ad {
+	display: none;
+}
+
+/*nav#jo ul#jo_nav nav#meganav li.nav_recipes .item8 {
+	display: none;
+}*/
+
+/***------ Mobile Navigation ------***/
+
+#mobheader {
+	background: url("http://cdn.jamieoliver.com/_beta/images/mob/header_icons/mob_logo.gif") no-repeat center center #4e4e4d;
+	height: 49px;
+	border-bottom: 1px solid #333;
+}
+
+#left-toggle {
+	background: url("http://cdn.jamieoliver.com/_beta/images/mob/header_icons/mob_list.gif") no-repeat center center #4e4e4d;
+	display: block;
+	width: 40px;
+	height: 49px;
+	top: 0;
+	left: 0;
+	border-right: 1px solid #333;
+	text-indent: -3333px;
+	position: absolute;
+	overflow: hidden; 
+}
+
+#right-toggle {
+	background: url("http://cdn.jamieoliver.com/_beta/images/mob/header_icons/mob_search.gif") no-repeat center center #4e4e4d;
+	display: block;
+	width: 40px;
+	height: 49px;
+	top: 0; right: 0;
+	border-left: 1px solid #333;
+	text-indent: -3333px;
+	position: absolute;
+	overflow: hidden; 
+}
+
+#mobnav {
+	width: 200px;
+	padding: 20px;
+	background: #4e4e4d;
+	top: 50px; left: 0;
+	position: absolute;
+	z-index: 999999;
+}
+
+#mobnav a {
+	color: #FFF;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 11px;
+}
+
+#mobsearch {
+	background: #4e4e4d;
+	width: 100%;
+	height: 80px;
+	top: 50px;
+	position: absolute;
+	text-align: center;
+	z-index: 999999;
+}
+
+#mobsearch #global_search {
+	background: #FFF;
+	top: 20px;
+	left: 50%;
+}
+
+#mobheader, #mobnav, #mobsearch, .submovnav {
+	display: none;
+}
+
+
+
+
+
+
+nav#nabnav {top: 36px; display:none;}
+
+
+nav#jo .nav_newsandblogs {
+		top: 0; 
+		left: 530px;
+	}
+	
+	
+	
+/* News and Blogs nav */
+nav#nabnav {width: 185px; height: auto; margin: 0; background: none transparent; position: absolute; top: 35px; left: -22px; padding: 0 7px 7px 7px; overflow: hidden;}
+nav#nabnav ul {position: relative; z-index: 100; padding: 15px 0 10px 0; min-height: 110px;}
+nav#nabnav .cat_primary {float: left; width: 185px;  border-top: 1px dashed #cccccc; background: #ffffff; -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75); box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);}
+nav#nabnav .cat_primary_active {border-right: 1px dashed #cccccc;}
+	
+nav#jo #jo_nav nav#nabnav ul a:hover {border: none;}
+
+	{}
+nav#jo ul#jo_nav nav#nabnav .cat_primary li > a {font-family: 'nimbus'; color: #666666; font-size: 19px; line-height: 35px; text-transform: uppercase; padding: 0 0 0 15px;}
+nav#jo ul#jo_nav nav#nabnav .cat_primary li > a:hover,
+nav#jo ul#jo_nav nav#nabnav .cat_primary li.active > a {color: #33d3a7; text-decoration: none; border-bottom: none;}
+
+	
+nav#jo #jo_nav > li.nav_newsandblogs {padding-right: 14px; background: url(http://cdn.jamieoliver.com/_beta/images/header/dropdown-arrow.png) right 12px no-repeat;}
+nav#jo #jo_nav > li.nav_newsandblogs.active {background: url(http://cdn.jamieoliver.com/_beta/images/header/dropdown-arrow.png) right -23px no-repeat;}
+
+@media only screen and (min-width: 480px) and (max-width: 1023px){ 
+	nav#jo .nav_newsandblogs {
+		top: 0; 
+		left: 400px;
+	}
+	nav#jo #jo_nav > li.nav_newsandblogs {padding-right: 14px; background: url(../images/header/dropdown-arrow.png) right 0px top 2px no-repeat;}
+}
+
+	@import url("nandb.css");
+
+	
+	
+	

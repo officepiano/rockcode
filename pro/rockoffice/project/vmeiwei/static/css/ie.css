@@ -1,0 +1,44 @@
+body {font-family:"courier new"\d !important;}
+body#home #explore_recipes .join_us h4 span {font-family:"courier new"\d !important;}
+
+/* Sign in box */
+nav#jo #member_login #sign_in {border: 1px solid #b1b1b1;}
+nav#jo #member_login #sign_in #global_sign_in .input_text {border: 1px solid #b1b1b1;}
+
+nav#global #global_links li A {display: block; font-size: 12px;}
+	
+body#home #home_feed .cntr #feed_mask {width: 940px; overflow: hidden !important; padding: 10px; }
+/* Width is 940 * slides + 80px; */
+body#home #home_feed .cntr #feed_container {width: 1960px;}
+
+/* Slide animations */
+body#home #home_feed .panel1 {left: -980px; opacity: 0.2;}
+body#home #home_feed .panel1.active {left: 0;}
+
+body#home #home_feed .panel2 {left: 0; opacity: 0.2;}
+body#home #home_feed .panel2.active {left: -980px;}
+
+/* Position buttons for home feed */	
+body#home #home_feed .carousel-control {top: 255px !important;}
+	body#home #home_feed .carousel-control.left {left: 0 !important;}
+	body#home #home_feed .carousel-control.right {right: 0 !important;}
+	
+body#home #survey-box div{border: 1px solid #b1b1b1;}
+
+#carousel-nav a.carousel-control{opacity: 1 !important; -ms-filter: "alpha(opacity=100)" !important; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important; filter: alpha(opacity=100) !important;}
+
+
+#content .cntr {
+    padding: 0;
+    width: 940px !important;
+}
+
+#content.campaigns .latest_campaigns_container {
+    width: 940px !important;
+	
+	border: 1px solid #000;
+}
+
+
+#feedback_popup p {line-height: 18px !important;}
+#feedback_popup form textarea {overflow: hidden;}

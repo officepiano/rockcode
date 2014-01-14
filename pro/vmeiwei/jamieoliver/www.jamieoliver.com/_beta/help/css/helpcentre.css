@@ -1,0 +1,95 @@
+
+a {
+   outline: 0;
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+}
+
+
+input::-moz-focus-inner { 
+	border: 0; 
+}
+
+
+
+#content.helpcentre .faq {margin:20px 0 40px 0;}
+#content.helpcentre .faq li {margin-bottom:0px; clear:both}
+#content.helpcentre .faq li a.faq-trigger {
+	position:relative;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	display:block;
+	border:1px solid #ccc;
+	color:#666;
+	font-family:georgia;
+	font-size:14px;
+	border-radius:5px;
+	padding:7px 30px 10px 10px;
+}
+
+#content.helpcentre .faq li a.faq-trigger:hover {
+	background:#33d3a7;
+	color:#fff;
+}
+
+#content.helpcentre .faq li a.faq-trigger:hover, #content.helpcentre .faq li a.open {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33d3a7', endColorstr='#33d3a7',GradientType=0 )\9;
+}
+
+#content.helpcentre .faq li a.faq-trigger:hover span {
+	background-position: 0 -24px
+}
+
+#content.helpcentre .faq li a.open, #content.helpcentre .faq li a.open:hover {
+	background:#33d3a7;
+	color:#fff;
+	background-position: 0 -24px!important;
+}
+
+#content.helpcentre .faq li .faq-trigger span {
+	position:absolute;
+	display:block;
+	top:13px;
+	right:10px;
+	height:12px;
+	width:12px;
+	background: url('../images/open-close.png') top right no-repeat
+}
+
+#content.helpcentre .faq li .faq-trigger.open span.open {
+	background-position: 0 -12px
+}
+
+#content.helpcentre .faq li p {
+	padding: 10px 20px;
+	margin: 0;
+}
+#content.helpcentre .faq li .open .faq-content {background:#fff;}
+#content.helpcentre .faq-decorative {margin-bottom:50px;}
+#content.helpcentre .faq-content {padding:5px;background:#fff; clear:both; border:1px solid #ccc; margin-top:0px}
+#content.helpcentre .faq  a {text-decoration:none; color:#47a8d8;}
+#content.helpcentre .faq  a:visited {color:#47a8d8;}
+#content.helpcentre .faq  a:hover {color:#000;}
+
+#content.helpcentre .faq li  {width:300px}
+	
+@media only screen and (min-width: 700px){ 
+
+#content.helpcentre .faq li  {width:620px}
+
+}
+	
+
+@media only screen and (min-width: 960px){  
+	
+#content.helpcentre .faq li  {width:620px}
+		
+}

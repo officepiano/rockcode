@@ -1,0 +1,496 @@
+/*
+ALV: this is the template created by Nathan. It should be merged with the rest of
+
+	desktop.css (if the rules could affect the whole site
+	members.css ( if the rules could affect only the templates made on WP
+	page-the=particluar-template.css  for particular templates
+*/
+
+.site-form-N8 {width:94%!important; margin:30px 0}	
+.site-form-N8 ul, .site-form-N8 li {display:block;width:100%; margin-bottom:15px}
+.site-form-N8 label {font-family: Georgia;font-size:16px;font-weight:normal;}
+.site-form-N8  input {height:20px!important; width:100%!important; padding:8px!important;}
+.site-form-N8  textarea {width:100%!important; padding:8px!important;}
+
+.site-form-N8  input, .site-form-N8   textarea { 
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding-right:0px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+	font-family: georgia;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#b3a9a9;
+	width:100%;
+	}
+
+.site-form-N8 input#submit {
+	width:150px!important;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0;
+	display:block;
+	border:0;
+	font-family: courier, monospace;
+	font-weight:normal!important;
+	background: url('../images/forms/btn-red.png') top left no-repeat;
+	color:#fff;
+	font-size:12px;
+	height:29px!important;
+	float:right;
+	padding:0!important;
+	margin-right:-23px;
+	margin-top:10px;
+}
+.site-form-N8 input#submit:hover {background-position: left -29px; color: #fff;}
+.site-form-N8 input#submit:active  {background-position: left -58px;color:#fff!important;}
+.site-form-N8 .half {width:100%;float:none;margin-right:0%!important;}
+.site-form-N8 .half.no-margin, .site-form-N8 select.no-margin  {margin-right:0!important;}
+.site-form-N8 .quarter { width:100%; float:left; margin-right:0px!important; }
+.site-form-N8 .quarter.no-margin { margin-right:0px!important; }
+.site-form-N8 .short-input { width:100%!important; float:none; padding-right:0px!important; margin-right:0px; }
+	
+.site-form-N8	input[type="file"]::-webkit-file-upload-button {
+	-webkit-appearance: none;
+	float: left;
+	margin: 0 0 0 2px;
+	border: 1px solid #AAA;
+	border-radius: 4px;
+	font-family: courier, monospace;
+	font-size: 11px;
+	text-transform: uppercase;
+	background: #fff!important;
+	}
+	
+.site-form-N8 .form input.checkbox { display:inline; width:25px!important; float:left; margin-top:3px; }
+
+
+#commentform {margin:30px 0}
+#commentform, #commentform .comment-content {width:100%!important; }
+#commentform  input {height:20px!important; width:97%!important; padding:8px!important;}
+#commentform p {margin-bottom:10px;}
+#commentform  textarea {width:97%!important; padding:8px!important;}
+#commentform  input, #commentform  textarea { 
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding-right:10px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+	font-family: georgia;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#b3a9a9;
+	width:100%;
+}
+#commentform label {font-family: Georgia;font-size:16px;font-weight:normal;}
+#commentform input#submit {
+	width:150px!important;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0;
+	display:block;
+	border:0;
+	font-family: courier, monospace;
+	font-weight:normal!important;
+	background: url('../images/forms/btn-red.png') top left no-repeat;
+	color:#fff;
+	font-size:12px;
+	height:29px!important;
+	float:right;
+	padding:0!important;
+	margin-right:-15px;
+	margin-top:10px;
+}
+#commentform input#submit:hover {background-position: left -29px; color: #fff;	}
+#commentform input#submit:active  {background-position: left -58px;color:#fff!important;}
+
+	
+@media only screen and (min-width: 700px){ 
+	
+
+/* Nate comment form styles */	
+
+#commentform, #commentform .comment-content {width:620px!important; }
+#commentform  input {height:20px!important; width:97%!important; padding:8px!important;}
+#commentform  textarea {width:97%!important; padding:8px!important;}
+#commentform  input, #commentform  textarea { 
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding-right:10px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+	font-family: georgia;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#b3a9a9;
+	width:100%;
+}
+#commentform label {font-family: Georgia;font-size:16px;font-weight:normal;}
+#commentform input#submit {
+	width:150px!important;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0;
+	display:block;
+	border:0;
+	font-family: courier, monospace;
+	font-weight:normal!important;
+	background: url('../images/forms/btn-red.png') top left no-repeat;
+	color:#fff;
+	font-size:12px;
+	height:29px!important;
+	float:right;
+	padding:0!important;
+	margin-right:-2px;
+
+}
+#commentform input#submit:hover {background-position: left -29px; color: #fff;	}
+#commentform input#submit:active  {background-position: left -58px;color:#fff!important;}
+
+
+.site-form-N8 { width:100%!important; }
+.site-form-N8 input { height:20px!important; width:97%!important; padding:8px!important; }
+.site-form-N8 textarea { width:97%!important; padding:8px!important; line-height:22px; }
+.site-form-N8 input, .site-form-N8 textarea { border:1px solid #ccc; border-radius:5px; padding-right:10px; -moz-transition: padding
+.25s; -webkit-transition: padding .25s; -o-transition: padding .25s; transition: padding .25s; font-family: georgia; font-size:14px;
+letter-spacing:1px; color:#b3a9a9; width:100%; }
+.site-form-N8 label { font-family: Georgia; font-size:16px; font-weight:normal; }
+.site-form-N8 input#submit { width:150px!important; text-align:center; text-transform:uppercase; letter-spacing:0; display:block;
+border:0; font-family: courier, monospace; font-weight:normal!important; background: url('../images/forms/btn-red.png') top left
+no-repeat; color:#fff; font-size:12px; height:29px!important; float:right; 	padding:0!important;	margin-right:-5px;}
+.site-form-N8 input#submit:hover { background-position: left -29px; color: #fff; }
+.site-form-N8 input#submit:active { background-position: left -58px; color:#fff!important; }
+.site-form-N8 .half { width:47%; float:left; margin-right:4%!important; } .site-form-N8 .half.no-margin, .site-form-N8
+select.no-margin { margin-right:0!important; }
+.site-form-N8 .quarter { width:205px; float:left; margin-right:30px!important; } .site-form-N8 .quarter.no-margin {
+margin-right:0px!important; }
+.site-form-N8 .short-input { width:98px!important; float:left; padding-right:0px!important; margin-right:10px; }
+.site-form-N8 ul { width:100%; list-style-type:none; list-style-position:outside; margin:0px; padding:0px; font-family: courier, monospace;}
+.site-form-N8 li { margin:0px 0 12px 0; padding:0; position:relative; padding-bottom:12px; }
+.site-form-N8 input[type="file"]::-webkit-file-upload-button { -webkit-appearance: none; float: left; margin: 0 0 0 2px; border: 1px
+solid #AAA; border-radius: 4px; font-family: courier, monospace; font-size: 11px; text-transform: uppercase; background:
+#fff!important; }
+.site-form-N8 input.checkbox { display:inline; width:25px!important; float:left; margin-top:3px; }
+
+.form_hint:before {
+    color: #D45252;
+    content: "◀";
+    left: -6px;
+    position: absolute;
+    top: 1px;
+}
+
+.form_hint {
+    background: none repeat scroll 0 0 #D45252;
+    border-radius: 3px 3px 3px 3px;
+    bottom: 18px;
+    color: white;
+    display: none;
+    padding: 1px 6px;
+    position: absolute;
+    right: 5px;
+    z-index: 999;
+}
+
+.form_hint, .required_notification {
+    font-size: 11px;
+}
+
+}
+
+@media only screen and (min-width: 960px){  
+	
+body#template {}
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+		.form_hint, .required_notification {
+			font-size: 11px;
+		}
+		.form {
+			margin-bottom: 30px;
+		}
+		.form ul {
+			font-family: courier,monospace;
+			list-style-position: outside;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		.form li {
+			margin: 0 0 12px;
+			padding: 0 0 12px;
+			position: relative;
+		}
+		.form li.dashed {
+			border-bottom: 1px dashed #CCCCCC;
+		}
+		.required_notification {
+			color: #D45252;
+			display: inline;
+			float: right;
+			margin: 5px 0 0;
+		}
+		.form input {
+			height: auto;
+			padding: 4px 8px;
+			width: 93%;
+		}
+
+
+		
+		
+		
+		.contact-form input, .application-form input {
+			width: 97%;
+		}
+		.form textarea {
+			line-height: 24px;
+			padding: 8px;
+			width: 96%;
+		}
+		/*.submit-recipe-top input, .wider-input input {
+			width: 96%;
+		}*/
+		.form input, .form textarea {
+			border: 1px solid #CCCCCC;
+			border-radius: 5px 5px 5px 5px;
+			font-family: georgia;
+			font-size: 14px;
+			letter-spacing: 1px;
+			padding-right: 10px;
+			padding-top: 2px; padding-bottom: 2px;
+			transition: padding 0.25s ease 0s;
+		}
+		.form input:focus, .form textarea:focus {
+			background: none repeat scroll 0 0 #FFFFFF;
+			border: 1px solid #555555;
+			box-shadow: 0 0 3px #AAAAAA;
+			padding-right: 15px;
+		}
+		.form input:required, .form textarea:required {
+			background: url("../images/red_asterisk.png") no-repeat scroll 99% center #FFFFFF;
+		}
+		.form input:required:valid, .form textarea:required:valid {
+			background: url("../images/valid.png") no-repeat scroll 99% center #FFFFFF;
+			border-color: #28921F;
+			box-shadow: 0 0 5px #5CD053;
+		}
+		.form input:focus:invalid, .form textarea:focus:invalid {
+			background: url("../images/invalid.png") no-repeat scroll 99% center #FFFFFF;
+			border-color: #B03535;
+			box-shadow: 0 0 5px #D45252;
+		}
+		.form_hint {
+			background: none repeat scroll 0 0 #D45252;
+			border-radius: 3px 3px 3px 3px;
+			bottom: 18px;
+			color: white;
+			display: none;
+			padding: 1px 6px;
+			position: absolute;
+			right: 5px;
+			z-index: 999;
+		}
+		.form_hint:before {
+			color: #D45252;
+			content: "?";
+			left: -6px;
+			position: absolute;
+			top: 1px;
+		}
+		.form input:focus + .form_hint {
+			display: inline;
+		}
+		.form input:required:valid + .form_hint {
+			background: none repeat scroll 0 0 #28921F;
+		}
+		.form input:required:valid + .form_hint:before {
+			color: #28921F;
+		}
+		.profile-floated {
+			float: left;
+			width: 581px;
+			z-index: 20;
+		}
+		.upload {
+			margin-bottom: 20px;
+		}
+		/*.submit-recipe-top {
+			float: left;
+			width: 438px !important;
+		}*/
+		input.ingredient {
+			max-width: 287px;
+		}
+		.submit-recipe {
+			margin-top: 20px;
+		}
+		.submit-recipe-bottom .right {
+			margin-right: 10px;
+		}
+		.half {
+			float: left;
+			margin-right: 4% !important;
+			width: 47%;
+		}
+		.half.no-margin, select.no-margin {
+			margin-right: 0 !important;
+		}
+		.quarter {
+			float: left;
+			margin-right: 30px !important;
+			width: 205px;
+		}
+		.quarter.no-margin {
+			margin-right: 0 !important;
+		}
+		.short-input {
+			float: left;
+			margin-right: 10px;
+			padding-right: 0 !important;
+			width: 98px !important;
+		}
+		#p_scents {
+			clear: both;
+		}
+		#p_scents li {
+			margin-bottom: 5px;
+		}
+		#addScnt {
+		}
+		.upload {
+			float: left;
+			margin: 0 20px 0 0;
+		}
+		.upload img {
+			background: none repeat scroll 0 0 #FFFFFF;
+			border: 1px solid #EEEEEE;
+			border-radius: 3px 3px 3px 3px;
+			box-shadow: 0 0 2px 2px #CCCCCC;
+			padding: 2px;
+		}
+		.wallpaper {
+			background: none repeat scroll 0 0 #FFFFFF;
+			border: 1px solid #EEEEEE;
+			border-radius: 3px 3px 3px 3px;
+			display: block;
+			float: left;
+			height: 84px;
+			margin: 5px 13px 13px 0;
+			padding: 2px;
+			position: relative;
+			width: 133px;
+		}
+		.wallpaper input {
+			left: 10px;
+			position: absolute;
+			top: 10px;
+		}
+		.wallpaper.one {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+		}
+		.wallpaper.two {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+		}
+		.wallpaper.three {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+		}
+		.wallpaper.four {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+			margin-right: 0;
+		}
+		.wallpaper.five {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+			margin-bottom: 0;
+		}
+		.wallpaper.six {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+			margin-bottom: 0;
+		}
+		.wallpaper.seven {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+			margin-bottom: 0;
+		}
+		.wallpaper.eight {
+			background: url("../images/peas.png") no-repeat scroll 2px 2px white;
+			margin-bottom: 0;
+			margin-right: 0;
+		}
+		.wallpaper.checked {
+			background-color: #BE2525;
+		}
+		.form input.checkbox {
+			display: inline;
+			float: left;
+			margin-top: 3px;
+			width: 25px !important;
+		}
+		.postcode {
+		}
+		.checkbox {
+			clear: left;
+		}
+		.search-form ul li {
+			display: block;
+			float: left;
+		}
+		.search-form ul li.button {
+			margin-top: -2px;
+		}
+		input.search {
+			background: url("../images/search-username.png") no-repeat scroll left top transparent;
+			border: 1px solid #EEEEEE;
+			border-radius: 5px 0 0 5px;
+			font-family: courier,monospace;
+			letter-spacing: 1px;
+			padding: 5px 7px 6px 5px;
+			width: 220px;
+		}
+		input.search:focus {
+			padding-right: 7px;
+		}
+		.submit-search {
+			background: url("../images/search-button.png") no-repeat scroll center center transparent;
+			border: medium none;
+			color: transparent;
+			font-size: 0;
+			height: 26px;
+			width: 31px;
+		}
+		.filter input {
+			background: none repeat scroll 0 0 #F7F7F7;
+		}
+		.filter {
+			margin-bottom: 10px;
+		}
+		input[type="file"] {
+			display: block;
+			text-align: left;
+		}
+		/* end to merge with nate-forms.css */
+	
+	.comp-question-title{
+	
+	font-size:16px;
+	font-weight:bold;
+	}

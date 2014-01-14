@@ -1,0 +1,263 @@
+#content.home {}
+	
+	#home_feed .small .crop {
+		float:left;
+		overflow:hidden; /* this is important */
+		position:relative; /* this is important too */
+		width: 140px;
+		height: 152px;
+	}
+
+	#home_feed .small .crop img {
+		max-width: 180px;
+		width: 180px;
+		margin: -20px 0px 0px -16px;
+	}
+
+	#content.home #explore_recipes .recipe .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 300px;
+		height: 227px;
+	}
+
+	#content.home #explore_recipes .recipe .crop img {
+		max-width: 300px;
+		width: 300px;
+		min-width: 300px;
+		margin: -29px 0 0 0;
+	}
+
+	#content.home #news_blogs .bottom .col .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 220px;
+		height: 90px;
+	}
+
+	#content.home #news_blogs .bottom .col .crop img {
+		max-width: 220px;
+		width: 220px;
+		margin-top: -7px;
+	}
+
+	/* collapsed survey popup box */
+	#content.home #survey-box div {
+		position: absolute;
+		color: #c23332;
+		top: 135px;
+		left: 10px;
+		z-index: 1001;
+		background: transparent;
+		max-width: 200px;
+		height: auto;
+		padding: 12px 21px;
+		font-size: 16px;
+		text-transform: uppercase;
+		line-height: 24px;
+	}
+
+	#content.home #survey-box div.open {
+		top: auto;
+		left: 10px;
+		bottom: 10px;
+		position: fixed;
+		color: #4d5762;
+		font-size: 0.9em;
+		font-weight: normal;
+		text-transform: none;
+		background: white;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 5px #888888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+
+	#content.home #survey-box span.heading {
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		display: block;
+		cursor: auto;
+	}
+
+	#content.home #survey-box div.open .enter {
+		color: #FFF;
+		width: 202px;
+		height: 17px;
+		background: url(../../images/forms/signin-button.png) 0 0 no-repeat;
+		text-align: center;
+		border: none;
+		padding: 10px 0;
+		overflow: hidden;
+		margin: 0;
+		cursor: pointer;
+	}
+
+	#content.home #survey-box div img, #content.home #survey-box div span {
+		cursor: pointer;
+	}
+
+	#content.home #survey-box div img {
+		float: right;
+	}
+
+@media only screen and (min-width: 480px){
+	#content.home #explore_recipes .recipe .crop img {
+		max-width: 220px;
+		width: 220px;
+		min-width: 220px;
+		margin: -22px 0 0 0;
+	}
+}
+@media only screen and (min-width: 700px){ 
+
+	#content.home {}
+
+	#home_feed .small .crop {
+		float:left;
+		overflow:hidden;
+		position:relative; 
+		width: 161px;
+		height: 144px;
+	}
+
+	#home_feed .small .crop img {
+		max-width: 257px;
+		width: 257px;
+		margin: -27px 0px 0px -40px;
+	}
+
+	#home_feed .recipe.large img {
+		height: 456px;
+	}
+
+	#content.home #explore_recipes .recipe .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 220px;
+		height: 227px;
+	}
+
+	#content.home #explore_recipes .recipe .crop img {
+		max-width: 220px;
+		width: 220px;
+		min-width: 220px;
+		margin: -22px 0 0 0;
+	}
+
+
+	#content.home #news_blogs .bottom .col .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 220px;
+		height: 124px;
+	}
+
+	#content.home #news_blogs .bottom .col .crop img {
+		max-width: 220px;
+		width: 220px;
+		margin-top: -10px;
+	}
+
+	#home_feed .small .newscrop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 161px;
+		height: 152px;
+	}
+
+	#home_feed .small .newscrop img {
+		max-width: 200px;
+		width: 200px;
+		margin-left: -15px;
+	}
+
+	#content.home #survey-box div.open, #content.home #survey-box div {
+		bottom: auto;
+		top: 170px;
+		left: 30px;
+	}
+
+}
+
+@media only screen and (min-width: 960px){  
+	
+	#content.home {}
+
+	#home_feed .small .crop {
+		float:left;
+		overflow:hidden;
+		position:relative; 
+		width: 172px;
+		height: 144px;
+	}
+
+	#home_feed .small .crop img {
+		max-width: 257px;
+		width: 257px;
+		margin: -27px 0px 0px -40px;
+	}
+
+	#home_feed .recipe.large img {
+		width: 364px;
+		height: 488px;
+	}
+
+	#content.home #explore_recipes .recipe .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 220px;
+		height: 123px;
+	}
+
+	#content.home #explore_recipes .recipe .crop img {
+		max-width: 220px;
+		width: 220px;
+		min-width: 220px;
+		margin: -22px 0 0 0;
+	}
+
+	#content.home #news_blogs .bottom .col .crop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 220px;
+		height: 124px;
+	}
+
+	#content.home #news_blogs .bottom .col .crop img {
+		max-width: 300px;
+		width: 300px;
+		margin: -10px 0px 0px -15px;
+	}
+
+	#home_feed .small .newscrop {
+		float:left;
+		overflow:hidden; 
+		position:relative; 
+		width: 172px;
+		height: 152px;
+	}
+
+	#home_feed .small .newscrop img {
+		max-width: 226px;
+		width: 226px;
+		margin-left: -30px;
+	}
+
+	#content.home #survey-box div.open, #content.home #survey-box div {
+		bottom: auto;
+		top: 175px;
+		left: 30px;
+	}
+
+}

@@ -1,0 +1,665 @@
+.center{text-align:center;}
+.aligncenter {text-align:center; margin:auto;} /* for WP editor when you center an image */
+.tight-top {margin-top: 0!important;}
+.tight-bottom {margin-bottom: 0!important;}
+.grey-back {background:url('../images/global/grey-panel.jpg')  top center; border-bottom:1px dashed #ccc; padding-bottom:20px}
+
+
+/*--------------------------------------------------------------
+1.0 - Colours
+--------------------------------------------------------------*/
+
+.beige {
+	background:#F7EDE0!important;
+}
+
+/*--------------------------------------------------------------
+1.1 - Typography
+--------------------------------------------------------------*/
+
+#content {
+	font-family: courier, monospace;
+	font-size: 13px;
+	line-height:22px;
+	color:#666;
+	letter-spacing:1px;
+}
+
+#content p {
+	margin-bottom:15px;
+}
+
+#content h1, h2, h3, h4 {
+	color:#4d5762;
+}
+
+#content header h1 {
+	font-family: Georgia, "serif";
+	font-size:35px;
+	font-weight:normal;
+	line-height:36px;
+	letter-spacing:-1px;
+}
+#content h2 {
+	font-family: courier, monospace;
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#content h3 {
+	font-family: courier, monospace;
+	font-size:14px;
+	text-transform:uppercase;
+	
+}
+
+.widget h3 a, .commentlist a, .more-comments a, .article-meta a, .video-tools-content a, p a, .widget-search-news-and-blogs li a, form a {
+text-decoration: none;
+color: #47A8D8;
+}
+
+.widget h3 a:hover, .commentlist a:hover, .more-comments a:hover, .article-meta a:hover, .video-tools-content a:hover, p a:hover, .widget-search-news-and-blogs li a:hover, form a:hover {
+text-decoration: none;
+color: #666;
+}
+
+.link-list a:hover {
+color: #47A8D8;	
+}
+
+hr {
+	border:0;
+	border-bottom:1px dashed #ccc;
+	clear:both;
+	margin:12px 0;
+	clear:both;
+	height:0;
+	color:#FEFBF4;
+}
+
+hr.page-topper {
+	margin:20px 0 10px 0;
+}
+
+
+h2.comments-number {
+	font-family: Georgia, "serif";
+	font-weight:normal;
+	text-transform:none;
+}
+
+.content-block ul {
+	margin-bottom:20px;
+}
+
+.content-block ul li {
+	display:block;
+	background:url('../images/global/link-list-arrow.png') 0px 11px no-repeat;
+	padding:3px 5px 3px 15px;
+	color:#666;
+}
+
+.content-block ol li {
+	list-style-type:decimal!important;
+	padding:3px 5px 3px 0px;
+	margin-left:30px;
+	color:#666;
+}
+
+.content-block h2, .content-block h3, .content-block h4 {
+	margin-bottom:20px;
+}
+
+.content-block h2 {
+	margin-top:30px;
+}
+
+.content-block a {text-decoration:none; color:#47a8d8;}
+.content-block a:visited {color:#47a8d8;}
+.content-block a:hover {color:#000;}
+
+
+blockquote {
+	font-family: Georgia, "serif";
+	font-size:17px;
+	line-height:26px;
+	font-style:italic;
+	color:#515151;
+	background: url('../images/global/quote.png') 0px 1px no-repeat;
+	margin:0;
+	padding:0px 0 0 36px;
+	text-shadow: 1px 1px #fff;
+	margin-left:-35px;
+}
+
+blockquote a {
+	color:#47a8d8;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+1.3 - Headers — Page titles
+--------------------------------------------------------------*/
+
+
+header.full-width {
+	text-align:center;
+	margin:40px 0 25px 0;
+}
+
+
+header.promo-header {
+	text-align:center;
+	margin:40px 0 25px 0;
+}
+
+header.full-width.top {
+	text-align:center;
+	margin:20px 0 25px 0;
+}
+
+header.full-width.join-header {
+	text-align:center;
+	margin:0px 0 25px 0;
+}
+
+header.full-width  p {
+	margin:10px 0 0px 0;
+	text-align:center;
+}
+
+header.full-width  h1 {
+	width:100%;
+	margin:0px 0 7px 0;
+	width:auto;
+	float:none;
+}
+
+header.step  h1 {
+	width:100%;
+	margin:0px 0 7px 0;
+	width:auto;
+	float:none;
+}
+
+/*--------------------------------------------------------------
+1.4 - Share icons
+--------------------------------------------------------------*/
+
+
+.share { margin:20px 0 0 0; padding:0; float:right; }
+.share li { display:block; float:left; margin-left:7px; }
+.lower-share { text-align:center; border-bottom:1px dashed #ccc; border-top:1px
+dashed #ccc; margin:10px 0 20px 0; padding:17px 0 10px 0; }
+.share.lower { clear:left; float:left; list-style:none; margin:0; padding:0;
+position:relative;  text-align:center; }
+.share.lower li { display:block; float:left; list-style:none; margin:0 13px;
+padding:0; position:relative; font-size:11px; }
+.share.lower li a { display:block;}
+.share img:hover { opacity:0.5; }
+
+
+
+
+
+/*--------------------------------------------------------------
+1.5 - Comments
+--------------------------------------------------------------*/
+
+.comments { margin-top:30px; } 
+#comments h3 { font-family: Georgia, "serif"; font-weight:normal; text-transform:none;  margin-bottom:10px} 
+.comments li, ol.commentlist li.comment{ border-bottom:1px dashed #ccc!important; margin-bottom:20px!important;
+padding-bottom:25px!important; padding-top:25px!important; } 
+
+ol.commentlist li.comment { border-top:1px dashed #ccc!important; } 
+#comments ol.commentlist {border-bottom:none!important; } 
+.comments li.nested { margin-left:0px; }
+.comment-avatar-box { float:left; margin:3px 0 0 0!important; } 
+.comments img, .comment-avatar-box img, .widget-search-news-and-blogs ul li img { float:left; width:40px; height:40px; margin-right:15px; padding:2px; background:#fff; border:1px solid #eee; border-radius: 2px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; -moz-box-shadow: 0px 0px 1px 2px
+#ccc; -webkit-box-shadow:0px 0px 1px 2px #ccc; box-shadow: 0px 0px 1px 2px #ccc;} 
+
+.comment-content-container { width:238px; float:left; } 
+.comments li.nested .comment-content-container { width:238px; float:left; } 
+.comment-meta, .time-since { margin:0!important; font-size:12px!important; font-family: courier, monospace;
+letter-spacing:1px; display:block; margin-bottom:10px; } 
+
+.name-date {float:left;}
+.comment-tools {float:right;} 
+.name-date, .comment-tools {display:block;}
+.name-date a, .comment-meta a { color:#be2525!important; font-family:Georgia, serif; font-size:14px; } 
+div.comment p { clear:both; margin-top:20px; }
+.more-comments { text-align:center; margin:30px 0; padding:10px 0; clear:both; border-top:1px dashed #ccc!important; border-bottom:1px dashed #ccc!important; }
+
+.comment-content h2 {
+	margin-bottom:15px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+1.6 - Right Hand Side Modules
+--------------------------------------------------------------*/
+
+.banners img {
+	margin-bottom:20px;
+}
+
+.widget {
+	background:#fff;
+	padding:20px 20px 20px 20px;
+	margin-bottom:20px;
+	clear:both;
+}
+
+.col2 div.widget:last-child, .banners img:last-child
+{
+margin-bottom:0;
+}
+
+.widget-content {
+	padding:0 20px
+	}
+	
+.related-categories li a {
+	display:block;
+	background:url('../images/global/link-list-arrow.png') 0px 11px no-repeat;
+	padding:3px 5px 3px 15px;
+	border-bottom:1px dashed #ccc;
+	color:#666;
+}
+
+
+
+
+.widget-search-news-and-blogs li {
+	border-bottom:1px dashed #ccc;
+	min-height:90px;
+	margin-bottom:15px;
+}
+.widget-search-news-and-blogs h3 {
+	font-family:georgia, serif;
+	text-transform:none;
+	font-weight:normal;
+	font-size:16px;
+	margin-bottom:0px;
+	letter-spacing:0;
+	margin-top:-5px;
+}
+.widget-search-news-and-blogs p {
+	line-height:18px;
+}
+
+.widget h3.courier {
+	font-family: courier, monospace;
+	font-weight:bold;
+}
+
+
+
+
+.vote-form button {
+	margin-top:15px;	
+}
+
+.vote {
+	display:block;
+	padding:5px 5px 5px 10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+
+.vote.checked {
+	background: #fef9e6;		
+}
+
+.voted {
+	display:block;
+	background:#3ad2a9;
+	padding:5px 5px 5px 10px;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+
+.vote input {
+	margin-right:5px;
+}
+
+.link-list  {
+	margin-bottom:20px;
+}
+
+.link-list a {
+	text-decoration:none;
+}
+
+
+
+
+
+.suggested-videos .panel {width:100%;}
+
+.suggested-videos .panel {
+	position:relative;
+	margin-bottom:20px;
+	list-style-type:none;
+	padding-bottom:10px;
+	background:#fff;
+}
+.suggested-videos .panel h3 a {color:#4d5762; text-decoration:none}
+.suggested-videos .panel:hover h3 a {color:#47a8d8;}
+.suggested-videos .panel  a {color:#4d5762; text-decoration:none}
+.suggested-videos .panel  span a:hover {color:#47a8d8; text-decoration:none}
+.suggested-videos .panel .image-holder {position:relative;}
+
+.suggested-videos .panel h3 {
+	font-family:georgia;
+	font-weight:normal;
+	text-transform:none;
+	margin:10px 10px 10px 15px;
+	font-size:18px;
+	line-height:20px;
+	min-height:40px;
+	text-align:left!important;
+}
+
+.suggested-videos .panel span {
+	margin:0px 0px 10px 15px;
+	border:1px solid #ccc;
+	padding:2px 12px;
+	border-radius: 3px;
+}
+
+.suggested-videos .panel:hover {background:#fff;}
+.suggested-videos .panel:hover span.tag {color:#47a8d8;}
+.suggested-videos .panel .trigger:hover {display:block;color:#47a8d8;}
+.suggested-videos .panel:hover .blue-arrow-off {
+	background:url('../images/global/module-arrow.gif') 0 -30px no-repeat;
+}
+
+.suggested-videos .panel .trigger-image-holder img {
+	width:100%;
+	line-height:0;
+	display:block;
+}
+
+.blue-arrow-off  {
+	background: url('../images/global/module-arrow.gif') top left no-repeat;
+	position:absolute;
+	height:30px;
+	width:100%;
+	text-align:right;
+	bottom:0;
+}
+
+.trigger {position:relative;}
+.trigger-image-holder {position:relative;}
+
+
+
+
+/*--------------------------------------------------------------
+1.7 - Buttons
+--------------------------------------------------------------*/
+
+
+
+
+
+.red-btn, button.red-btn {
+background:  url('../images/global/red-left.png') no-repeat top left;
+font-family: courier, monospace;
+color:#fff!important;
+margin:0;
+padding:0px 0 0 4px;
+text-decoration:none;
+float:left;
+width:100%;
+text-transform:uppercase;
+letter-spacing:0;
+}
+.red-btn span, button.red-btn span {
+background:  url('../images/global/red-right.png') top right no-repeat;
+float:left;
+display: block;
+width:100%;
+padding:3px 0 3px 0px;
+text-align:center;
+}
+.red-btn:hover span {
+background-position: right -29px; color: #fff;
+color:#fff!important;
+}
+.red-btn:hover {
+background-position: 0 -29px;
+}
+.red-btn:active span {
+background-position: right -58px; color: #fff;
+color:#fff!important;
+}
+.red-btn:active {
+background-position: 0 -58px;
+}
+
+form button.grey-btn {
+	width:150px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0;
+	display:block;
+	border:0;
+	font-family: courier, monospace;
+}
+
+form button.red-btn.wide {
+	width:100%;
+}
+
+form button.red-btn span {
+	padding:7px 0 7px 0px;
+}
+form button.grey-btn span {
+	padding:7px 0 7px 0px;
+}
+
+.floated-buttons .red-btn {
+	display:block;
+	float:left;
+	margin-left:10px
+}
+
+.widget .red-btn, .widget .grey-btn {
+	width:100%;
+}
+
+.grey-btn.fullwidth {
+max-width: 616px;
+}
+
+
+/*--------------------------------------------------------------
+MOBILE LANDSCAPE     MOBILE LANDSCAPE     MOBILE LANDSCAPE  	
+--------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 480px) { 
+	
+
+	/*--------------------------------------------------------------
+	1.4 - Share icons
+	--------------------------------------------------------------*/
+
+
+	.share { margin:20px 0 0 0; padding:0; float:right; }
+	.share li { display:block; float:left; margin-left:7px; }
+	.lower-share { text-align:center; border-bottom:1px dashed #ccc; border-top:1px
+	dashed #ccc; margin:10px 0 20px 0; padding:17px 0 10px 0; }
+	.share.lower { clear:left; float:left; list-style:none; margin:0; padding:0;
+	position:relative;  text-align:center; }
+	.share.lower li { display:block; float:left; list-style:none; margin:0 13px;
+	padding:0; position:relative; font-size:11px; }
+	.share.lower li a { display:block;}
+	.share img:hover { opacity:0.5; }
+
+	/*--------------------------------------------------------------
+	1.5 - Comments
+	--------------------------------------------------------------*/
+
+	.comment-content-container { width:390px; float:left; } 
+	.comments li.nested .comment-content-container { width:390px; float:left; } 
+	.comment-meta, .time-since { display:inline; }
+	
+	/*--------------------------------------------------------------
+	1.6 - Right Hand Side Modules
+	--------------------------------------------------------------*/
+	
+	.col2 div.widget:last-child, .banners img:last-child{margin-bottom:20px;}
+	.widget-search-news-and-blogs li {width: 200px;float:left;}
+	.widget-search-news-and-blogs li img {display:none}
+	.widget-search-news-and-blogs li .content p {margin-top:5px!important}
+	.widget-search-news-and-blogs li:nth-child(odd) {margin-right:20px;	} 
+	
+	.suggested-videos .panel {width:200px; margin-right:20px; float:left}
+	.suggested-videos .panel:nth-child(even) {margin-right:0px;	} 
+	
+	
+	
+	
+	
+}
+
+
+
+
+/*--------------------------------------------------------------
+TABLET	TABLET	TABLET	TABLET	TABLET	TABLET	TABLET	TABLET	
+--------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 700px) { 
+	
+	.center {text-align:center}
+	.tight-top {margin-top: 0!important;}
+	.tight-bottom {margin-bottom: 0!important;}
+	.grey-back {background:url('../images/global/grey-panel.jpg')  top center; border-bottom:1px dashed #ccc; padding-bottom:20px}
+	
+	/* Buttons */
+	.widget .red-btn, .widget .grey-btn {width: 580px;}
+	
+	.widget-search-news-and-blogs li {width: 260px;float:left;}
+	.widget-search-news-and-blogs li:nth-child(odd) {margin-right:20px;}
+	.banners img {margin-bottom:20px;margin-top:20px;}
+	
+	.col2 div.widget:last-child, .banners img:last-child{margin-bottom:20px!important;}
+	
+	.banners img:nth-child(odd) {margin-right:10px;}
+	
+	.col2 div.widget:last-child, .banners img:last-child{margin-bottom:20px;}
+	.widget-search-news-and-blogs li {width: 280px;float:left;}
+	.widget-search-news-and-blogs li img {display:block}
+	.widget-search-news-and-blogs li .content p {margin-top:5px!important}
+	.widget-search-news-and-blogs li:nth-child(odd) {margin-right:20px;}
+	
+
+	
+	
+
+/*--------------------------------------------------------------
+1.1 - Typography
+--------------------------------------------------------------*/	
+
+.content-block p {margin-right:20px;}
+	
+	
+/*--------------------------------------------------------------
+1.4 - Share icons
+--------------------------------------------------------------*/
+
+.share { margin:12px 0 0 0; padding:0; float:right; }
+.share li { display:block; float:left; margin-left:7px; }
+.lower-share { text-align:center; border-bottom:1px dashed #ccc; border-top:1px
+dashed #ccc; margin:10px 0 20px 0; padding:17px 0 10px 0; }
+.share.lower { clear:left; float:left; list-style:none; margin:0; padding:0;
+position:relative; left:50%; text-align:center; }
+.share.lower li { display:block; float:left; list-style:none; margin:0 13px;
+padding:0; position:relative; right:50%; font-size:11px; }
+.share.lower li a { display:block;}
+.share img:hover { opacity:0.5; }
+		
+
+/*--------------------------------------------------------------
+1.5 - Comments
+--------------------------------------------------------------*/
+
+.comments li.nested {
+	margin-left:40px;
+}
+
+.comments img, .comment-avatar-box img, .widget-search-news-and-blogs ul li img {
+	float:left;
+	width:70px;
+	height:70px;
+	margin-right:15px;
+	padding:2px;
+	background:#fff;
+	border:1px solid #eee;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	 -moz-box-shadow: 0px 0px 1px 2px #ccc;
+	 -webkit-box-shadow:0px 0px 1px 2px #ccc;
+	 box-shadow: 0px 0px 1px 2px #ccc;
+
+}
+
+.comment-content-container {width:520px;float:left;}
+.comments li.nested .comment-content-container {width:480px;float:left;	}
+.comment-meta, .time-since {margin:0!important;font-size:12px!important;font-family: courier, monospace;letter-spacing:1px;display:inline;}
+
+
+.suggested-videos .panel {width:280px; margin-right:20px; float:left}
+.suggested-videos .panel:nth-child(even) {margin-right:0px;	}
+
+
+} /* End of 700px */
+
+
+
+@media only screen and (min-width: 960px){ 
+
+.dotted-vertical {background:url('../images/global/dotted-vertical.png') 9px 0  repeat-y ;}
+.dotted-vertical-center {background:url('../images/global/dotted-vertical.png') top center repeat-y ;}
+.center {text-align:center}
+.tight-top {margin-top: 0!important;}
+.tight-bottom {margin-bottom: 0!important;}
+.grey-back {background:url('../images/global/grey-panel.jpg')  top center; border-bottom:1px dashed #ccc; padding-bottom:20px}
+
+	.widget-search-news-and-blogs li {width: 260px;float:left;}
+
+	.suggested-videos .panel {width:100%;}
+	.banners img {margin-top:0}
+	
+	.col2 div.widget:last-child
+	{
+	margin-bottom:0px!important;
+	}
+
+/* Buttons */
+.widget .red-btn, .widget .grey-btn {width: 260px;}
+
+} /* End of 960px */
+
+
+.filter_font{
+font-size:16px;
+font-weight:bold;
+}

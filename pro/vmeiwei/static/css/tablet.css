@@ -1,0 +1,320 @@
+html {}
+body {}
+	
+.cntr {width: 700px; margin: 0 auto; }
+
+/* Global nav */
+nav#global {margin: 0 auto -9px auto; width: 100%; height: 36px; background: transparent url(../images/header/nav-global-bg-tile.png) 0 0 repeat-x; clear: both;}
+	nav#global .cntr {height: 35px; background: url(../images/header/nav-global-bg-t.png) 0 0 no-repeat; width: 700px;}
+	
+	/* Top bar */
+	nav#global #global-bar a {cursor: pointer; color: #ffffff; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;}
+	
+	nav#global a#quick_links_toggle {display: inline; float: left; width: 31px; height: 36px; background: transparent url(../images/header/nav-quick-link.png) 0 -38px no-repeat; margin: 0;}
+	nav#global a#quick_links_toggle.active {background-position: 0 0;}
+		nav#global a#quick_links_toggle span {display: none;}
+	
+	nav#global #global_links {float: left; height: 33px; width: 425px; margin: 0; position: relative; left: 32px;}
+		nav#global #global_links li {float: left; margin: 0; position: absolute; text-align: center;}
+		
+			/* Positioning to disregard different font rendering */
+			nav#global #global_links .gn_1 {width: 100px; left: 30px;}
+			nav#global #global_links .gn_2 {display: inline; left: 140px; width: 94px;}
+			nav#global #global_links .gn_3 {display: inline; left: 245px; width: 78px;}
+			nav#global #global_links .gn_4 {display: inline; left: 332px; width: 41px;}
+			nav#global #global_links .gn_5 {display: inline; left: 382px; width: 62px;}
+			nav#global #global_links .gn_6 {display: none;}
+			
+			
+			nav#global #global_links li a {display: block; height: 28px; line-height: 26px; text-decoration: none;}
+			nav#global #global_links li.active a {}
+			nav#global #global_links li a:hover {}
+	
+	nav#global #search_toggle {display: none;}
+	nav#global #member_link {display: none;}
+	nav#global #member_link_out {display: none;}
+	
+	/* Social links */
+	nav#global #social_links {display: block; float: right; margin: 5px 0 0 0;}
+		nav#global #social_links li {float: left; height: 17px; margin: 0 0 0 14px;}
+			nav#global #social_links li a {height: 17px; display: block;}
+				nav#global #social_links li a span {display: none;}
+				nav#global #social_links .instagram a {width:17px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') 0 0 no-repeat;}
+					nav#global #social_links .instagram a:hover {background-position: 0 -20px;}
+				nav#global #social_links .youtube a {width:16px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -33px 0 no-repeat;}
+					nav#global #social_links .youtube a:hover {background-position: -33px -20px;}
+				nav#global #social_links .facebook a {width:17px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -63px 0 no-repeat;}
+					nav#global #social_links .facebook a:hover {background-position: -63px -20px;}
+				nav#global #social_links .twitter a {width:19px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -93px 0 no-repeat;}
+					nav#global #social_links .twitter a:hover {background-position: -93px -20px;}
+				nav#global #social_links .googleplus a {width:16px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -128px 0 no-repeat;}
+					nav#global #social_links .googleplus a:hover {background-position: -128px -20px;}
+				nav#global #social_links .pinterest a {width:16px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -156px 0 no-repeat;}
+					nav#global #social_links .pinterest a:hover {background-position: -156px -20px;}
+				nav#global #social_links .apps a {width:13px; background: url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/header/social-icons.png') -188px -1px no-repeat;}
+					nav#global #social_links .apps a:hover {background-position: -188px -20px;}
+	
+/* Quick links */
+nav#quick_links {width: 100%; height: auto; background: #292929 url(../images/header/nav-quick-border.png) 0 bottom repeat-x; padding: 0 0 0 0;}
+	nav#quick_links .cntr {clear: left; width: 700px; padding: 17px 0 9px;}
+	
+	nav#quick_links ul {float: left; width: 220px; margin: 0 10px 0 0; padding: 10px 0;}
+		nav#quick_links ul li {margin: 0 0 5px 0; font-size: 13px;}
+			nav#quick_links ul li a {color: #ffffff; text-decoration: none; font-size: 13px; letter-spacing: 1px;}
+			nav#quick_links ul li.active a,
+			nav#quick_links ul li a:hover {color: #3bdab0;}
+	   	nav#quick_links ul li.heading {color: #ffffff; font-size: 13px; text-transform: uppercase; margin: 0 0 6px 0;}
+				
+		nav#quick_links .ql_1 {clear: both; margin-right: 20px;}
+		nav#quick_links .ql_2 {clear: none; margin-right: 20px;}
+		nav#quick_links .ql_3 {clear: none; margin-right: 0; padding-top: 0;}
+		nav#quick_links .ql_4 {clear: left; margin-right: 20px;}
+		nav#quick_links .ql_5 {clear: none; margin-right: 0;}
+
+/* Logged in  */	
+	nav#jo #member_login #member_info {display: block;}
+		nav#jo #member_login #member_info a {max-width: 200px; position: absolute; right: 0; top: -5px; outline: none; float: left; padding: 0 5px 0 0; height: 27px; background: #f9fafc; border: 1px solid #a3a3a3; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+			nav#jo #member_login #member_info a img {float: left; padding: 2px 9px 2px 2px; border: none;}
+			nav#jo #member_login #member_info a #username {float: left; height: 27px; max-width: 144px; overflow: hidden; font-size: 10px; color: #666666; line-height: 27px; padding-right: 20px; background: url(../images/header/signin-arrow.gif) right 10px no-repeat;}
+
+/* Top banner */
+#top_banner {background: #292929; display: block; width: 100%; margin: 0;}
+	#top_banner .cntr {padding: 5px 0;}
+		#top_banner .cntr iframe {margin: 0;}
+			#top_banner .cntr iframe {max-width: 700px;}
+			
+/* JO Nav */
+nav#jo {width: 100%; height: 110px;}
+	nav#jo .cntr {position: relative;}
+
+	nav#jo h2, nav#jo h3 {display: block; position: absolute; top: 30px; left: 0; width: 304px; height: 38px; margin: 0; font-size: 30px; line-height: 38px;}
+		nav#jo h2 a#logo, nav#jo h3 a#logo {position: absolute; top: 0; left: 0; width: 304px; height: 38px; background: #ffffff url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/logo.gif') 0 0 no-repeat; z-index: 2;}
+		nav#jo h2 #title, nav#jo h3 #title {position: absolute; top: 0; left: 0; text-decoration: none; color: #4e4e4d;}
+
+	nav#jo #site_region {position: absolute; right: 0; top: 10px;}
+		nav#jo #site_region .input_submit {display: none;}
+
+		nav#jo #site_region .sbHolder {width: 60px;}
+		nav#jo #site_region .sbSelector, #site_region .sbOptions {width: 60px;}
+
+	nav#jo #global_search {position: absolute; left: 420px; top: 35px; width: 283px; height: 28px; background: #ffffff url(../images/header/global_search_bg.png) 0 0 no-repeat;}
+		nav#jo #global_search.m-toggle {display: block;}
+
+		nav#jo #global_search .sbHolder {position: absolute; right: 37px; top: 5px; width: 118px;}
+		nav#jo #global_search .sbSelector, #global_search .sbOptions {width: 118px;}
+
+	nav#jo #member_login {display: block; position: absolute; right: 0; top: 10px; width: 202px;}
+		nav#jo #member_login #member_links {display: block;}
+			nav#jo #member_login #member_links li {float: left; width: 97px; height: 19px; overflow: hidden;}
+			nav#jo #member_login #member_links li.ml_1 {margin-right: 8px;}
+				
+		nav#jo #member_login #sign_in {display: none; position: relative; top: 35px; right: 0; z-index: 999999999;} /* ALV: added the zindex*/
+
+	nav#jo #jo_nav_mob {display: none;}			
+	nav#jo #jo_nav {display: block; width: 700px; font-size: 18px; position: absolute; top: 90px; left: 0;}
+		nav#jo #jo_nav > li {float: left; position: absolute; border-bottom: none; background: transparent none; width: auto; height: auto; text-indent: 0;}
+	 		nav#jo #jo_nav > li a {color: #333333; text-decoration: none; text-transform: uppercase; width: auto; height: auto; line-height: 14px;}
+			nav#jo #jo_nav > li.active a {color: #999999; background: transparent none;}
+			nav#jo #jo_nav > li a:hover {color: #999999;}
+		nav#jo .nav_home {top: 0; left: 0px;}
+		nav#jo .nav_recipes {top: 0; left: 74px;}
+			nav#jo #jo_nav > li.nav_recipes {padding-right: 14px; background: url(../images/header/dropdown-arrow.png) right 2px no-repeat;}
+			nav#jo #jo_nav > li.nav_recipes.active {background: url(../images/header/dropdown-arrow.png) right -33px no-repeat;}
+			nav#jo #jo_nav > li.nav_books_tv {padding-right: 14px; background: url(../images/header/dropdown-arrow.png) right 2px no-repeat;}
+			nav#jo #jo_nav > li.nav_books_tv.active {background: url(../images/header/dropdown-arrow.png) right -33px no-repeat;}
+		nav#jo .nav_books_tv {top: 0; left: 180px;}
+		nav#jo .nav_videos {top: 0; left: 312px;}
+		nav#jo .nav_howto {top: 0; left: 390px;}
+		nav#jo .nav_news_blogs {top: 0; left: 403px;}
+		nav#jo .nav_restaurant {top: 0; left: 518px;}
+		nav#jo .nav_forum {top: 0; left: 531px;}
+		nav#jo .nav_promotions {top: 0; right: 0px;}
+
+		nav#jo #foodtube {width: 22px; height: 88px; position: absolute; left: 335px; top: 0px;}
+			nav#jo #foodtube a {display: block; width: 42px; height: 88px; outline: none; border: none; background: url(../images/header/foodtube.png) 0 0 no-repeat;}
+		nav#jo ul#jo_nav li > a {font-family: 'nimbus';}
+
+
+			
+
+			
+/* Content */
+#content .cntr {width:700px; padding: 0;}	
+				
+/* Grids */
+
+	section {float: left; clear: left; margin: 0 0 20px 0; width: 100%;}
+	section article {}
+	section.grid .cntr {padding: 0;}
+
+	/* 1 column - full width */
+	section.grid1 {}
+		section.grid1 .col {float: left;}
+		section.grid1 .col1{width: 700px; margin: 0;}
+
+	/* 4 columns - equal widths */
+	section.grid2 {}
+		section.grid2 .col {float: left;}
+		section.grid2 .col1{width: 220px; margin: 0 20px 0 0;}
+		section.grid2 .col2{width: 220px; margin: 0 20px 0 0;}
+		section.grid2 .col3{width: 220px; margin: 0 0px 0 0; display: block;}
+		section.grid2 .col4{width: 220px; margin: 0 0 0 0; display: none;}
+
+	/* 4 columns- 3 content, 1 mpu */
+	section.grid3 {}
+		section.grid3 .col {float: left;}
+		section.grid3 .col1{width: 190px; margin: 0 10px 0 0;}
+		section.grid3 .col2{width: 190px; margin: 0 10px 0 0;}
+		section.grid3 .col3{width: 190px; margin: 0 0px 0 0; display: none;}
+		section.grid3 .col4{width: 300px; margin: 0 0 0 0;}
+
+	/* 3 columns- 2 content, 1 mpu */
+	section.grid4 {}
+		section.grid4 .col {float: left;}
+		section.grid4 .col1{width: 160px; margin: 0 10px 0 0;}
+		section.grid4 .col2{width: 220px; margin: 0 10px 0 0;}
+		section.grid4 .col3{width: 300px; margin: 0 0 0 0;}
+
+	/* 3 columns- equal widths */		
+	section.grid5 {}
+		section.grid5 .col {float: left;}
+		section.grid5 .col1{width: 220px; margin: 0 20px 0 0;}
+		section.grid5 .col2{width: 220px; margin: 0 20px 0 0; display: block;}
+		section.grid5 .col3{width: 220px; margin: 0 0 0 0; display: block;}
+		
+/* Nate additions to grid */
+
+	/* 2 columns 1 content 1 aside */
+	section.grid6 {}
+		section.grid6 article, section.grid6 aside  {display: block;}
+		section.grid6 .col1 {width:620px; margin: 0 40px; display: block;}
+		section.grid6 .col2 {width:620px; margin: 20px 0px 0 0; display: block; margin-left:40px}
+
+
+	/* 2 columns 1 content 1 aside */
+	section.grid6b {}
+		section.grid6b article, section.grid6b aside  {display: block;}
+		section.grid6b .col1 {width:620px; margin: 0 40px; display: block;}
+		section.grid6b .col2 {width:620px; margin: 0px 0px 0 0; display: block; margin-left:40px}
+
+	/* 2 big content 2 small content */
+	section.grid7 {}
+		section.grid7 article {float: left;}
+		section.grid7 .col1{width: 307px; margin: 0 10px 0 40px;}
+		section.grid7 .col2{width: 148px; margin: 0 10px 0 0; display:none}
+		section.grid7 .col3{width: 148px; margin: 0 10px 0 0 ;display:none}
+		section.grid7 .col4{width: 307px; margin: 0 0px 0 0;}
+
+	/* 2 even 50% splits */
+	section.grid8 {}
+		section.grid8 article {float: left;}
+		section.grid8 .col1{width: 300px; margin: 0 20px 0 0;}
+		section.grid8 .col2{width: 300px; margin: 0 0px 0 0;}
+
+/* Nate additions to grid - ENDS */
+		
+	/* 3 columns- equal widths - FOR CAROUSELS */		
+	section.grid9 {}
+		section.grid9 .col {float: left;}
+		section.grid9 .col1{width: 220px; margin: 0 20px 0 0;}
+		section.grid9 .col2{width: 220px; margin: 0 20px 0 0; display: block;}
+		section.grid9 .col3{width: 220px; margin: 0 0 0 0; display: block;}
+		
+/* Breadcrumbs */
+.top {}
+	.top .breadcrumb {margin: 8px 0 0 0;}
+	
+	/* Widgets gobals */
+
+	  #content .widget h2 {
+	    font-family: Georgia;
+	    line-height: 21px;
+	    text-transform: none;
+	    font-weight: bold;
+	    font-size: 14px;
+	    margin-top: 3px;
+	    margin-bottom: 15px;
+	    padding-bottom: 10px;
+	    text-align: center;
+	    display: block;
+	    border-bottom: 1px solid #999;
+	  	letter-spacing: 0px;
+	  }
+
+
+	/* ads style */
+	.leaderboard_footer_holder {
+		width: 100%;
+		display: block;
+		float: left;
+		border-top: 1px dashed #ccc;
+		padding: 30px 0 60px 0;
+		margin: 0 0;
+		margin-bottom: 50px;
+		text-align: center;
+		background: #f8ede0;
+		display: block;
+		position: static;
+	}
+
+	.footer_leaderboard {
+		width: 728px; 
+		height: 90px; 
+		display: block; 
+		margin: 0 auto;
+	}
+
+	.mpu_Ad_holder {
+	    float: left;
+	    height: 250px;
+	    width: 300px;
+		display: block;
+	}
+	
+/* Feedback form */
+#feedback_toggle {display: block;}
+
+/* FRD Promo */
+#frd1 {display: block;}
+#frd2 {display: block;}
+
+/* Restaurants menu */
+
+#restaurants_menu_wrapper {
+	height: 90px;
+}
+
+#restaurants_menu_wrapper {
+	background: #FFF;
+	position: absolute;
+	width: 100%;
+	height: 135px;
+	padding-top: 10px;
+	z-index: 99999;
+	border-bottom: 1px solid #CCC;
+}
+
+ul#restaurants_menu {
+	width: 100%;
+}
+
+ul#restaurants_menu {
+	margin-left: -352px;
+}
+
+ul#restaurants_menu li {
+	float: left;
+	margin: 4px;
+}
+
+ul#restaurants_menu li img {
+	width: 110px;
+}
+
+/* Lightbox */
+#lightbox {display: block;}
+
+/* Lightbox */
+#lightbox {position: absolute; position: fixed; top: 0; left: 0; right: 0; left: 0; width: 100%; height: 100%; background: transparent url('http://cdn.jamieoliver.com/_beta/images/lightbox.png') 0 0 repeat; z-index: 999999999;}
+#lightbox #lightbox_close {width: 37px; height: 37px; background: #ffffff url('http://cdn.jamieoliver.com/_beta/images/lightbox-close.png') 0 0 no-repeat; position: absolute; top: -57px; right: -10px; outline: none; border: none; overflow: hidden;}
+#lightbox div.popup {width: 360px; height: 450x; position: absolute; top: 50%; margin-top: -225px; left: 50%; margin-left: -180px; border: 10px solid #FFFFFF;}

@@ -1,0 +1,185 @@
+/*搜索颜色可以看到所有的颜色注视*/
+
+a,input,select{font-size:12px}input,button,select,textarea{outline:none}textarea{resize:none}form,p,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,body{margin:0;padding:0}ul,ol{list-style:none}img,table{border:0}a{text-decoration:none;outline:none}.clear{height:0px;clear:both;overflow:hidden}
+/*颜色： 顶部3像素的颜色*/
+.topbg{background-color:#FC8801;height:3px;display: none;}
+li{list-style:none}
+/*颜色： 背景色，文字颜色*/
+body{background:url(../img/bg.png) repeat;color:#858583}
+/*颜色：默认链接颜色*/
+a:link,a:visited{color:#ffb430;}
+/*颜色： 顶部字体颜色*/
+
+.nav-font li div a:hover{color:#FC8801;}
+/*颜色： 首页标签切换的背景色 文字颜色*/		  
+#tab1 span{color: #fff;}
+#tab1 span.on{color: #ffa101;font-weight: bold;border-top: 1px solid #ffa101}
+
+.con li a{color: #fff}
+.m1 a:hover{color: #FC8801}
+.m2 h3{color:#fff;}
+
+/*font*/
+body{font:12px/1.5 "微软雅黑","Microsoft YaHei",tahoma,Helvetica,Tahoma,StSun,"SimSun",sans-serif}
+.nav-font a.topa{font-size:14px;font-weight:bold;}
+
+
+.footer-w {
+  width: 100%;
+  height: 126px;
+  margin-top: 10px;
+  background:url(../img/foot.png) repeat;
+  position: relative;
+  /*margin-top: -85px;*/
+  min-width: 1024px;
+}
+.wrapbox{background:url(../img/indexbg.png?v=3) center 0 no-repeat;min-width: 1024px;}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+
+/*width*/
+.mainbox{margin: 0 auto;}
+.w{width:1024px;margin: 0 auto}
+.wall{width:100%;min-width: 1024px;}
+
+.headbg{position: relative;height: 99px;padding-top: 30px}
+/*logo*/
+.nav-font{padding-top: 15px}
+.nav-font li{margin:0 20px;float: left;display: inline;position: relative;height:35px;}
+.nav-font li:hover{z-index:1000;}
+.nav-font a.topa:hover{text-decoration:none;padding-bottom:5px;border-bottom:2px solid #FF9B0F;}
+.nav-font a.topa{padding-bottom:2px;color: #fff;padding: 0 5px}
+.nav-font li.on a.topa{padding-bottom:5px;border-bottom:2px solid #FF9B0F;}
+.nav-font{float: left;padding-left: 150px}
+.navbar-right {position: absolute;right: 0;color: #fff;}
+.navbar-right  a {color: #fff}
+
+
+.logo{width:129px;height: 60px;float: left;padding-left: 20px}
+
+.navtip{position: absolute;display:none;background: #333;top: 35px;left: 5px}
+.navtip{
+  float: left;
+  padding: 3px
+}
+
+.navtip a{display: block;color: #fff;border-bottom: 1px solid #666;padding:3px}
+
+
+.indexhd{width: 720px;margin: 0 auto}
+#hd{margin-top: 14px}
+#mlist{margin-top: 90px}
+
+.go{text-align: right;margin-top: 5px;}
+.go img{width: 23px;height: 11px}
+.m1{width: 270px;float: left;margin-right: 20px;display: inline;}
+
+#tab1 span{float:left;height: 34px;text-align: center;padding:6px 10px 0 10px;
+	cursor: pointer;
+	margin-right: 5px;
+	display: inline;
+}
+#content1{height: 147px;background: #1c1f24;padding-top: 3px}
+#content1 li{margin-top: 3px;padding: 0 10px}
+
+.t-1{font-size: 12px;
+  height: 34px;
+  padding-top:6px;
+  line-height: 20px;overflow: hidden;
+  background: url(../img/tit.gif) 0 11px no-repeat;padding-left: 15px;
+}
+
+
+.more{text-align: right;padding-right: 5px}
+.more a{color: #e7a906}
+
+.m2{width: 538px;float: right;}
+
+.m2 .img-1{width: 290px; float: left;}
+.m2 .img-1 img,.m2 .img-1 .imgcell{width: 286px;height: 146px;display: block;}
+.m2 .img-1 .imgcell{border: 2px solid #fff}
+.m2 .img-2{width: 230px;float: right;}
+.m2 .img-2 .imgcell{padding-top:1px;position: relative;top: -6px;}
+.m2 .img-2 .imgcell a {margin-top: 5px;float: left;width: 102px;height: 67px;margin-left: 5px;display: inline;position:relative; border: 2px solid #fff}
+.m2 .img-2 .imgcell a img{width: 102px;height: 67px}
+ .m2 .img-2 .mask{width:102px;height:67px;}
+ .m2 .img-1 .mask{width:286px;height:146px;}
+ .mask{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3;background-color:#333;display:block;position:absolute; left:0px;top:0px;}
+.maskbox:hover .mask{display:none;}
+.maskbox{position:relative; }
+
+.m3{margin-top: 5px}
+.m3 .tit{width: 86px;height: 29px;float:left;
+		background: url(../img/dagong.png) no-repeat;
+		overflow: hidden;margin-right: 10px;
+}
+.m3 .lis{width: 440px;float: left;padding-top: 10px}
+.m3 .lis li{float: left;margin-right: 5px;display: inline;}
+.m3 a:hover{color: #FC8801}
+.m5 {padding-top: 20px}
+.m5 .imgcell{width:42px;height:42px;overflow: hidden;float: left;}
+.m5 .imgcell img{width: 42px;height: 42px}
+.m5  li{border-bottom: 1px solid #000;padding:7px 0 7px 3px;}
+.m5 .pcell{width: 100px;float: left;padding-top: 10px;padding-left: 5px}
+.m5 .pcell h3 a{color: #fff}
+.w-l{width: 836px;float: left;overflow: hidden;}
+.w-r{width: 165px;float: right;overflow: hidden;}
+
+.foot{padding-top: 20px;position: relative;}
+
+.address{text-align: center;color: #fff}
+.address b{font-weight: bold;}
+.info{width: 271px;
+    background: url(../img/foot-info.png) no-repeat;
+    height: 59px; 
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: -7px
+}
+.info div{text-align: center;padding-top: 20px}
+.info a{color: #fff}
+
+.product{margin-top: 10px}
+.sidebar{float: left;width: 170px;background: url(../img/sidebg.png) no-repeat;height: 630px;padding: 5px}
+.box{width: 740px;float: right;}
+.sidebar h2{color:#181818;font-size: 22px;line-height: 30px;}
+.sidebar h3{font-size: 12px;line-height: 14px;color: #fff;text-align: right;background:#627362;}
+
+.sidelist{
+	height: 400px;
+}
+.sidelist li {background: url(../img/list.gif) no-repeat 0 10px;padding: 3px 3px 3px 10px}
+.sidelist li.on{background: url(../img/liston.gif) no-repeat 0 10px;padding-left: 15px;font-weight: bold;}
+
+.imglist li{width: 180px;height: 46px;overflow: hidden;margin-top: 5px}
+
+.box .prban{width: 740px;height: 160px}
+.box .prban img{width: 740px;height: 160px}
+
+.box h1{font-size: 20px;color: #1e1e1e; margin-top: 10px}     
+.box h1 span{font-size: 12px;color: #bbb}
+
+.conbox .r{width: 173px;height: 412px;float: right;}
+.conbox .l{width: 560px;float: left;}
+.conbox .l p{padding: 10px}
+.tit1{font-size: 16px;line-height: 18px;color:#1e1e1e;}
+
+.tit2{font-size: 16px;line-height: 18px;color: #D25B23}
+
+.tit3{font-size: 16px;line-height: 18px;color: #825B3A}

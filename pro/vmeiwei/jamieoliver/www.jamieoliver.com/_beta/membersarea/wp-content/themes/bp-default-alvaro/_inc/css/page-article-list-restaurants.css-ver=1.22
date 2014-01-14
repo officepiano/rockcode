@@ -1,0 +1,985 @@
+	/* ALV: my fixes */
+	
+	div#content.restaurants .main_pic_data h2 {
+		font-family: Georgia;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 10px 0px 8px 10px;
+		line-height: 16px;
+		text-transform: none;
+	}
+
+	
+	div#content.restaurants a.button {
+		font: 1em "Courier New", Courier, monospace;
+		text-align: center;
+		text-transform: uppercase;
+		cursor: pointer;
+		display: inline-block;
+		padding: 8px 14px 5px;
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		
+		-webkit-box-shadow: 0px 0px 1px #b4b4b4;
+		   -moz-box-shadow: 0px 0px 1px #b4b4b4;
+		     -o-box-shadow: 0px 0px 1px #b4b4b4;
+			    box-shadow: 0px 0px 1px #b4b4b4;
+	}
+	
+	
+	div#content.restaurants a.slide_btn {
+		width: auto;
+		margin-left: 12px;
+		margin-top: 5px;
+		
+		border: 1px solid #c5c5c5;
+		background: #f6f6f6;
+		color: #999;
+		
+		padding: 5px 14px 2px;
+	}
+	div#content.restaurants a.slide_btn:hover {
+		background: #fff;
+		color: #999;
+	}
+	
+	
+	div#content.restaurants section.grid1 .col1 {
+    	margin: 0;
+    	width: 620px;
+	}
+	.header-col2 .widget {
+		margin-bottom: 22px;
+	}	
+	.breadcrumb {
+	/*	margin-bottom: 25px;*/
+	}
+	
+	#content .dropdown-month {
+		width: 300px;
+		padding-left: 0px;	
+	}
+	
+	/* end alv: */
+	
+	/* reset css for howto pages */
+	div#content.restaurants .book_table_holder nav#jo {
+		width: 260px;
+		background: transparent;
+		float: left;
+		display: inline-block;
+		font-size: 13px;
+		margin-left: 20px;
+		margin-top: 80px;
+		height: auto !important;
+		
+		position: relative;
+		z-index: 1000;
+	}
+	
+	div#content.restaurants .book_table_holder nav#jo form,
+	div#content.restaurants .book_table_holder nav#jo select {width: 260px;}
+	div#content.restaurants .book_table_holder nav#jo option {width: 230px;}
+	
+
+	div#content.restaurants .book_table_holder nav#jo .sbHolder {
+    	font-size: 13px;
+		padding-top: 2px;
+		margin:0;
+		width:100%;
+		background /*\**/: #fff\9;
+	}
+
+	div#content.restaurants .book_table_holder nav#jo .sbOptions {
+    	width: 258px;
+		text-align: left;
+	}
+	div#content.restaurants .book_table_holder .sbToggle:hover {
+    	background: url(../images/forms/select-arrow.png) 12px 6px no-repeat;
+	}
+	
+	
+	div#content.restaurants #content .cntr {
+    	padding: 0;
+    	width: 320px;
+	}
+	
+
+	div#content.restaurants section.grid1 .col1 {
+    	margin: 0;
+    	width: 300px;
+	}
+	/* end reset */
+	
+
+
+	div#content.restaurants {
+	}
+	
+	
+	
+	
+	div#content.restaurants #top_restaurants_bg {
+		background: url(../images/top_restaurants_bg.png);	
+	}
+
+	/*added by DAN*/	
+	div#content #top_restaurants_bg .sliding { }
+	div#content #top_restaurants_bg .col.sliding {width: 620px; float: left; margin-right: 20px; }
+	div#content #top_restaurants_bg .header-col2 {float: left; width: 300px; margin-top: 30px;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-6 {background: #f8eee0; }
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-7 {display: block; width: 300px; height: 250px; background: #f8eee0;}
+	div#content #top_restaurants_bg .cntr {overflow: visible;}
+	div#content.restaurants #top_restaurants_bg .header-col2 #text-7 {display: none;}
+	/* .......   */
+	
+
+	div#content.restaurants .restaurants_top_left_holder {
+		display: block;
+		float: left;
+		width: 320px;
+		margin-right: 0px;
+	}
+	
+	div#content.restaurants .restaurants_top_left_holder section {
+		width: 320px;
+		display: block;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+	
+/*	div#content.restaurants .restaurants_slider_holder {
+		display: block;
+		float: left;
+		width: 320px;
+		height: 295px;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	*/
+	
+	
+	div#content.restaurants .restaurants_top_right_holder {
+		width: 300px;
+		display: block;
+		float: left;
+	}
+	
+	div#content.restaurants .book_table_holder {
+		width: 300px;
+		height: 118px;
+		display: block;
+		float: right;
+		background: url(../images/book_table_drop_bg.png) no-repeat;
+	}
+	
+	
+	div#content.restaurants .mpu_advert {
+		width: 300px;
+		height: 250px;
+		display: block;
+		float: left;
+		margin-top: 22px;
+	}
+	
+	
+	
+	
+	div#content.restaurants #mid_restaurants_bg {
+		background: #fff;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		line-height:18px;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	
+	div#content.restaurants #mid_restaurants_bg .middle-widget {float: left; width: 150px;}
+	div#content.restaurants #mid_restaurants_bg .middle-widget#text-12 {margin-left: 10px;}
+	
+	div#content.restaurants .restaurants_menus_holders {
+
+		height: 180px;
+		display: block;
+		float: left;
+		border-right: 1px dashed #ccc;
+		text-align: center;
+		
+		margin-bottom: 20px;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders.recipease_menu {width: 290px; padding-right: 10px;}
+		div#content.restaurants .restaurants_menus_holders.recipease_menu .image {width: 290px; float: left;}
+		div#content.restaurants .restaurants_menus_holders.recipease_menu .link {width: 140px; float: left;}
+	
+	div#content.restaurants .restaurants_menus_holders.last_menus {
+		border-right:;
+	}
+
+	div#content.restaurants .restaurants_menus_holders a {		
+		width: 156px;
+		overflow: hidden;
+		height: auto;
+		display: block;
+		float: left;
+		margin: 2px 0;
+	}
+	div#content.restaurants .middle-widget a {color:#666;}
+	div#content.restaurants .middle-widget a:hover { color:#01B1ED;  }
+	
+	div#content.restaurants .restaurants_menus_holders a img {
+		margin-bottom: 6px;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders_last {
+		width: 300px;
+		height: auto;
+		display: block;
+		float: left;
+		margin-left: 13px;
+		position: relative;
+		font-size:0.9em; /* ALV:*/
+	}
+	
+	/* */
+	div#content.restaurants .recipease_vouchers_holder {
+		width: 300px;
+		height: auto;
+		display: block;
+		float: left;
+		margin-left: 0;
+	}
+	/**/
+	
+	div#content.restaurants .restaurants_menus_holders_last div.cooking_lessons_info {
+		position: absolute;
+		z-index: 1;
+		width: 275px;
+		height: 115px;
+		top: 50px;
+		left: 12px;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders_last span {
+		display: block;
+		float: left;
+		width: 100%;
+		color: #f7ede0;
+		font-weight: bolder;
+	}
+	div#content.restaurants .restaurants_menus_holders_last span.recipease_header {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		padding: 8px 0 0 0;
+	}
+	div#content.restaurants .restaurants_menus_holders_last span.recipease_title {
+		text-align: center;
+		text-transform: none;
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: 8px 0 0 0;
+	}
+	div#content.restaurants .restaurants_menus_holders_last span.recipease_txt {
+		text-align: center;
+		text-transform: none;
+		font-weight: bold;
+		font-size: 0.9em;
+		padding: 2px 0 0 0;
+	}
+	div#content.restaurants .restaurants_menus_holders_last span.recipease_info {
+		text-align: left;
+		text-transform: none;
+		font-weight: bold;
+		font-size: 0.9em;
+		padding: 14px 0 0 50px;
+		width: 50%;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders_last button {
+		position: absolute;
+		z-index: 9;
+		bottom: 47px;
+		right: 26px;
+		
+		background: #be2525;
+    	border: 1px solid #cecece;
+    	
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		
+		-moz-box-shadow: 1px 1px 2px #000;
+		-o-box-shadow: 1px 1px 2px #000;
+  		-webkit-box-shadow: 1px 1px 2px #000;
+  		box-shadow: 1px 1px 2px #000;
+		
+		color: #fff;
+    	cursor: pointer;
+    	display: block;
+    	font: 0.75em "Courier New",Courier,monospace;
+		padding: 1px 5px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	width: auto;
+		
+		
+		bottom /*\**/: 85px\9;	
+	}
+	
+	*+html div#content.restaurants .restaurants_menus_holders_last button {
+		width: 70px;
+		bottom: 75px;
+	}
+	
+	
+	div#content.restaurants .restaurants_menus_holders_last button:hover {
+		background: #d52a2a;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders_last img {
+		display: block;
+		float: left;
+	}
+	div#content.restaurants .restaurants_menus_holders_last p {
+		display: block;
+		float: left;
+		padding: 0px 0 0 0;
+		margin:0;
+	}
+	div#content.restaurants .restaurants_menus_holders_last p a {
+		display: inline-block;
+		padding-right: 25px;
+	}
+	div#content.restaurants .restaurants_menus_holders_last p a:last-child {
+		padding-right: 0;
+	}
+	
+	
+	
+	
+	
+	div#content.restaurants #restaurant_blogs_top_bg {
+		background: #f7ede0 url(../images/restaurant_blogs_top_bg.png) top repeat-x;
+		display: block;
+		float: left;
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	div#content.restaurants #restaurant_blogs_top_bg2 {
+		background: #f7ede0;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	
+	
+	div#content.restaurants .restaurants_blog_entry {
+		width: 100%;
+		display: block;
+		float: left;
+		text-align: center;
+		border-bottom: 1px dashed #ccc;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	div#content.restaurants .restaurants_blog_entry h1 {
+		font: 2.5em Georgia;
+		margin: 0;
+		padding: 20px 0 15px 0;
+		background: url(../images/header_dashed_line.png) center bottom no-repeat;
+	}
+	
+	
+	div#content.restaurants .restaurants_blog_holder {
+		display: inline-block;
+		margin-top: 20px;
+	}
+	
+	div#content.restaurants .restaurants_blog_holder p {
+		display: inline-block;
+	}
+	
+	div#content.restaurants .restaurants_blog_holder span.filter_holder {
+		display: inline-block;
+		width: 175px;
+	}
+	
+	div#content.restaurants span.filter_holder nav#jo {
+		width: 175px;
+		background: transparent;
+		float: left;
+		display: inline-block;
+		font-size: 13px;
+		margin-left: 10px;
+		margin-top: 0;
+		height: auto !important;
+		
+		position: relative;
+		z-index: 9999999;
+		top: 5px;
+	}
+
+	div#content.restaurants span.filter_holder nav#jo .sbHolder {
+    	font-size: 13px;
+		padding-top: 3px;
+		
+		background /*\**/: #fff\9;
+	}
+	div#content.restaurants span.filter_holder nav#jo .sbOptions {
+    	width: 173px;
+		text-align: left;
+	}
+	div#content.restaurants span.filter_holder .sbToggle:hover {
+    	background: url(../images/forms/select-arrow.png) 12px 6px no-repeat;
+	}
+	
+	
+	div#content.restaurants .blogs_contents_holder {
+		width: 320px;
+		display: block;
+		float: left;
+		padding-bottom: 30px;
+	}
+	
+	div#content.restaurants .blog_content {
+		width: 320px;
+		display: block;
+		float: left;
+		border-bottom: 1px dashed #ccc;
+		padding-bottom: 30px;
+		margin-bottom: 15px;
+		padding-top: 15px;
+	}
+	
+	div#content.restaurants .blog_content h1 {
+		font: bold 1.5em "Courier New", Courier, monospace;
+		color: #4d5762;
+		margin: 0;
+		padding: 0 0 5px 0;
+	}
+	
+	div#content.restaurants .blog_content span {
+		font: 0.8em Arial, Helvetica, sans-serif;
+		color: #999;
+		display: inline;
+		padding: 0;
+		margin: 0;
+	}
+	div#content.restaurants .blog_content span a {
+		color: #47a8d8;
+	}
+	div#content.restaurants .blog_content img {
+		display: block;
+		margin: 20px 0 10px 0;
+		
+		width: 320px;
+		height: 212px;
+		
+		
+	}
+	
+	div#content.restaurants .blog_content p {
+		display: block;
+		padding: 10px 0;
+	}
+	
+	div#content.restaurants .blog_content button {
+		
+		background: #f6f6f6;
+    	border: 1px solid #cecece;
+    	
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		
+		-moz-box-shadow: 1px 1px 1px #848484;
+		-o-box-shadow: 1px 1px 1px #848484;
+  		-webkit-box-shadow: 1px 1px 1px #848484;
+  		box-shadow: 1px 1px 1px #848484;
+		
+		color: #be2525;
+    	cursor: pointer;
+    	display: block;
+    	font: 0.9em "Courier New",Courier,monospace;
+		padding: 2px 60px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	width: auto;
+		margin: auto;
+	}
+	
+	div#content.restaurants .blog_content button:hover {
+		background: #fff;
+	}
+	
+	
+	
+	div#content.restaurants .restaurants_blog_right_content {
+		width: 314px;
+		display: block;
+		float: left;
+		border-left: none;
+		padding-bottom: 20px;
+	}
+	
+	.advert1 {
+		float: right;
+	}
+	
+	div#content.restaurants .gift_voucher_holder {
+		width: 300px;
+		height: 292px;
+		display: block;
+		float: right;
+		position: relative;
+		margin-top: 15px;  
+	}
+	
+	div#content.restaurants .gift_voucher_holder img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+	
+	
+	div#content.restaurants .gift_voucher_holder button {
+		
+		position: absolute;
+		z-index: 9;
+		bottom: 50px;
+		
+		background: #f6f6f6;
+    	border: 1px solid #cecece;
+    	
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		
+		-moz-box-shadow: 1px 1px 1px #848484;
+		-o-box-shadow: 1px 1px 1px #848484;
+  		-webkit-box-shadow: 1px 1px 1px #848484;
+  		box-shadow: 1px 1px 1px #848484;
+		
+		color: #be2525;
+    	cursor: pointer;
+    	display: block;
+    	font: 0.9em "Courier New",Courier,monospace;
+		padding: 2px 10px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	width: auto;
+		margin: auto;
+	}
+	
+	div#content.restaurants .gift_voucher_holder button.buy_voucher1 {
+		left: 30px;
+	}
+	div#content.restaurants .gift_voucher_holder button.buy_voucher2 {
+		right: 30px;
+	}
+	
+	*+html div#content.restaurants .gift_voucher_holder button.buy_voucher1 {
+		width: 110px;
+	}
+	*+html div#content.restaurants .gift_voucher_holder button.buy_voucher2 {
+		width: 110px;
+	}
+	
+	
+	
+	/* pagination style */
+	
+	.light-theme {
+		display: block;
+		float: left;
+		padding: 0;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.light-theme span {
+		float: left;
+		display: inline-block;
+	}
+
+	.light-theme a {
+		font: 1.1em Georgia;
+		font-weight: normal;
+		line-height: 2em;
+		float: left;
+		padding: 0 6px;
+		margin: 0 3px 0 0;
+		min-width: 14px;
+		color: #666;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.light-theme span {
+		font: 1.1em Georgia;
+		font-weight: normal;
+		line-height: 2em;
+		float: left;
+		padding: 0 6px;
+		margin: 0 3px 0 0;
+		min-width: 14px;
+		color: #666;
+		text-align: center;
+	}
+
+	.light-theme a.prev, .light-theme  a.next {
+		font-size:14px;
+		font-weight: normal;
+		line-height:24px;		
+		float: left;
+		padding: 0;
+		margin: 0 5px 0 0;
+		width: 36px;
+		height: 36px;
+		color: #666;
+		text-align: center;
+		text-indent: -9999px;
+	}
+	.light-theme a.prev {
+		background: url(../images/prev_pagination.png) no-repeat;
+	}
+	.light-theme a.next {
+		background: url(../images/next_pagination.png) no-repeat;
+	}
+
+	.light-theme a {
+		text-decoration: none;
+	}
+	.light-theme a:hover {
+		text-decoration: none;
+		color: #33d3a7;
+	}
+
+	.light-theme .current {
+		color: #33d3a7;
+		box-shadow: none;
+	}
+
+	.light-theme .ellipse {
+		background: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		font-weight: bold;
+	}
+	/* end */
+	
+	
+	div#content.restaurants #restaurants_lower_content_bg {
+		background: #f7ede0;
+		border-top: 1px dashed #ccc;
+		padding: 50px 0;
+		
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	
+	div#content.restaurants .bottom_content {
+		width: 100%;
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	div#content.restaurants .bottom_content p {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	div#content.restaurants .bottom_content p img {
+		position: relative;
+		top: 5px;
+		margin-right: 10px;
+	}
+	
+	div#content.restaurants .bottom_content p.facebook_like {
+		color: #555;
+		font: 0.8em Arial, Helvetica, sans-serif;
+	}
+	
+	div#content.restaurants .bottom_content .leaderboard_advert {
+		width: 728px;
+		height: 90px;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		
+		display: none;
+	}
+	
+	
+@media only screen and (min-width: 320px){  
+	div#content.restaurants .restaurants_menus_holders {
+		width: 149px; /* ALV: to display in 2 columns*/
+	}
+	div#content.restaurants .restaurants_menus_holders a img {	
+		max-width:140px; /* ALV: otherwise it looks too close to the border */
+	}
+		
+		
+		
+
+}	
+	
+	
+	/*Added by DAN */	
+		
+@media only screen and (min-width: 480px){ 
+	div#content #top_restaurants_bg .sliding {}
+	div#content #top_restaurants_bg .header-col2 {margin-left: 80px; margin-top: 20px;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-6 {margin-top: 20px; margin-left: 10px;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-7 {background: #f8eee0; clear: none; margin-top: 0; margin-left: 10px;}
+	
+	/*div#content.restaurants .recipease_vouchers_holder {margin: -240px 0 0 -65px; position: absolute;}*/
+	
+	div#content.article-list .promotions-bottom .blog-page {margin-left: 10px;}
+	div#content.restaurants .restaurants_menus_holders {width: 156px;}
+	div#content.restaurants .restaurants_menus_holders a {width: 156px;}
+	#content .widget.widget_sp_image {margin-left: 80px;}
+	#content .widget_text#text-13 {margin-left: 80px;}
+	
+	div#content.restaurants .restaurants_menus_holders.recipease_menu {width: 293px;}
+	
+	div#content.restaurants #mid_restaurants_bg .middle-widget {float: left; width: 157px;}
+	
+	div#content.restaurants section.grid1 .col1 {width: 460px;}
+	
+}
+/*... */
+	
+
+/* all the rest updated by DAN */
+@media only screen and (min-width: 700px){ 
+	
+	div#content #top_restaurants_bg .sliding {margin-left: 40px;}
+	div#content #top_restaurants_bg .header-col2 {margin-left: 40px; margin-top: 0; width: 620px;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-6 {background: #f8eee0; margin-left: 0; margin-top: 0;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-7 {display: block; background: #f8eee0; clear: none; margin-top: 20px; margin-left: 20px;}
+	
+	div#content.restaurants .recipease_vouchers_holder {margin: -220px 0 0 -605px; position: absolute;}
+	
+	div#content.article-list .promotions-bottom .blog-page {margin-left: 40px;}
+	
+	div#content.article-list aside {margin: 0;}
+	#content .widget.widget_sp_image {margin-left: 0;}
+	#content .widget_text#text-13 {margin-left: 0;}
+	
+	div#content.restaurants #content .cntr {
+    	padding: 0;
+    	width: 700px;
+	}
+	
+	div#content.restaurants section.grid1 .col1 {
+    	margin: 0;
+    	width: 700px;	
+	}
+	div#content.restaurants {}
+
+	div#content.restaurants section.grid3 .col4 {
+    	width: 620px;	
+	}
+	
+	
+	
+	
+	div#content.restaurants .restaurants_top_left_holder {
+		width: 620px;
+		margin-right: 20px;
+	}
+
+	div#content.restaurants .restaurants_top_left_holder section {
+		width: 620px;
+	}
+	
+	
+	div#content.restaurants .restaurants_slider_holder {
+		/*height: 385px;*/
+	}
+
+	
+	
+	
+	
+	
+	div#content.restaurants .restaurants_blog_right_content {
+    	border-left: none;
+    	width: 620px;
+	}
+	
+	div#content.restaurants .blogs_contents_holder {
+		width: 625px;
+		padding-bottom: 140px;
+	}
+	div#content.restaurants .blog_content {
+		width: 612px;
+	}
+	div#content.restaurants .blog_content img {
+		width: auto;
+		height: auto;
+	}
+	div#content.restaurants .restaurants_top_right_holder {
+    	width: 620px;
+	}
+	
+	
+	div#content.restaurants .mpu_advert {
+    	float: left;
+	}
+	
+	div#content.restaurants .book_table_holder {
+		margin-top: 22px;
+	}
+	
+
+	
+	
+	
+	div#content.restaurants .gift_voucher_holder {
+    	float: left;
+    	margin-top: 0;
+	}
+	
+	div#content.restaurants .bottom_content .leaderboard_advert {
+		display: none;
+	}
+	
+	
+	.light-theme {
+		width: 48%;
+		margin-left: 27%;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders.recipease_menu {width: 293px; margin-left: 147px; border-left: 1px dashed #CCCCCC; padding-right: 15px; padding-left: 25px;}
+	
+	div#content.restaurants #top_restaurants_bg .header-col2 #text-7 {display: block;}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 960px){  
+	
+	div#content #top_restaurants_bg .sliding {margin-left: 0;}
+	div#content #top_restaurants_bg .header-col2 {width: 300px; margin-left: 0;}
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-6 {background: #f8eee0; margin-top: 0; }
+	div#content.restaurants #top_restaurants_bg .header-col2  #text-7 {background: #f8eee0; clear: none; margin-top: 2px; margin-left: 0; clear: left;}
+	
+	div#content.restaurants .recipease_vouchers_holder {margin: 25px 0 0 10px;}
+	div#content.article-list .promotions-bottom .blog-page {margin-left: 0;}
+	
+	div#content.restaurants {}
+	
+	div#content.restaurants #content .cntr {
+    	padding: 0;
+    	width: 940px;
+	}
+	
+	div#content.restaurants section.grid1 .col1 {
+    	margin: 0;
+    	width: 620px;
+	}
+	
+	div#content.restaurants section.grid3 .col4 {
+    	width: 300px;
+	}
+	
+	div#content.restaurants .restaurants_top_right_holder {
+    	width: 300px;
+	}
+	div#content.restaurants .book_table_holder {
+		margin-top: 0;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders_last {
+		margin-top: 0;
+	}
+	
+	div#content.restaurants .restaurants_blog_right_content {
+    	border-left: 1px dashed #ccc;
+    	width: 314px;
+	}
+	
+	div#content.restaurants .gift_voucher_holder {
+    	float: right;
+    /*	margin-top: 15px;*/
+	}
+	
+	div#content.restaurants .bottom_content .leaderboard_advert {
+		display: block;
+	}
+	
+	div#content.restaurants .restaurants_menus_holders.recipease_menu {width: 290px; border-left: none; padding-right: 10px; padding-left: 0; margin-left: 0;}
+		
+}
+
+
+
+
+
+
+
+/* ie image slide fix */
+
+.flexslider ul li div.main_pic img {
+	width/*\**/: 620px\9;
+	height/*\**/: auto\9;
+}
+
+
+
+.right_carousel_holder {
+	width: 300px;
+	height: 380px;
+	overflow: hidden;
+}
+
+#content .slider_holder.promo-landscape .main_pic_data h2 {
+	width: 240px;
+	text-align: left;
+}
+
+div#content .slider_holder.promo-landscape div.main_pic div.main_pic_data {
+	width: 260px;
+	height: 120px;
+	text-align: left;
+	bottom: 45px;
+}
+
+#content .slider_holder.promo-landscape .main_pic_data h2 {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.flex-control-nav {
+	position: absolute;
+	top: 330px;
+	left: 180px;
+	width: 260px;
+	background: none;
+	text-align: left;
+	z-index: 100020;
+}

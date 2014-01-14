@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+input{  border:1px solid #C8CCCA;box-shadow:1px 1px 1px #dce0de;}
+.zhuce-centent{ width:950px; height:632px; margin:0 auto; }
+.zc-center img{ border:0;}
+.zhuce dl{ float:left; background-image:url(../images/center-c.jpg); width:507px; height:365px;  padding:30px 0 30px 50px;}
+.zhuce dt{float:left; font-size:16px;padding:8px 0 4px;width:120px; text-align:right; color:#000;}
+.zhuce dd{ text-align:left;height:auto;padding:5px 0; }
+.zhuce input,select{ height:30px;vertical-align:middle;font:14px/30px Arial,Helvetica, sans-serif;width:200px;}
+.radio{ padding-top:8px;}
+.radio input{ width:20px; height:20px; border:0;}
+.yanzheng input{height:30px; line-height:30px; vertical-align:middle;color:#333333;  font:12px Arial, Helvetica, sans-serif; width:100px;  margin-right:5px;}
+.red{ color:#F00; margin-left:5px; margin-top:5px;}
+#yzm{ float:left;}
+#button{ background-image:url(../images/zhuce-btn.jpg);width:96px; height:42px; border:0;cursor:pointer; font-size:18px; line-height:42px; text-align:center;}

@@ -1,0 +1,961 @@
+
+
+/*--------------------------------------------------------------
+2.0 - Structural
+--------------------------------------------------------------*/
+body {
+/*	DAN: deleted the WP body rules to make it look like Dan's
+	background-color: #eaeaea;
+	background-image: url( ../images/background.gif );
+	background-repeat: repeat-x;
+	background-position: top left;
+	color: #555;
+	font-size: 13px;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	line-height: 170%;
+	max-width: 1250px;
+	margin: 0 auto;
+	width: 95%; */
+}
+.padder {
+	padding: 19px;
+}
+div.cntr {
+	/* DAN: we delete the WP rules to use only DAN's */
+	/*background: #fff;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;*/
+}
+body.activity-permalink div.cntr {
+	background: none;
+	border: none;
+}
+
+
+/*--------------------------------------------------------------
+2.1 - Content
+--------------------------------------------------------------*/
+div#content {
+	/*
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	*/
+	/*no need for it imad*/
+	float: left;
+	width: 100%;
+}
+
+
+body {
+	font-family: "Courier New", Courier, monospace; 
+	font-size: 13px; 
+	line-height: 18px; 
+	letter-spacing: 0.5px;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h4, h5, h6 {
+	font-family: "Courier New", Courier, monospace;
+}	
+
+h1 {
+	font-size: 35px; 
+	line-height: 35px; 
+	margin: 26px 0 22px;
+}
+h2 {
+	font-size: 35px; 
+	line-height: 35px; 
+	margin: 26px 0 22px;
+}
+h3 {
+	font-size: 15px; 
+	line-height: 22px; 
+}
+h4 {
+	font-size: 13px; 
+	letter-spacing: 0.5px;
+}
+
+h5 {}
+h6 {}
+	
+p {}
+a {}
+
+	/* Content */
+	#content .cntr {
+		width:940px; 
+		padding: 0;
+	}
+	.cntr {
+		width: 940px; 
+		margin: 0 auto;
+	}
+
+	/* Global nav */
+	nav#global {
+		margin: 0 auto -9px auto; 
+		width: 100%; 
+		height: 36px; 
+		background: transparent url(../images/header/nav-global-bg-tile.png) 0 0 repeat-x; 
+		overflow: hidden;
+	}
+	nav#global .cntr {
+		height: 35px; 
+		background: url(../images/header/nav-global-bg-d.png) 0 0 no-repeat; 
+		width: 960px;
+	}
+	
+	/* Top bar */
+	nav#global #global-bar a {
+		cursor:pointer;
+		color: #fff; 
+		font-size: 12px; 
+		letter-spacing: 1px; 
+		text-transform: uppercase; 
+	}
+	
+	nav#global a#quick_links_toggle {
+		float: left; 
+		width: 175px; 
+		height: 36px; 
+		background: transparent url(../images/header/nav-quick-link.png) 0 -38px no-repeat;
+	}
+	nav#global a#quick_links_toggle.active {
+		background-position: 0 0;
+	}
+	nav#global a#quick_links_toggle span {
+		display: block; 
+		margin: 5px 0 0 40px;
+	}
+	nav#global #global_links {
+		float: left; 
+		height: 33px; 
+		width: 510px; 
+		margin: 0; 
+		position: relative; 
+		left: 133px;
+	}
+	nav#global #global_links li {
+		float: left; 
+		margin: 0; 
+		position: absolute; 
+		text-align: center;
+	} 
+		
+	/* Positioning to disregard different font rendering */
+	nav#global #global_links .gn_1 {
+		left: 48px; 
+		width: 115px;
+	}
+	nav#global #global_links .gn_2 {
+		left: 177px; 
+		width: 100px;
+	}
+	nav#global #global_links .gn_3 {
+		left: 293px; 
+		width: 90px;
+	}
+	nav#global #global_links .gn_4 {
+		left: 398px; 
+		width: 52px;
+	}
+	nav#global #global_links .gn_5 {
+		left: 466px; 
+		width: 75px;
+	}
+	
+	nav#global #global_links li a {
+		display: block; 
+		height: 28px; 
+		line-height: 28px; 
+		text-decoration: none;
+	}
+	nav#global #global_links li.active a {
+	}
+	nav#global #global_links li a:hover {
+	}
+	
+	
+				
+					
+	/* Quick links */
+	nav#quick_links {
+		width: 100%; 
+		height: auto; 
+		background: #292929 url(../images/header/nav-quick-border.png) 0 bottom repeat-x;
+		padding: 0;
+	}
+	nav#quick_links .cntr {
+		clear: left; 
+		padding: 17px 0 9px; 
+		width: 940px;
+	}
+	nav#quick_links ul {
+		float: left; 
+		width: 170px; 
+		margin: 0 30px 0 0; 
+		padding: 10px 0; 
+	}
+	nav#quick_links ul li {
+	}
+	nav#quick_links ul li a {
+		color: #fff; 
+		text-decoration: none; 
+		font-size: 13px; 
+		letter-spacing: 1px;
+	}
+	nav#quick_links ul li.active a,
+	nav#quick_links ul li a:hover {
+		color: #45d9b1;
+	}
+	nav#quick_links ul li.heading {
+		color: #fff; 
+		font-size: 13px; 
+		letter-spacing: 1px; 
+		text-transform: uppercase; 
+		margin: 0 0 13px 0;
+	}
+	nav#quick_links .ql_1 {
+		clear: both; 
+		margin: 0 20px 0 0; 
+		padding-top: 10px;
+	}
+	nav#quick_links .ql_2 {
+		clear: none; 
+		margin: 0 20px 0 0; 
+		padding-top: 10px;
+	}
+	nav#quick_links .ql_3 {
+		margin: 0 20px 0 0; 
+		padding-top: 10px;
+	}
+	nav#quick_links .ql_4 {
+		clear: none; 
+		margin: 0 20px 0 0; 
+		padding-top: 10px;
+	}
+	
+	/* Top banner */
+			#top_banner .cntr {width: 970px; text-align: center;}
+				#top_banner .cntr iframe {max-width: 970px;}
+				
+	/* JO Nav */
+	
+	nav#jo {
+		width: 100%; 
+		height: 106px;
+		
+	}
+	
+	nav#meganav {top: 36px;}
+	
+	
+	nav#jo .cntr {
+		position: relative;
+	}
+	
+	nav#jo h2, nav#jo h3 {
+		display: block; 
+		position: absolute; 
+		top: 24px; 
+		left: 0; 
+		width: 304px; 
+		height: 38px; 
+		margin: 0; 
+		font-size: 1.875em; 
+		line-height: 1.25em;
+	}
+	nav#jo h2 a#logo, nav#jo h3 a#logo {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		width: 304px; 
+		height: 38px; 
+		background: #fff url('http://jamieoliverprod.s3.amazonaws.com/_beta/images/logo.gif') 0 0 no-repeat;
+		z-index: 2;
+	}
+	nav#jo h2 #title, nav#jo h3 #title {
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		text-decoration: none; 
+		color: #4e4e4d; 
+		font-size: 35px; 
+		padding: 2px 6px; 
+		letter-spacing: 1px;
+	}
+	
+	nav#jo #foodtube {width: 22px; height: 88px; position: absolute; left: 335px; top: 0px;}
+		nav#jo #foodtube a {display: block; width: 42px; height: 88px; outline: none; border: none; background: url(../images/header/foodtube.png) 0 0 no-repeat;}
+		
+	nav#jo #site_region {
+		position: absolute; 
+		right: 0; 
+		top: 10px;
+	}
+	nav#jo #site_region .input_submit {
+		display: none;
+	}
+	nav#jo #site_region .sbHolder {
+		width: 60px;
+	}
+	nav#jo #site_region .sbSelector, #site_region .sbOptions {
+		width: 60px;
+	}
+	nav#jo #global_search {
+		position: absolute; 
+		left: 410px; 
+		top: 26px; 
+		width: 283px; 
+		height: 28px; 
+		background: #fff url(../images/header/global_search_bg.png) 0 0 no-repeat;
+	}
+	nav#jo #member_login {
+		position: absolute; 
+		top: 32px; 
+		right: 0;
+	}
+	nav#jo #jo_nav {
+		width: 940px; 
+		font-size: 20px; 
+		letter-spacing: 1px; 
+		position: absolute; 
+		top: 70px;
+	}
+	nav#jo #jo_nav > li {
+		float: left; 
+		position: absolute;
+		height: 25px;
+		padding-top: 10px;
+	}
+	nav#jo #jo_nav > li a {
+		text-decoration: none; 
+		text-transform: uppercase;
+	}
+	nav#jo .nav_home {
+		top: 0; 
+		left: 0px;
+	}
+	nav#jo .nav_recipes {
+		top: 0; 
+		left: 98px;
+	}
+	nav#jo .nav_books_tv {
+		top: 0; 
+		left: 231px;
+	}
+	nav#jo .nav_videos {
+		top: 0; 
+		left: 404px;
+	}
+	nav#jo .nav_howto {
+		top: 0; 
+		left: 458px;
+	}
+	nav#jo .nav_news_blogs {
+		top: 0; 
+		left: 530px;
+	}
+	
+	nav#jo .nav_forum {
+		top: 0; 
+		left: 705px;
+	}
+	
+	nav#jo .nav_restaurant {
+		top: 0; 
+		left: 711px;
+	}
+	nav#jo .nav_promotions {
+		top: 0; 
+		right: 0px;
+	}
+		
+	
+	nav#jo #jo_nav > li.nav_recipes {padding-right: 14px; background: url(../images/header/dropdown-arrow.png) right 12px no-repeat;}
+	nav#jo #jo_nav > li.nav_recipes.active {background: url(../images/header/dropdown-arrow.png) right -23px no-repeat;}
+	
+	nav#jo #jo_nav > li.nav_books_tv {padding-right: 14px; background: url(../images/header/dropdown-arrow.png) right 12px no-repeat;}
+	nav#jo #jo_nav > li.nav_books_tv.active {background: url(../images/header/dropdown-arrow.png) right -23px no-repeat;}
+
+	/* Footer */
+	footer .footer_bottom {
+		width: 940px; 
+		font-size: 0.75em; 
+		color: #666;
+	}
+	footer .cntr {
+		padding: 40px 0 0 0; 
+		width: 940px;
+		overflow: visible;
+	}
+	footer h4 {
+		font-size: 13px; 
+		color: #333; 
+		text-transform: uppercase; 
+		margin: 0;
+	}
+	footer p {
+		font-size: 13px; 
+		line-height: 22px; 
+		color: #666;
+	}
+	footer a {
+		font-size: 13px; 
+		line-height: 22px; 
+		color: #666; 
+		text-decoration: none;
+	}
+	footer a:hover {
+		text-decoration: underline;
+	}
+	footer .col {
+		float: left; 
+		height: 160px;
+	}
+	footer .col_1 {
+		width: 85px; 
+		padding: 0 25px 0 0;
+	}
+	footer .col_2 {
+		width: 135px; 
+		padding: 0 25px 0 30px; 
+		border-left: 1px dashed #E0E0E0; 
+		border-right: 1px dashed #E0E0E0;
+	}
+	footer .col_3 {
+		width: 190px; 
+		padding: 0 25px 0 30px;
+	}
+	footer .col_4 {
+		width: 55px; 
+		padding: 0 25px 0 30px; 
+		border-left: 1px dashed #E0E0E0; 
+		border-right: 1px dashed #E0E0E0;
+	}
+	footer .col_5 {
+		width: 251px; 
+		height: 150px; 
+		padding: 0 0 0 30px;
+		
+		height: 180px\0/;
+	}
+	footer .col_5 h4 {
+		display: none;
+	}
+	footer .col_5 h4 span {
+		display: none;
+	}
+	footer .col_5 img {
+		position: absolute; 
+		left: 5px; 
+		top: 0; 
+		max-width: 264px;
+	}
+	footer .col_5 ul {
+		display: block; 
+		font-size: 11px; 
+		line-height: 18px; 
+		position: absolute; 
+		left: 130px; 
+		top: 52px;
+	}
+	footer .col_5 #magazine-subscribe {
+		position: absolute; 
+		top: 110px; 
+		left: 132px; 
+		width: 87px;
+	}
+	footer .col_5 #magazine-subscribe.btn-white:link {
+		width: 86px;
+		margin-top: 40px\0/;
+	}
+	
+	
+
+			
+/* Grids */
+
+	section {
+		float: left; 
+		clear: left; 
+		margin: 0 0 20px 0; 
+		width: 100%;
+	}
+	section article {}
+	section .cntr {
+		margin: 0 auto;
+	}
+	
+	/* 1 column - full width */
+	section.grid1 {}
+	section.grid1 .col {
+		float: left;
+	}
+	section.grid1 .col1 {
+		width: 940px;
+	}
+	
+	/* 4 columns - equal widths */
+	section.grid2 {}
+	section.grid2 .col {
+		float: left;
+	}
+	section.grid2 .col1 {
+		width: 220px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid2 .col2 {
+		width: 220px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid2 .col3 {
+		width: 220px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid2 .col4{
+		width: 220px; 
+		margin: 0; 
+		display: block;
+	}
+	
+	/* 4 columns- 3 content, 1 mpu */
+	section.grid3 {}
+	section.grid3 .col {
+		float: left;
+	}
+	section.grid3 .col1{
+		width: 190px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid3 .col2 {
+		width: 190px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid3 .col3 {
+		width: 190px; 
+		margin: 0 30px 0 0; 
+		display: block;
+	}
+	section.grid3 .col4 {
+		width: 300px; 
+		margin: 0;
+	}
+	
+	/* 3 columns- 2 content, 1 mpu */
+	section.grid4 {}
+	section.grid4 .col {
+		float: left;
+	}
+	section.grid4 .col1 {
+		width: 240px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid4 .col2 {
+		width: 350px; 
+		margin: 0 30px 0 0;
+	}
+	section.grid4 .col3 {
+		width: 300px; 
+		margin: 0;
+	}
+	
+	/* 3 columns- equal widths */		
+	section.grid5 {}
+	section.grid5 .col {
+		float: left;
+	}
+	section.grid5 .col1 {
+		width: 304px; 
+		margin: 0 14px 0 0;
+	}
+	section.grid5 .col2 {
+		width: 304px; 
+		margin: 0 14px 0 0;
+	}
+	section.grid5 .col3 {
+		width: 304px; 
+		margin: 0;
+	}
+	
+	/* Nate additions to grid */
+	/* 2 columns 1 content 1 aside */
+	section.grid6 {}
+	section.grid6 article, section.grid6 aside {
+		float: left;
+	}
+	section.grid6 .col1 {
+		width: 620px; 
+		margin: 0;
+	}
+	section.grid6 .col2 {
+		width: 300px; 
+		margin: 0; 
+		padding-left: 20px;
+	}
+	
+	/* 2 columns 1 content 1 aside */
+	section.grid6b {}
+	section.grid6b article, section.grid6b aside {
+		float: left;
+	}
+	section.grid6b .col1 {
+		width: 300px; 
+		margin: 0 20px 0 0;
+	}
+	section.grid6b .col2 {
+		width: 620px; 
+		margin: 0;
+	}
+	
+	/* 2 big content 2 small content */
+	section.grid7 {}
+	section.grid7 article {
+		float: left;
+	}
+	section.grid7 .col1 {
+		width: 307px; 
+		margin: 0 10px 0 0; 
+		display: block;
+	}
+	section.grid7 .col2 {
+		width: 148px; 
+		margin: 0 10px 0 0;
+		display: block;
+	}
+	section.grid7 .col3{
+		width: 148px; 
+		margin: 0 10px 0 0;
+		display: block;
+	}
+	section.grid7 .col4 {
+		width: 307px; 
+		margin: 0;
+		display: block;
+	}
+	
+	/* 2 even 50% splits */
+	section.grid8 {}
+	section.grid8 article {
+		float: left;
+	}
+	section.grid8 .col1 {
+		width: 450px; 
+		margin: 0 40px 0 0;
+	}
+	section.grid8 .col2 {
+		width: 450px; 
+		margin: 0;
+	}
+	/* Nate additions to grid — ENDS */
+	
+	/* 3 columns- equal widths - FOR CAROUSELS*/		
+	section.grid9 {}
+	section.grid9 .col {
+		float: left;
+	}
+	section.grid9 .col1 {
+		width: 304px; 
+		margin: 0 14px 0 0;
+	}
+	section.grid9 .col2 {
+		width: 304px; 
+		margin: 0 14px 0 0;
+	}
+	section.grid9 .col3 {
+		width: 304px; 
+		margin: 0;
+	}	
+	
+
+
+/* ALV ADDITIONAL STYLES TO SHARE ALONG THE SITE TO_DO: at some point many of them should go on mobile-portrait*/
+/*
+
+/*	~~~~~~~~~~~~~~~~~ BREADCRUMBS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	*/	
+
+	.breadcrumb {
+		display: block;
+		height: 24px;  /* this has to be the same as .facebook_like for DAN */
+		padding: 0 0 15px 0;
+		margin: 15px 0 0 0;
+	}	
+
+	.breadcrumb li {
+		display: inline-block;
+		margin-right: 7px;
+  		float: left;
+		color: #666;
+		font-size: 13px;
+		line-height: 22px;
+		letter-spacing: 1px;
+	}
+
+	.breadcrumb li a {
+		color: #666;
+		text-decoration: none;
+  		display: inline;
+	}
+
+
+/*--------------------------------------------------------------
+4.1 - Pagination
+--------------------------------------------------------------*/
+
+	.bbp-pagination { 
+		clear: both; 
+		padding: 20px 0;
+		font-family: Georgia;
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	
+	.bbp-pagination-links {
+		margin: auto;
+	}
+	
+	.bbp-pagination-links .page-numbers {
+		margin: 0 10px; 
+		color: #999; 
+		text-decoration: none;
+	}
+	
+	.bbp-pagination-links .page-numbers.current {
+		margin: 0 10px; 
+		color: #33d3a7;
+	}
+	
+	a.page-numbers:hover {
+		color: #666;
+	}
+	
+	.bbp-pagination .prev span, .bbp-pagination .next span{
+		/*
+		width: 36px; 
+		height: 36px;	
+		text-indent: 100px; 
+		overflow:hidden;
+		*/
+	
+		background: transparent url('../images/pagination-arrows.png') no-repeat left top;
+		padding: 0 19px 18px 18px;
+		position: absolute;
+		margin-top: -3px;
+		margin-left: -23px;
+	} 
+	
+	.bbp-pagination .prev span { 
+		padding: 0 19px 14px 14px;  
+		margin-left: -35px; /* doesnt look the same in chrome and firefox */ 
+	}
+	
+	.bbp-pagination .next span { 
+		background-position: -36px 0; 
+		margin-left: -13px;
+	}
+	
+	.bbp-pagination .prev:hover span { 
+		background-position: 0px -36px;
+	}
+	
+	.bbp-pagination .next:hover span { 
+		background-position: -36px -36px;
+	}
+	
+	/* SPECIAL BUTTONS STYLES  */
+	.grey-btn { /* the link, or button tag */
+		background: url('../images/global/grey-left.png') no-repeat top left;
+		font-family: courier, monospace;
+		color: #BE2525!important;
+		margin: 0;
+		padding: 0 0 0 4px;
+		text-decoration: none;
+		float: left;
+		width: 100%;
+		text-transform: uppercase;
+		letter-spacing: 0;
+	}
+	
+	.grey-btn span {
+		background: url('../images/global/grey-right.png') top right no-repeat;
+		float: left;
+		display: block;
+		width: 100%;
+		padding: 5px 0 3px 0;
+		text-align: center;
+	}
+	
+	.grey-btn:hover span {
+		background-position: right -29px; 
+		color: #fff;
+		color: #be2525 !important;
+	}
+	
+	.grey-btn:hover {
+		background-position: 0 -29px;
+	}
+	
+	.grey-btn:active span {
+		background-position: right -58px; 
+		color: #fff;
+		color: #be2525 !important;
+	}
+	
+	.grey-btn:active {
+		background-position: 0 -58px;
+	}
+
+
+	/* Widgets gobals */
+	
+	#content .widget h2 {
+		font-family: Georgia;
+		line-height: 21px;
+		text-transform: none;
+		font-weight: bold;
+		font-size: 14px;
+		margin-top: 3px;
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+		text-align: center;
+		display: block;
+		border-bottom: 1px solid #999;
+		letter-spacing: 0px;
+	}
+	
+	
+	/* ads style */
+	.leaderboard_footer_holder {
+		width: 100%;
+		display: none !important;
+		float: left;
+		border-top: 1px dashed #ccc;
+		padding: 0px 0 0px 0;
+		margin: 0;
+		margin-bottom: 0px;
+		text-align: center;
+		background: #f8ede0;
+		position: static;
+	}
+	
+	.footer_leaderboard {
+		width: 728px; 
+		height: 90px; 
+		display: block; 
+		margin: 0 auto;
+	}
+	
+	.mpu_Ad_holder {
+		float: left;
+		height: 250px;
+		width: 300px;
+		display: block;
+	}
+
+	/* END ALV CHANGES */
+	
+	
+
+	}
+	/* ALV: we can not style the adthis buttons with our own classes. We have to take into account that we are using Addthis */
+	
+	.addthis_button_print span{ 
+		background: transparent url(../images/social-bar-bg.png) 0 0 no-repeat !important;
+	}
+
+
+
+footer #top_link {
+    background: url("../images/header/back-to-top.gif") no-repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    display: block;
+    float: left;
+    height: 34px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    top: -69px;
+    width: 145px;
+    z-index: 999999;
+}
+
+/* Feedback form */
+#feedback_toggle {display: block;}
+
+/* Restaurants menu */
+
+#restaurants_menu_wrapper {
+	height: 175px;
+}
+
+ul#restaurants_menu {
+	margin-left: -470px;
+}
+
+ul#restaurants_menu li img {
+	width: 150px;
+}
+
+@media only screen and (min-width: 1024px)  {  
+
+/* Sidebar */
+aside#sidebar {display: none;}
+
+}
+
+.blog-avatar-image{
+overflow:hidden;
+display:block;
+float:auto !important;
+text-align:center;
+padding-bottom:5px;
+}
+
+.blog-avatar-image img.avatar{
+
+float: none;
+}
+
+.blog-avatar-container{
+
+background:#ffffff;
+padding-top:9px;
+padding-bottom:9px;
+margin-bottom:30px;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+.blog-avatar-description a{
+color:#01B1ED !important;
+
+}
+
+.blog-avatar-description a:hover{
+color:#666666 !important;
+
+}
+
+.blog-avatar-description {
+
+line-height:18px !important;
+letter-spacing:0px !important; 
+
+}
+

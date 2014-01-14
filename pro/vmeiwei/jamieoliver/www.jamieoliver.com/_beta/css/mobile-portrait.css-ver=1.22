@@ -1,0 +1,645 @@
+html {height: 100%; width: 100%; }
+body {background: #ffffff; font-family: "Courier New",Courier,monospace; overflow-y: scroll; overflow-x: hidden; margin: 0; padding: 0;}
+
+	
+.cfix {clear: both; font-size: 1px;}
+.cntr {width: 320px; margin: 0 auto;}
+
+section .cntr {overflow: hidden;}
+
+/* Forms */
+.cntr input:focus, select:focus, textarea:focus {outline: none;}
+.cntr .input_text, input[type="text"],input[type="email"],input[type="password"] {font-family: Courier, "Courier New", monospace; font-size: 11px; line-height: 28px; color: #666666;}
+
+.chzn-container-single a:hover{ background:#999999; color:#eee;}
+
+.cntr .input_submit, input[type="submit"] {font-family: Courier, "Courier New", monospace; font-size: 13px; line-height: 28px; color: #ffffff; text-align: center; cursor: pointer;}
+.cntr .input_submit:hover, input[type="submit"]:hover {color: #ffffff;}
+input, select, option, textarea {font-size: 13px;}
+
+.sbHolder {border: solid 1px #bebebe; font-size: 10px; font-weight: normal; height: 16px; position: relative; width: auto; -moz-box-shadow: 0 1px #888; -webkit-box-shadow: 0 1px #888; box-shadow: 0 1px #888; -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px; background-image: linear-gradient(bottom, rgb(249,250,252) 0%, rgb(252,253,254) 100%); background-image: -o-linear-gradient(bottom, rgb(249,250,252) 0%, rgb(252,253,254) 100%); background-image: -moz-linear-gradient(bottom, rgb(249,250,252) 0%, rgb(252,253,254) 100%); background-image: -webkit-linear-gradient(bottom, rgb(249,250,252) 0%, rgb(252,253,254) 100%); background-image: -ms-linear-gradient(bottom, rgb(249,250,252) 0%, rgb(252,253,254) 100%);}
+.sbSelector {display: block; height: 16px; left: 0; line-height: 16px; outline: none; overflow: hidden; position: absolute; text-indent: 10px; top: 0;}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover {color: #999999; outline: none; text-decoration: none;}
+.sbToggle {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/select-arrow.png) 12px 6px no-repeat; display: block; height: 16px; outline: none; border: none; position: absolute; right: 0;top: 0; width: 30px;}
+.sbToggle:hover {background: transparent none; outline: none;}
+.sbToggleOpen {outline: none;}
+.sbHolderDisabled {background-color: #3C3C3C;border: solid 1px #515151;}
+.sbOptions {background-color: #fafbfd; border: solid 1px #bebebe; border-top: none; padding: 14px 0 4px 0; list-style: none; top: 14px !important; left: -1px; margin: 0; position: absolute; top: 30px; width: 200px; z-index: 1; overflow-y: auto; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
+.sbOptions li {padding: 0; text-indent: 4px; border-top: 1px solid #aaaaaa;}
+.sbOptions a {display: block; outline: none; padding: 3px 7px;}
+
+.sbOptions li:last-child a {border-bottom: none;}
+.sbOptions a:link, .sbOptions a:visited {color: #999999; text-decoration: none;}
+.sbOptions a:hover, .sbOptions a:focus, .sbOptions a.sbFocus {color: #fafbfd; background: #c0221d;}
+.sbOptions li.last a {border-bottom: none;}
+.sbOptions .sbDisabled {border-bottom: solid 1px #515151; color: #999; display: block; padding: 7px 0 7px 3px;}
+.sbOptions .sbGroup {border-bottom: solid 1px #515151; display: block; font-weight: bold; padding: 7px 0 7px 3px;}
+.sbOptions .sbSub {padding-left: 17px;}
+
+/* Searches */
+.search {height: 28px; width: 220px; margin: 20px 0 20px 20px; position: relative; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/search-recipes-bg.png) no-repeat scroll 0 0 #FFFFFF;}
+	.search .input_text {position: absolute; left: 0; display: block; width: 208px; height: 28px; font-size: 11px; line-height: 28px; padding: 0 40px 0 10px; color: #666666; float: left; border: none; background: transparent none;}
+	.search .input_submit {position: absolute; right: 0; width: 32px; height: 28px; float: left; border: none; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 0 no-repeat; text-indent: -99999px; cursor: pointer; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+	.search .input_submit.hover {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 -28px;}
+	.search .input_submit.mousedown {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 -56px;}
+
+/* Button links */
+a.btn-red {cursor: pointer; float: left; padding: 0 10px; text-decoration: none; text-transform: uppercase; width: auto; height: 26px; line-height: 26px; font-size: 13px; text-align: center; color: #ffffff; background: #be2525; border: 1px solid #cecece; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+	a.btn-red:link {background: #be2525; color: #ffffff;}
+	a.btn-red:hover {background: #d52a2a; color: #ffffff; text-decoration: none; }
+	a.btn-red:active {background: #be2525; color: #ffffff; border: 1px solid #7f1c1c; -moz-box-shadow: inset 0 0 2px 2px #992222; -webkit-box-shadow: inset 0 0 2px 2px #992222; box-shadow: inset 0 0 2px 2px #992222;}
+a.btn-white {cursor: pointer; float: left; padding: 0 10px; text-decoration: none; text-transform: uppercase; display: block; width: 140px; height: 26px; line-height: 26px; font-size: 13px; text-align: center; color: #be2525; background: #f5f5f5; border: 1px solid #cecece; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+	a.btn-white:link {background: #f5f5f5; color: #be2525;}
+	a.btn-white:hover {background: #ffffff; color: #be2525; text-decoration: none; }
+	a.btn-white:active {background: #f5f5f5; color: #be2525; border: 1px solid #a4a4a4; -moz-box-shadow: inset 0 0 2px 2px #d3d3d3; -webkit-box-shadow: inset 0 0 2px 2px #d3d3d3; box-shadow: inset 0 0 2px 2px #d3d3d3;}
+
+a.btn-swj {cursor: pointer; float: left; padding: 0 10px; text-decoration: none; text-transform: uppercase; display: block; width: 140px; height: 26px; line-height: 26px; font-size: 13px; text-align: center; color: #ffffff; background: #31B3E3; border: 1px solid #cecece; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+	a.btn-swj:link {background: #31B3E3; color: #ffffff;}
+	a.btn-swj:hover {background: #ffffff; color: #31B3E3; text-decoration: none; }
+	a.btn-swj:active {background: #31B3E3; color: #ffffff; border: 1px solid #a4a4a4; -moz-box-shadow: inset 0 0 2px 2px #d3d3d3; -webkit-box-shadow: inset 0 0 2px 2px #d3d3d3; box-shadow: inset 0 0 2px 2px #d3d3d3;}
+a.btn span {}
+/* Content container */
+div#content {overflow: hidden;}
+	
+/* Global nav */
+nav#global {margin: 0 auto; width: 100%; height: 36px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-global-bg-tile.png) 0 0 repeat-x;}
+	nav#global .cntr {height: 35px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-global-bg-m.png) 0 0 no-repeat; position: relative; overflow: visible !important; width: 320px;}
+		nav#global .cntr #global-bar {position: relative; margin: 0;}
+	
+	/* Top bar */
+	nav#global #global-bar a {cursor: pointer; color: #ffffff; font-size: 9px; text-transform: uppercase; letter-spacing: 1px;}
+	
+	nav#global a#quick_links_toggle {position: absolute; left: -1px; z-index: 2000; display: inline; float: left; width: 31px; height: 36px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-quick-link.png) 0 -38px no-repeat; margin: 0 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+	nav#global a#quick_links_toggle.active {background-position: 0 0;}
+		nav#global a#quick_links_toggle span {display: none;}
+		
+	nav#quick_links .global_border {width: 100%; height: 9px; background: #292929; position: absolute; top: 27px;}
+	
+	nav#global #global_links {position: absolute; left: 41px; float: left; height: 33px; margin: 0; position: relative;}
+		nav#global #global_links li {float: left; margin: 0; position: absolute; left: 42px;}
+	
+			/* Positioning to disregard different font rendering */
+			nav#global #global_links .gn_1 {width: 115px; left: 6px;}
+			nav#global #global_links .gn_2 {display: none;}
+			nav#global #global_links .gn_3 {display: none;}
+			nav#global #global_links .gn_4 {display: none;}
+			nav#global #global_links .gn_5 {display: none;}
+			nav#global #global_links .gn_6 {left: 103px;}
+	
+			nav#global #global_links li a {display: block; height: 28px; line-height: 22px; text-decoration: none; outline: none;} 
+			nav#global #global_links li.active a {text-decoration: underline; }
+			nav#global #global_links li a:hover {text-decoration: underline;}
+			nav#global #global_links li a.inactive {color: #999999;}
+			nav#global #global_links li a.inactive:hover {text-decoration: none; background: none;}
+			
+	nav#global #search_toggle {display: none; float: right; width: 17px; height: 17px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -243px 0 no-repeat; margin: 5px 7px 0 0;}
+		nav#global #search_toggle:active, nav#global #search_toggle.m-toggle {background-position: -243px -20px;}
+		nav#global #search_toggle span {display: none;}
+		
+		
+	#global_search {height: 28px; margin: 0; position: absolute; top: 50px; left: 30px; width: 255px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/search-recipes-bg.png) no-repeat scroll 0 0 #FFFFFF;}
+	#global_search .input_text {position: absolute; left: 0; display: block; width: 208px; height: 28px; font-size: 11px; line-height: 25px; padding: 0 40px 0 10px; color: #666666; float: left; border: none; background: transparent none;}
+	#global_search .input_submit {position: absolute; right: -5px; width: 32px; height: 28px; float: left; border: none; background: url(http://cdn.jamieoliver.com/_beta/images/header/global_search_submit.png) 0 0 no-repeat; text-indent: -99999px; cursor: pointer; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+	#global_search .input_submit.hover {background: url(http://cdn.jamieoliver.com/_beta/images/header/global_search_submit.png) 0 -28px;}
+	#global_search .input_submit.mousedown {background: url(http://cdn.jamieoliver.com/_beta/images/header/global_search_submit.png) 0 -56px;}	
+	
+	
+	
+	nav#global #member_link {display: block; height: 28px; line-height: 22px; text-decoration: none; position: absolute; left: 235px; top: 1px;}
+		nav#global #member_link:active {text-decoration: underline;}
+		
+	nav#global #member_link_out {display: block; height: 28px; line-height: 22px; text-decoration: none; position: absolute; left: 232px; top: 1px;}
+		nav#global #member_link_out:active {text-decoration: underline;}
+	
+	
+	
+	/* Social links */
+	nav#global #social_links {display: none;}
+	
+	/* Quick links */
+	nav#quick_links {width: 100%; height: auto; background: #292929 url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-quick-border.png) 0 bottom repeat-x; display: none; }
+	nav#quick_links.m-toggle {display: block;}
+		nav#quick_links .cntr {clear: left; width: 300px; padding: 10px 0; position: relative;}
+		nav#quick_links ul {float: left; width: 145px; margin: 0 10px 0 0; padding: 10px 0;}
+		nav#quick_links .ql_1 {clear: none; padding-top: 0;}
+			nav#quick_links .ql_1 li a {text-transform: uppercase;}
+		nav#quick_links .ql_2 {clear: none; margin-right: 0; padding-top: 0;}
+		nav#quick_links .ql_3 {clear: none;}
+		nav#quick_links .ql_4 {clear: none; margin-right: 0;}
+		nav#quick_links .ql_5 {clear: none;}
+		
+			nav#quick_links ul li {margin: 0 0 4px 0;}
+				nav#quick_links ul li a {color: #ffffff; text-decoration: none; font-size: 10px; letter-spacing: 1px;}
+				nav#quick_links ul li.active a,
+				nav#quick_links ul li a:hover {color: #75bde0;}
+		   	nav#quick_links ul li.heading {color: #ffffff; font-size: 13px; text-transform: uppercase; margin: 0 0 8px 0;}
+
+		nav#quick_links #close_quick_links {display: block; position: absolute; bottom: 10px; right: 10px; color: #FFFFFF; cursor: pointer; text-transform: uppercase; font-size: 9px;}
+
+/* Top banner */
+#top_banner {display: none;}		
+	
+/* JO Nav */
+nav#jo {display: block; margin: 0; width: 100%; height:95px; background: #ffffff; }
+	nav#jo.m-toggle {height: 165px;}
+	nav#jo.m-toggle #jo_nav {top: 85px;}
+	nav#jo #jo_nav.m-toggle {display: none;}
+	nav#jo .cntr {position: relative;}
+
+	nav#jo h2, nav#jo h3 {display: block; position: absolute; top: 15px; left: 55px; width: 215px; height: 35px; margin: 0; font-size: 22px; line-height: 24px;}
+		nav#jo h2 a#logo, nav#jo h3 a#logo {position: absolute; top: 0; left: 0; width: 215px; height: 35px; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/logo-m.gif) 0 0 no-repeat; z-index: 2;}
+		nav#jo h2 #title, nav#jo h3 #title {position: absolute; top: 0; left: 0; text-decoration: none; color: #4e4e4d;}
+
+	nav#jo #site_region {position: absolute; right: 10px; top: 18px; font-family: arial, helvetica, sans-serif; display: none;}
+		nav#jo #site_region .input_submit {display: none;}
+
+		nav#jo #site_region .sbHolder {width: 60px;}
+		nav#jo #site_region .sbSelector, #site_region .sbOptions {width: 60px;}
+
+
+		nav#jo #global_search.m-toggle {display: block;}
+		nav#jo #global_search .input_text {position: absolute; left: 0; display: block; width: 220px; height: 28px; padding: 0 10px 0 10px; float: left; border: none; background: transparent none;}
+		nav#jo #global_search .input_submit{position: absolute; right: -2px; width: 32px; height: 28px; overflow: hidden; border: 0px solid #ffffff; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 0; text-indent: -99999px; cursor: pointer;-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+		nav#jo #global_search .input_submit.hover {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 -28px;}
+		nav#jo #global_search .input_submit.mousedown {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/global_search_submit.png) 0 -56px;}
+		nav#jo #global_search #global_category {position: absolute; right: 38px; top: 4px;}
+		nav#jo #global_search #global_category, nav#jo #global_search .sbHolder {display: none;}
+
+		nav#jo #global_search .sbHolder {position: absolute; right: 37px; top: 5px; width: 118px;}
+		nav#jo #global_search .sbSelector, #global_search .sbOptions {width: 118px;}
+
+	#header {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-jo-border-header.png) repeat-x scroll 0 bottom #FFFFFF;}
+	nav#jo #jo_nav_mob {display: none;position: absolute; top: 70px; height: 25px; width: 300px; background: #24d4a6 none; left: 10px; right: 10px; color: #ffffff; font-size: 14px; text-transform: uppercase; text-decoration: none; line-height: 25px; text-align: center;}
+	nav#jo #jo_nav {display: none; width: 320px; position: absolute; top: 95px; left: 10px; right: 10px; height: 40px; font-size: 11px; z-index: 1001;}
+	nav#jo #jo_nav.m-toggle{display: block;}
+		nav#jo #jo_nav > li {float: left; width: 300px; height: 25px; background: #4e4e4d; border-bottom: 1px solid #666666; line-height: 25px; color: #ffffff; text-indent: 10px;}
+	 		nav#jo #jo_nav > li a {color: #ffffff; text-decoration: none; text-transform: uppercase; outline: none; padding-bottom: 1px; display: block; width: 300px; height: 25px;}
+			nav#jo #jo_nav > li a:hover {color: #999999;}
+			nav#jo #jo_nav > li.active a {background: #999999; color: #ffffff;}
+		nav#jo .nav_home {left: 10px;}
+		nav#jo .nav_recipes {left: 75px;}
+		nav#jo .nav_books_tv {left: 155px;}
+		nav#jo .nav_videos {}
+		nav#jo .nav_howto {top: 25px; left: 10px;}
+		nav#jo .nav_news_blogs {top: 25px; left: 75px;}
+		nav#jo .nav_forum {top: 25px; left: 155px;}
+		nav#jo .nav_promotions {top: 25px; right: 10px;}
+
+/* Mega nav */	
+nav#meganav {display: none;}
+	
+/* Sign in */
+nav#jo #member_login {display: block; position: absolute; top: -30px; right: 33px;}
+	nav#jo #member_login #member_links {display: none;}
+
+nav#jo #member_login #sign_in {display: none; position: relative; z-index: 1002; top: 40px; right: -7px; z-index: 1001; background: #ffffff; width: 200px; height: 300px; padding: 21px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 0 5px #888888; -webkit-box-shadow: 0 0 5px #888888; box-shadow: 0 0 5px #888888;}
+nav#jo #member_login #sign_in.m-toggle {display: block;}
+	nav#jo #member_login .close_menu {font-family: Arial,Helvetica,sans-serif; font-size: 10px; color: #666666; float: right; text-decoration: none; margin: -10px 0 10px 0;}
+	nav#jo #member_login #sign_in .arrow {position: absolute; top: -13px; left: 190px; width: 30px; height: 13px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin_arrow.png) 0 bottom no-repeat;}
+	nav#jo #member_login #sign_in form {width: 202px;}
+	nav#jo #member_login #sign_in .input_text {font-size: 11px; color: #666666; text-indent: 10px;}
+	
+	nav#jo #member_login #sign_in #facebook_connect {}
+		nav#jo #member_login #sign_in #facebook_connect .input_submit {width: 202px; height: 37px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin-facebook.png) 0 0 no-repeat; text-indent: -9999px; border: none; padding: none; outline: none}
+		nav#jo #member_login #sign_in #facebook_connect .input_submit:hover {}
+	nav#jo #member_login #sign_in p.divider {display: block; width: 202px; height: 16px; margin: 12px 0; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin-or.gif) 0 0 no-repeat;}
+		nav#jo #member_login #sign_in p.divider span {display: none;}
+	nav#jo #member_login #sign_in #global_sign_in {}
+		nav#jo #member_login #sign_in #global_sign_in .input_text {width: 202px; height: 27px; padding: 0; margin: 0; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -moz-box-shadow: inset 0 0 3px #888888; -webkit-box-shadow: inset 0 0 3px #888888; box-shadow: inset 0 0 3px #888888; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/login-input.gif) 0 0 no-repeat;}
+		nav#jo #member_login #sign_in #global_sign_in p.forgot {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #b2b2b2; margin: 10px 0; letter-spacing: 1px;} 
+			nav#jo #member_login #sign_in #global_sign_in p.forgot a {color: #b2b2b2;}
+		nav#jo #member_login #sign_in #global_sign_in .input_submit {width: 202px; height: 37px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin-button.png) 0 0 no-repeat; text-align: center; border: none; padding: 0; overflow: hidden; margin: 0;}	
+		nav#jo #member_login #sign_in #global_sign_in .input_submit:hover {}	
+		nav#jo #member_login #sign_in #global_sign_in p.sign_up {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; margin: 10px 0 0 0;}
+			nav#jo #member_login #sign_in #global_sign_in p.sign_up a{color: #666666;}
+		nav#jo #member_login #sign_in #global_sign_in .checkbox_container {margin: 15px 0;}
+			nav#jo #member_login #sign_in #global_sign_in .checkbox_container .input_checkbox {}
+			nav#jo #member_login #sign_in #global_sign_in .checkbox_container p {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; display: inline;}
+
+
+/* Sign out */
+nav#jo #member_login #sign_out {display: none; position: absolute; top: 40px; right: -7px; z-index: 1005; background: #ffffff; 
+									width: 120px;  /* ALV: I think we can make it narrower now. it was 200px */
+									height: auto; padding: 21px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 0 5px #888888; -webkit-box-shadow: 0 0 5px #888888; box-shadow: 0 0 5px #888888;}
+nav#jo #member_login #sign_out.m-toggle {width: 200px; display: block;}
+	/* ALV: some changes for layout. Spreadable panel */
+	.icon-left-panel { margin-right:10px; float:left; width:30px;} 
+	.avatar-wrapper-spread-panel{
+			width:auto;
+			border: 1px solid #CCC;
+			background: white;
+			padding: 0 2px 2px 0px;
+			display: block;
+			float: left;
+			-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
+			margin-right: 13px;
+	}
+	.avatar-wrapper-spread-panel span.overflow-hidden{ display:block; overflow:hidden; width:24px; height:24px;}
+	.avatar-wrapper-spread-panel span.overflow-hidden img {width:22px; height:22px; }
+	#sign_out ul li{clear:both; margin-bottom:8px; line-height:26px}
+	#sign_out ul li:last {margin-bottom:0;}
+	#sign_out ul li a{ color:#666; }
+	#sign_out ul li a:hover{ color:#999; }
+
+
+
+
+	nav#jo #member_login #sign_out .arrow {position: absolute; top: -13px; left: 190px; width: 30px; height: 13px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin_arrow.png) 0 bottom no-repeat;}
+	nav#jo #member_login #sign_out form {width: 202px;}
+	nav#jo #member_login #sign_out .input_text {font-size: 11px; color: #666666; text-indent: 10px;}
+	nav#jo #member_login #sign_out h6 {width: 202px; display: block; font-size: 13px; text-align: center; color: #666666; margin: 0 0 10px 0;}
+	nav#jo #member_login #sign_out .username {width: 202px; display: block; font-family: Georgia, "Times New Roman", Times, serif; font-size: 19px; text-align: center; color: #666666;}
+
+	nav#jo #member_login #sign_out p.divider {display: block; width: 202px; height: 16px; margin: 12px 0; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/signout-or.gif) 0 0 no-repeat;}
+		nav#jo #member_login #sign_out p.divider span {display: none;}
+	nav#jo #member_login #sign_out #global_sign_out {}
+		nav#jo #member_login #sign_out #global_sign_out .input_text {width: 202px; height: 27px; padding: 0; margin: 0; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -moz-box-shadow: inset 0 0 3px #888888; -webkit-box-shadow: inset 0 0 3px #888888; box-shadow: inset 0 0 3px #888888; }
+		nav#jo #member_login #sign_out #global_sign_out p.forgot {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #b2b2b2; margin: 15px 0; letter-spacing: 1px;} 
+			nav#jo #member_login #sign_out #global_sign_out p.forgot a {color: #b2b2b2;}
+		nav#jo #member_login #sign_out #global_sign_out .input_submit {width: 202px; height: 37px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/forms/signin-button.png) 0 0 no-repeat; text-align: center; border: none; padding: 0; overflow: hidden; margin: 0;}	
+		nav#jo #member_login #sign_out #global_sign_out .input_submit:hover {}	
+/* Logged in  */
+nav#jo #member_login #member_info {display: none;}
+		
+/* Footer */
+footer {clear: both; width: 100%; min-height: 10px; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/nav-jo-border.png) 0 top repeat-x; z-index: 10; margin: 0;}	
+	footer .cntr {padding: 40px 10px 10px 10px; width: 300px;}
+	
+	footer .footer_top {width: 100%; padding: 0 0 20px 0; margin: 0 0 20px 0; border-bottom: 1px solid #e7e7e7; height: 80px; position: relative;}
+		footer #logo_footer {float: left; width: 304px; height: 38px; background: #ffffff url(/_beta/images/header/logo.gif) 0 0 no-repeat; border: none; outline: none;}
+			footer #logo_footer span {display: none;}
+		footer #top_link {display: none; float: left; width: 145px; height: 34px; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/back-to-top.gif) 0 0 no-repeat; border: none; outline: none; text-decoration: none; position: absolute; top: -69px; right: 0; z-index: 5;}
+			footer #top_link span {font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; font-weight: bold; color: #666666; float: left; line-height: 32px; margin-left: 15px;}
+		footer #social_links_footer {float: right;}
+		
+		/* Social links */
+		footer #social_links_footer {display: block; float: left; margin: 10px 0 20px 40px; }
+			footer #social_links_footer li {float: left; height: 17px; margin: 0 0 0 13px;}
+				footer #social_links_footer li a {height: 17px; display: block;}
+					footer #social_links_footer li a span {display: none;}
+					footer #social_links_footer .instagram a {width:17px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) 0 -38px no-repeat;}
+						footer #social_links_footer .instagram a:hover {background-position: 0 -20px;}
+					footer #social_links_footer .youtube a {width:16px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -33px -38px no-repeat;}
+						footer #social_links_footer .youtube a:hover {background-position: -33px -58px;}
+					footer #social_links_footer .facebook a {width:17px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -63px -38px no-repeat;}
+						footer #social_links_footer .facebook a:hover {background-position: -63px -20px;}
+					footer #social_links_footer .twitter a {width:19px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -93px -38px no-repeat;}
+						footer #social_links_footer .twitter a:hover {background-position: -93px -20px;}
+					footer #social_links_footer .googleplus a {width:16px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -128px -38px no-repeat;}
+						footer #social_links_footer .googleplus a:hover {background-position: -128px -20px;}
+					footer #social_links_footer .pinterest a {width:16px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -156px -38px no-repeat;}
+						footer #social_links_footer .pinterest a:hover {background-position: -156px -20px;}
+					footer #social_links_footer .apps a {width:13px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/social-icons.png) -188px -39px no-repeat;}
+						footer #social_links_footer .apps a:hover {background-position: -188px -20px;}
+			
+	footer .footer_bottom {font-size: 10px; line-height: 22px; color: #666666; width: 300px; overflow: hidden;}
+		footer h4 {font-size: 10px; color: #333333; text-transform: uppercase; margin: 0 0 5px 0;}
+		footer p {font-size: 10px; line-height: 22px; color: #666666;}
+		footer a {font-size: 10px; line-height: 22px; color: #666666; text-decoration: none;}
+			footer a:hover {text-decoration: underline;}
+		footer .col {float: left; padding: 0 0 10px 0; border-bottom: 1px dashed #E0E0E0;}
+		footer .col_1 {width: 140px; margin: 0 10px 10px 0;}
+		footer .col_2 {float: right; width: 140px; margin: 0 0 10px 10px;}
+		footer .col_3 {width: 140px; margin: 0 10px 10px 0; border-bottom: none;}
+		footer .col_4 {float: right; width: 140px; margin: 0 0 10px 10px;}
+		footer .col_5 {float: right; width: 140px; height: 80px; margin: 0 0 10px 10px; position: relative; border-bottom: none;}
+			footer .col_5 h4 {display: none;}
+				footer .col_5 h4 span {display: none;}
+			footer .col_5 img {position: absolute; left: 0px; top: 0; max-width: 140px;}
+			footer .col_5 ul {display: none;}
+			footer .col_5 #magazine-subscribe {border: none; background: transparent none; position: absolute; height: 75px; }	
+				footer .col_5 #magazine-subscribe:link {background: transparent none;  box-shadow: 1px 1px 1px #848484;}
+				footer .col_5 #magazine-subscribe:hover {background: transparent none;  box-shadow: 1px 1px 1px #848484;}
+				footer .col_5 #magazine-subscribe:active {border: none; background: transparent none;  box-shadow: 1px 1px 1px #848484;}
+				footer .col_5 #magazine-subscribe span {display: none;}
+			
+
+/*--------------------------------------------------------------
+4.1 - Pagination
+--------------------------------------------------------------*/
+
+		.bbp-pagination { 
+			clear:both; 
+			padding:20px 0;
+			font-family:Georgia;
+			font-size:18px;
+			text-align:center;
+			margin-bottom:25px;
+			} .bbp-pagination-links{margin:auto;}
+
+		.bbp-pagination-links .page-numbers{margin:0 10px; color: #999;}
+
+		.bbp-pagination-links .page-numbers.current{margin:0 10px; color: #33d3a7;}
+
+			a.page-numbers:hover{color:#666;}
+
+		.bbp-pagination .prev span, .bbp-pagination .next span{
+			/*width:36px; height:36px;*/	
+			background:transparent url('http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/pagination-arrows.png') no-repeat left top ;
+			/*text-indent:100px; overflow:hidden;*/
+			padding:0 19px 18px 18px;
+			position:absolute;
+			margin-top:-3px;
+			margin-left:-23px;
+		} 
+
+		.bbp-pagination  .prev  span{ padding: 0 19px 14px 14px;  margin-left:-35px; /* doesnt look the same in chrome and firefox */ }
+
+		.bbp-pagination  .next span{ background-position: -36px 0 ; margin-left:-13px;}
+
+		.bbp-pagination  .prev:hover span{ background-position: 0px -36px;}
+
+		.bbp-pagination  .next:hover span{ background-position: -36px -36px;}
+			
+			
+/* Content */
+#content .cntr {width:300px; padding: 0 10px;}
+
+/* Cookie popup */
+#content #cookies {width: 100%; padding: 20px 0; background: #f5f5f5; border-bottom: 1px dashed #a4a4a4;}
+	#content #cookies h4 {font-size: 13px; color: #4D5762; font-weight: bold; text-transform: uppercase; margin: 0 0 10px 0;}
+	#content #cookies p {font-size: 13px; line-height: 18px; color: #666666;}
+	#content #cookies a {color: #47A8D8; text-decoration: none;}
+		#content #cookies a:hover {text-decoration: underline;}
+	#content a#closecookies {display: block; font-size: 13px; font-weight: bold; letter-spacing: 1px; margin: 10px 0 0; text-transform: uppercase;}
+			
+/* Grids */
+	section {float: left; clear: left; margin: 0 0 20px 0; width: 100%;}
+	section article {}
+	section.grid .cntr {}
+
+	/* 1 column - full width */
+	section.grid1 {}
+		section.grid1 .col {float: left;}
+		section.grid1 .col1{width: 300px; margin: 0 10px 0 0;}
+	
+	/* 4 columns - equal widths */
+	section.grid2 {}
+		section.grid2 .col {float: left;}
+		section.grid2 .col1{width: 300px; margin: 0 0 0 0;}
+		section.grid2 .col2{width: 300px; margin: 0 0 0 0;}
+		section.grid2 .col3{width: 300px; margin: 0 0 0 0;}
+		section.grid2 .col4{width: 300px; margin: 0 0 0 0;}
+	
+	/* 4 columns- 3 content, 1 mpu */
+	section.grid3 {}
+		section.grid3 .col {float: left;}
+		section.grid3 .col1{width: 300px; margin: 0 20px 20px 0;}
+		section.grid3 .col2{width: 300px; margin: 0 0 20px 0;}
+		section.grid3 .col3{width: 300px; margin: 0 20px 0 0; display: none;}
+		section.grid3 .col4{width: 300px; margin: 0 0 0 0;}
+	
+	/* 3 columns- 2 content, 1 mpu */
+	section.grid4 {}
+		section.grid4 .col {float: left;}
+		section.grid4 .col1{width: 120px; margin: 0 20px 20px 0;}
+		section.grid4 .col2{width: 160px; margin: 0 0 20px 0;}
+		section.grid4 .col3{width: 300px; margin: 0 0 0 0;}
+	
+	/* 3 columns- equal widths */		
+	section.grid5 {}
+		section.grid5 .col {float: left;}
+		section.grid5 .col1{width: 300px; margin: 0 0 0 0;}
+		section.grid5 .col2{width: 140px; margin: 0 0 0 0; display: none;}
+		section.grid5 .col3{width: 220px; margin: 0 0 0 0; display: none;}
+		
+	/* 2 columns 1 content 1 aside */
+	section.grid6 {}
+		section.grid6 article, section.grid6 aside  {float: none;}
+		section.grid6 .col1 {}
+		section.grid6 .col2 {margin: 20px 0px 0 0px; }
+		
+		/* 2 big content 2 small content */
+		section.grid7 {}
+			section.grid7 article {float: left;}
+			section.grid7 .col1{width: 300px; margin: 0 20px 0 0;}
+			section.grid7 .col2{display:none}
+			section.grid7 .col3{display:none}
+			section.grid7 .col4{width: 300px; margin: 0 0px 0 0;}
+		
+		
+	/* 3 columns- equal widths - FOR CAROUSELS */		
+	section.grid9 {}
+		section.grid9 .col {float: left;}
+		section.grid9 .col1{width: 270px; margin: 0 15px;}
+		section.grid9 .col2{width: 140px; margin: 0 0 0 0; display: none;}
+		section.grid9 .col3{width: 220px; margin: 0 0 0 0; display: none;}
+		
+/* Breadcrumbs */
+	
+
+	.breadcrumb{
+		display: block;
+		height: 24px;  /* this has to be the same as .facebook_like for DAN */
+		padding: 0 0 20px 0;
+		margin:0;
+		color: #666;
+		font-size: 11px;
+	}	
+
+	.breadcrumb li {
+		display:block;
+		float:left;
+		margin-right:7px;
+	}
+
+	.breadcrumb li a {
+		color:#666;
+		text-decoration:none;
+	}
+	
+	/*.leaderboard_footer_holder {display: none;}*/
+	.leaderboard_footer_holder { width: 300px; height: 50px; margin-left: 50%; position: fixed; bottom: 0px; z-index: 9999; } 
+	.leaderboard_footer_holder div { margin-left: -150px; } 
+
+	/*barclays takeover*/
+	.leaderboard_footer_holder {  margin-left: 0px; bottom: 0px; left: 0; } 
+	.leaderboard_footer_holder div { margin-left: 0px; } 
+
+/* ALV: error and success messages for the site */	
+div.error{color:#BE2525; font-size:0.9em; -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px;     font-family: arial;
+    }
+#message.error { border:1px solid #BE2525; padding:5px; -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px; margin-bottom: 15px;font-family: arial;}
+#message.success, #message.updated { border:1px solid #01B1ED; padding:5px; -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px; margin-bottom: 15px;font-family: arial;}
+#message.error p, #message.success p{ margin:0;}
+
+
+.addthis_toolbox {padding: 10px 0; margin: 0 auto;}
+
+
+
+/*ALV  Recipe social links  add all this to the desktop.css */		
+	#content #recipe_social {width: 100%; height: 40px; border-top: 1px dashed #cccccc; border-bottom: 1px dashed #cccccc; margin: 0 0 30px 0; padding: 0px auto;}
+		#content #recipe_social ul {float: left;}
+			#content #recipe_social ul li {float: left; margin: 0 25px 0 0; font-size: 13px; color: #666666; line-height: 20px;}
+			#content #recipe_social .addthis_toolbox.addthis_32x32_style span { display: none; }	
+				#content #recipe_social ul li a {}
+			#content #recipe_social ul li.share_text {float: none; margin: 15px 0 10px 80px;}
+			#content #recipe_social ul li.social a { 
+					text-indent:40px;			
+					display: block; width: 22px; height: 20px; overflow: hidden; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/social-bar-bg.png) 0 0 no-repeat;}
+			#content #recipe_social ul li.bookmark {margin-left: 15px;}
+			#content #recipe_social ul li.bookmark a {background-position: -110px 0;}
+				#content #recipe_social ul li.bookmark  a.remove_recipe_list, #content #recipe_social ul li.bookmark a:hover
+					{ background-position: -110px -20px;}
+			#content #recipe_social ul li.cooked a {background-position: -88px 0;}
+				#content #recipe_social ul li.cooked  a.remove_recipe_list, #content #recipe_social ul li.cooked a:hover {background-position: -88px -20px;}
+				
+			#content #recipe_social ul li.facebook a {background-position: -66px 0;}
+				#content #recipe_social ul li.facebook a:hover {background-position: -66px -20px;}
+			#content #recipe_social ul li.twitter a {background-position: -44px 0;}
+				#content #recipe_social ul li.twitter a:hover {background-position: -44px -20px;}
+			#content #recipe_social ul li.sharethis a {background-position: -22px 0;}
+				#content #recipe_social ul li.sharethis a:hover {background-position: -22px -20px;}
+			#content #recipe_social ul li.print a {background-position: 0 0;}
+				#content #recipe_social ul li.print a span {background: none;}
+				#content #recipe_social ul li.print a:hover {background-position: 0 -20px;}
+			#content #recipe_social ul li.add_new_recipe{margin: 15px 0 0 65px;}	
+			#content #recipe_social ul li.add_new_recipe a {background-position: 0 0;}
+				#content #recipe_social ul li.add_new_recipe a:hover {background-position: 0 -20px;}
+			#content #recipe_social ul li.pinterest a {background-position: -132px 0;}
+			#content #recipe_social ul li.pinterest a:hover {background-position: -132px -20px;}	
+	
+			#content #recipe_social ul a.print_but {cursor: pointer; float: left; margin-top: -5px; padding: 0 10px; text-decoration: none; text-transform: uppercase; width: auto; height: 26px; line-height: 26px; font-size: 13px; text-align: center; color: #be2525; background: #f5f5f5; border: 1px solid #cecece; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+			#content #recipe_social ul a.print_but:hover {background: #FFFFFF;}
+
+				#content  ul li.cooked.remove_recipe_list { background-position: -110px -20px;}			
+				#content  ul li.add_new_recipe {margin-left: 155px; margin-top: 15px;}
+				
+/* Disqus plugin */
+html body #recipe_comments a.publisher-anchor-color {color: #47A8D8 !important;font-family: Georgia !important;}
+html .discovery-unit a.title {color: red !important;}
+html .discovery-unit a.title.publisher-anchor-color {color: red !important;}
+
+/* Feedback form */
+#feedback_toggle {display: none; position: fixed; right: 10px; bottom: 10px; z-index: 10000; width: 160px;}
+#feedback_popup {display: none; width:379px; height: 439px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-bg.png) 0 0 no-repeat; z-index: 10000; left: 50%; margin-left: -190px; margin-top: -220px; position: fixed; top: 50%;}
+	#feedback_popup .padding {padding: 18px 30px;}
+	#feedback_popup .border {height: 21px; width: 316px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-line.gif) 0 0 no-repeat;}
+	#feedback_popup a.close {float: right; width: 22px; height: 22px; border: none; outline: none; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-close.png) 0 0 no-repeat;}
+		#feedback_popup a.close span{display: none;}
+	#feedback_popup h3 {float: left; font-family: "Courier New", Courier; font-size: 16px; font-weight: normal; color: #666666; text-transform: uppercase; margin: 0 0 10px 0;}
+	#feedback_popup p {clear: both; font-family: "Courier New", Courier; font-size: 13px; font-weight: normal; color: #666666; line-height: 21px;}
+	#feedback_popup a {color: #be2525;}
+	#feedback_popup form label {margin: 10px 0 0 0; float: left; clear: both; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; width: 125px; overflow: hidden;}
+	/*#feedback_popup form textarea {float: right; width: 165px; padding: 5px 10px; height: 68px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-textarea.png) 0 0 no-repeat; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; line-height: 16px; border: none; outline: none; resize: none; margin: 10px 0 0 0;}*/
+	#feedback_popup form textarea {
+		border: 1px solid #e4e4de;
+		width: 304px;
+		padding: 5px;
+		height: 90px;
+		font-family: Courier;
+		font-size: 13px;
+		font-weight: normal;
+		color: #666666;
+		line-height: 16px;
+		outline: none;
+		resize: none;
+		margin: 7px 0;
+	}
+	#feedback_popup form select {margin: 10px 0 0 0; width: 185px; float: right; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666;}
+	#feedback_popup form input {margin: 10px 0 0 0; width: 165px; height: 16px; line-height: 16px; padding: 2px 10px; float: right; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-input.png) 0 0 no-repeat; border: none; outline: none;}
+	#feedback_popup form .input_submit {float: left; clear: both; width: 202px; height: 37px; overflow: hidden; text-indent: -999999px; margin: 0 58px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-submit.png) 0 0 no-repeat; border: none; outline: none;}
+	#feedback_popup form .input_submit:hover {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-submit.png) 0 -36px no-repeat;}
+	#feedback_popup .signup {float: left; clear: both; width: 202px; height: 37px; overflow: hidden; margin: 0 58px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-signup.png) 0 0 no-repeat; border: none; outline: none;}
+	#feedback_popup .signup:hover {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-signup.png) 0 -36px no-repeat;}
+		#feedback_popup .signup span {display: none;}
+	#feedback_popup img.thanks {margin: 10px 0 10px 60px;}
+
+/* Sustainable form */
+#sust_toggle {display: none; position: fixed; right: 10px; bottom: 10px; z-index: 10000;}
+#sust_popup {display: none; width:379px; height: 439px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-bg.png) 0 0 no-repeat; z-index: 10000; left: 50%; margin-left: -190px; margin-top: -220px; position: fixed; top: 50%;}
+	#sust_popup .padding {padding: 18px 30px;}
+	#sust_popup .border {height: 21px; width: 316px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-line.gif) 0 0 no-repeat;}
+	#sust_popup .close {float: right; width: 22px; height: 22px; border: none; outline: none; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-close.png) 0 0 no-repeat; cursor: pointer;}
+		#sust_popup .close span{display: none;}
+	#sust_popup h3 {float: left; font-family: "Courier New", Courier; font-size: 13px; font-weight: normal; color: #666666; text-transform: uppercase; margin: 0 0 7px 0;}
+	#sust_popup p {clear: both; font-family: "Courier New", Courier; font-size: 13px; font-weight: normal; color: #666666; line-height: 16px;}
+	#sust_popup a {color: #be2525;}
+	#sust_popup form label {margin: 10px 0 0 0; float: left; clear: both; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; width: 125px; overflow: hidden;}
+	/*#sust_popup form textarea {float: right; width: 165px; padding: 5px 10px; height: 68px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-textarea.png) 0 0 no-repeat; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; line-height: 16px; border: none; outline: none; resize: none; margin: 10px 0 0 0;}*/
+	#sust_popup form textarea {
+		border: 1px solid #e4e4de;
+		width: 304px;
+		padding: 5px;
+		height: 90px;
+		font-family: Courier;
+		font-size: 13px;
+		font-weight: normal;
+		color: #666666;
+		line-height: 16px;
+		outline: none;
+		resize: none;
+		margin: 7px 0;
+	}
+	#sust_popup form select {margin: 10px 0 0 0; width: 185px; float: right; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666;}
+	#sust_popup form input {margin: 10px 0 0 0; width: 165px; height: 16px; line-height: 16px; padding: 2px 10px; float: right; font-family: Courier; font-size: 13px; font-weight: normal; color: #666666; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-input.png) 0 0 no-repeat; border: none; outline: none;}
+	#sust_popup form .input_submit {float: left; clear: both; width: 202px; height: 37px; overflow: hidden; text-indent: -999999px; margin: 0 58px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-submit.png) 0 0 no-repeat; border: none; outline: none;}
+	#sust_popup form .input_submit:hover {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-submit.png) 0 -36px no-repeat;}
+	#sust_popup .signup {float: left; clear: both; width: 202px; height: 37px; overflow: hidden; margin: 0 58px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-signup.png) 0 0 no-repeat; border: none; outline: none;}
+	#sust_popup .signup:hover {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/feedback-signup.png) 0 -36px no-repeat;}
+		#sust_popup .signup span {display: none;}
+	#sust_popup img.thanks {margin: 10px 0 10px 60px;}
+	
+	/* Lightbox */
+	#lightbox { display: none; }
+			
+/* FRD Promo */
+#frd1 {display: none; width: 284px; height: 50px; background: transparent url('http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/frd-banner-1.png') 0 0 no-repeat; position: absolute; left: 11px; top: 50px;}
+	#frd1 a {border: none; display: block; width: 284px; height: 50px; text-decoration: none;}
+		#frd1 a span {visibility: hidden;}
+#frd2 {display: none; width: 98px; height: 88px; background: transparent url('http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/frd-banner-2.png') 0 0 no-repeat; position: absolute; left: 305px; top: -1px;}
+	#frd2 a {border: none; display: block; width: 98px; height: 88px; text-decoration: none;}
+		#frd2 a span {visibility: hidden;}
+
+#restaurants_menu_wrapper {
+	width: 100%;
+	height: 220px;
+	padding-top: 10px;
+	padding-left: 50%;
+	border-top: 1px dashed #CCC;
+	display: none;
+}
+
+ul#restaurants_menu {
+	margin-left: -154px;
+}
+
+ul#restaurants_menu {
+	width: 340px;
+}
+
+ul#restaurants_menu li {
+	float: left;
+	margin: 3px 4px;
+}
+
+ul#restaurants_menu li img {
+	width: 94px;
+}
+
+/* Sidebar */
+aside#sidebar {display: none; width: 40px; height: 164px; position: fixed; top: 153px; left: 50%; right: 50%; margin-left: 490px; z-index: 99999999; overflow: visible;}
+	aside#sidebar div {width: 40px; height: 40px; margin: 0 0 1px 0; background: #f7ede0 none; position: relative;}
+		aside#sidebar div > a {display: block; outline: none; border: none; width: 40px; height: 40px;}
+		aside#sidebar div > a:hover,
+		aside#sidebar div > a.active {background-position: 0 -40px;}
+			aside#sidebar .signup > a {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/sidebar/btn-signup.gif) 0 0 no-repeat;}
+			aside#sidebar .print > a {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/sidebar/btn-print.gif) 0 0 no-repeat;}
+			aside#sidebar .recipe > a {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/sidebar/btn-recipe.gif) 0 0 no-repeat;}
+			aside#sidebar .social > a {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/header/sidebar/btn-social.gif) 0 0 no-repeat;}
+		
+			aside#sidebar div .panel {display: none; width: 150px; height: 30px; padding: 5px; background: #f7ede0; position: absolute; top: 0; right: 40px;}
+				aside#sidebar div .panel a {width: 150px; border: none; outline: none; text-decoration: none; color: #333333;}
+				aside#sidebar div .panel p {font-family: courier, monospace; font-size: 10px; line-height: 10px; color: #666666; margin: 3px 0 0 0;}
+				aside#sidebar div .panel h5{font-size: 19px; line-height: 16px; margin: 0; font-family: 'nimbus'; color: #333333;}
+				aside#sidebar div .panel_large {display: none; height: auto;}
+					aside#sidebar div .panel_large .network {display: block; background: #ffffff; float: left; width: 150px; height: 45px; margin: 5px 0 0 0;}
+						aside#sidebar div .panel_large .network p {margin: 2px 2px 0 2px;}
+						aside#sidebar div .panel_large .network div {background: transparent none; height: auto; width: auto; margin: 0;}
+						aside#sidebar div .panel_large .network iframe {margin: 6px 2px;}
+						aside#sidebar div .panel_large #pinterest_btn a {display: block !important; width: 100px !important; height: 20px !important; margin: 8px 2px !important; background-position: 0 0 !important;}
+
+#mobsearch #global_search {
+	margin-left: -130px;
+}				

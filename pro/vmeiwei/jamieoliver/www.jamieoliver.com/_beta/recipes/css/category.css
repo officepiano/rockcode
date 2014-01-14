@@ -1,0 +1,483 @@
+#content.recipes {}
+	
+	#content.recipes .top {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/category-header-bg.jpg) repeat scroll 0 0 transparent; height: 82px; padding: 10px 0 30px 0; overflow: hidden;}
+	#content.recipes .top.nobg {background: transparent none;}
+	
+	#content.recipes .banner_outer {display: none; width: 100%; height: 130px; float: left; margin: 20px 0; border-top: 1px dashed #cccccc; border-bottom: 1px dashed #cccccc;}
+		#content.recipes .banner_outer .cntr {overflow: visible;}
+	#content.recipes .banner_outer.banner_footer {border-bottom: none; margin-bottom: 50px;}
+		#content.recipes .banner_outer.banner_footer .cntr {overflow: hidden;}
+
+	#content.recipes #category_top {padding: 20px 0; margin: 0; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/category-header-bg.jpg) repeat scroll 0 0 transparent;}
+		#content.recipes #category_top .col1 {float: left; background: transparent none;}
+			#content.recipes #category_top .col1 .image-container,
+			#content.recipes #category_top .col1 .image-container2 {width: 300px; height: 375px; float: left; position: relative; overflow: hidden;}
+				#content.recipes #category_top .col1 .image-container img {max-width:300px;}
+				#content.recipes #category_top .col1 .image-container .recipe_title,
+				#content.recipes #category_top .col1 .image-container2 .recipe_title {display: block; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/white70.png) 0 0 repeat; width: 300px; position: absolute; bottom: 0;}
+					#content.recipes #category_top .col1 .image-container .recipe_title p,
+					#content.recipes #category_top .col1 .image-container2 .recipe_title p {color: #333333; font-size: 10px; line-height: 12px; padding: 5px;}
+			#content.recipes #category_top .col1 .content-container {width: 300px; height: 386px; float: left; position: relative; margin-top: 20px; background: #ffffff;}
+				#content.recipes #category_top .col1 .content-container .padding {padding: 20px 20px 15px 20px; text-align: center;}
+				#content.recipes #category_top .col1 .content-container .heading {}
+					#content.recipes #category_top .col1 .content-container .heading h5 {color: #666666;}
+					#content.recipes #category_top .col1 .content-container .heading img {}
+					#content.recipes #category_top .col1 .content-container .heading h3 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 31px; color: #4d5762; margin: 12px 0 10px 0;}
+						#content.recipes #category_top .col1 .content-container .heading a {text-decoration: none; color: #4d5762;}
+						#content.recipes #category_top .col1 .content-container .heading a:hover {color: #4d5762;}
+				#content.recipes #category_top .col1 .content-container p {font-size: 12px; line-height: 18px; letter-spacing: 1px; color: #666666; margin: 0 0 20px 0;}	
+				#content.recipes #category_top .col1 .content-container a.linkout {font-size: 12px;text-decoration: underline; color: #666666;}
+				#content.recipes #category_top .col1 .content-container a.linkout:hover {color: #47a8d8;}
+				#content.recipes #category_top .col1 .content-container blockquote {font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; font-size: 16px; line-height: 26px; color: #666666; padding: 0 30px; margin: 0 0 15px 0;}
+					#content.recipes #category_top .col1 .content-container blockquote .quotation {color: #28aae1; font-size: 20px; font-weight: bold;}
+					#content.recipes #category_top .col1 .content-container blockquote .signature {color: #28aae1; font-style: normal; }
+				#content.recipes #category_top .col1 .content-container a.explore {float: left; height: 24px; font-size: 11px; text-decoration: none; color: #7a7a7a; line-height: 24px; padding-right: 30px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/explore-arrow.png) right 0 no-repeat; position: absolute; bottom: 20px; left: 70px;}
+				
+		#content.recipes #category_top .col2 {float: left; margin: 0;}
+			#content.recipes #category_top .col2 .internal_ad {float: right; margin: 20px 0 13px 0; display: none;}
+				#content.recipes #category_top .col2 .internal_ad img {}
+			#content.recipes #category_top .col2 .mpu {float: left; margin-top: 20px;}
+				#content.recipes #category_top .col2 .mpu img {}
+					
+		#content.recipes #category_top .category_meta {display: none; float: left; width: 280px; overflow: hidden; margin: 10px 0 0 10px;}
+			#content.recipes #category_top .category_meta p {color: #666666; float: left; font-size: 12px; margin: 5px 0; text-align: center; line-height: 20px;}
+				#content.recipes #category_top .category_meta p a {color: #33d3a7;}
+			#content.recipes #category_top .category_meta span {display: none;}
+				
+					
+	#content.recipes #recipe_collections {}
+		#content.recipes #recipe_collections header.full-width {margin-top: 20px;}
+		#content.recipes #recipe_collections article {position: relative; margin-bottom: 16px; height: 280px; overflow: hidden;}
+			#content.recipes #recipe_collections article a {position: absolute; display: block; width: 100%; height: 100%; text-decoration: none;}
+			#content.recipes #recipe_collections article h3 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 19px; color: #666666; padding: 10px; position: absolute; bottom: 16px; left: 10px; right: 10px; min-height: 20px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/white90.png) 0 0 repeat; }
+			#content.recipes #recipe_collections article a:hover h3 {color: #47a8d8; text-decoration: none;}
+	#content.recipes #explore_jamieoliver {background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/explore-jamie-bg.jpg) 0 0 repeat; padding: 0 0 0 0;}
+		#content.recipes #explore_jamieoliver .explore_jamieoliver_top {float: left; clear: left; width: 100%; height: 7px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/explore-jamie-top-bg.png) 0 top repeat; margin: 0;}
+		#content.recipes #explore_jamieoliver .explore_jamieoliver_bot {float: left; clear: left; width: 100%; height: 7px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/explore-jamie-bot-bg.png) 0 bottom repeat; margin: 40px 0 0 0;}
+		#content.recipes #explore_jamieoliver article {background: #ffffff;}
+			#content.recipes #explore_jamieoliver article span {border: 1px solid #E2E2E2; border-radius: 3px 3px 3px 3px; color: #666666; float: left; font-size: 12px; padding: 0 9px; margin: 0 0 0 10px;}
+				#content.recipes #explore_jamieoliver article span a {color: #666666;}
+				#content.recipes #explore_jamieoliver article span a:hover {color: #47a8d8;}
+			#content.recipes #explore_jamieoliver article h3 {float: left; clear: left; font-family: Georgia, "Times New Roman", Times, serif; font-size: 19px; color: #666666;}
+				#content.recipes #explore_jamieoliver article h3 a {text-decoration: none; color: #666666;}
+				
+		#content.recipes #explore_jamieoliver .col1 {height: 250px; position: relative;}
+			#content.recipes #explore_jamieoliver .col1 p {clear: left; float: left; color: #666666; font-size: 12px; line-height: 18px;}
+			#content.recipes #explore_jamieoliver .col1 img {position: absolute; top: 10px; right: 10px; max-width: 90px;}
+			#content.recipes #explore_jamieoliver .col1 h3 {width: 120px; margin: 20px 0 20px 10px;}
+			#content.recipes #explore_jamieoliver .col1 p {margin: 15px 10px; line-height: 18px;}
+			#content.recipes #explore_jamieoliver .col1 .tag {margin-top: 10px;}
+				#content.recipes #explore_jamieoliver .col1 .tag a {text-decoration: none;}
+			
+		#content.recipes #explore_jamieoliver .col2 {height: 250px; position: relative; overflow: hidden;}
+			#content.recipes #explore_jamieoliver .col2 img {position: absolute; top: 0; left: 0; max-width: 460px; margin-left: -80px;}
+			#content.recipes #explore_jamieoliver .col2 .tag {position: absolute; bottom: 10px; left: 0px; z-index: 2; background: #ffffff;}
+				#content.recipes #explore_jamieoliver .col2 .tag a {text-decoration: none;}
+			#content.recipes #explore_jamieoliver .col2 h3 {width: 240px; padding: 10px; letter-spacing: 1px; position: absolute; font-family: helvetica, arial; font-size: 25px; font-weight: bold; top: 80px; left: 20px; z-index: 2; background: #ffffff;}
+				#content.recipes #explore_jamieoliver .col2 h3 a {color: #26b6b6;}
+				
+		#content.recipes #explore_jamieoliver .col3 {height: 250px;}
+			#content.recipes #explore_jamieoliver .col3 p {clear: left; float: left; color: #666666; font-size: 12px; line-height: 18px;}
+				#content.recipes #explore_jamieoliver .col3 p a {text-decoration: none; color: #666666;}
+					#content.recipes #explore_jamieoliver .col3 p a:hover { color: #47a8d8;}
+				#content.recipes #explore_jamieoliver .tag a {text-decoration: none;}
+			#content.recipes #explore_jamieoliver .col3 .tag {margin-top: 10px;}
+			#content.recipes #explore_jamieoliver .col3 h3 {width: 120px; margin: 20px 0 20px 10px;}
+			#content.recipes #explore_jamieoliver .col3 p {margin: 0 10px; line-height: 18px;}
+			
+
+/* Featured recipe list */			
+#content.recipes #featured_recipe_list {padding: 0; margin: 0;}
+	#content.recipes #featured_recipe_list .panel {width: 220px; height: 390px; margin: 0 40px 20px 40px;}
+		#content.recipes #featured_recipe_list .panel .trigger {width: 100%; height: 100%; position: relative;}
+			#content.recipes #featured_recipe_list .panel .trigger img {position: absolute;}
+			#content.recipes #featured_recipe_list .panel .trigger .copy {position: absolute; bottom: 0; left: 0; right: 0; height: 97px; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/event-module-bg.png) 0 0 repeat; overflow: hidden;}
+				#content.recipes #featured_recipe_list .panel .trigger .copy h3 {color: #666666; font-family: Georgia,"Times New Roman",Times,serif; font-size: 19px; line-height: 22px; padding: 10px; height: 40px; margin: 0;}
+					#content.recipes #featured_recipe_list .panel .trigger .copy h3 a {color: #666666; text-decoration: none;}
+					#content.recipes #featured_recipe_list .panel .trigger .copy h3 a:hover {color: #47a8d8;}
+					#content.recipes #featured_recipe_list .panel .trigger .copy span {border: 1px solid #E2E2E2; border-radius: 3px 3px 3px 3px; color: #666666; float: left; font-size: 12px; padding: 3px 9px; margin: 0 0 10px 10px;}
+					    #content.recipes #featured_recipe_list .panel .trigger .copy span a {color: #666666; text-decoration: none;}
+					    #content.recipes #featured_recipe_list .panel .trigger .copy span a:hover {color: #47a8d8;}		
+					
+	#content.recipes #featured_recipe_list .panel .trigger .copy .tools {display: block; background: none repeat scroll 0 0 #FFFFFF; bottom: 0; float: right; height: 20px; text-align: right; margin-right: 10px;}
+	#content.recipes #featured_recipe_list .panel.hover .trigger .copy .tools {display: none;}
+		#content.recipes #featured_recipe_list .panel .trigger .copy .tools a {display: block; float: right; height: 15px; margin: 3px 3px; text-indent: 5000px; width: 15px;}
+			#content.recipes #featured_recipe_list .panel .trigger .copy .tools a.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 -15px transparent;}
+			#content.recipes #featured_recipe_list .panel .trigger .copy .tools a:hover.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 0 transparent;}
+			#content.recipes #featured_recipe_list .panel .trigger .copy .tools a.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 -15px transparent; display: none;}
+				#content.recipes #featured_recipe_list .panel .trigger .copy .tools a:hover.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 0 transparent;}
+			#content.recipes #featured_recipe_list .panel .trigger .copy .tools a.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 -15px transparent; display: none;}
+				#content.recipes #featured_recipe_list .panel .trigger .copy .tools a:hover.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 0 transparent;}
+	
+	#content.recipes #featured_recipe_list .panel .trigger .copy dl {display: none; clear: both; float: left; border-top: 1px dashed #cccccc; width: 100%; margin: 0 0 0 0; padding: 10px 10px 10px 10px;}				
+	#content.recipes #featured_recipe_list .panel.hover .trigger .copy dl {display: none;}	
+		#content.recipes #featured_recipe_list .panel .trigger .copy dt {width: 110px; float: left; clear: left; font-size: 12px; color: #666666; font-weight: bold;}
+		#content.recipes #featured_recipe_list .panel .trigger .copy dd {float: left; font-size: 12px; color: #666666; font-weight: normal;}
+	
+/* Filtered recipe list */
+	#content.recipes #recipe_filtered_header {margin: 0;}
+		#content.recipes header h2.noborder {background: none; margin-bottom: 0;}
+	#content.recipes #recipe_filtered .panel {width: 220px; height: 363px; margin-bottom: 20px; margin-left: 40px; margin-right: 40px; overflow: hidden;}
+	/*#content.recipes #recipe_filtered .panel {width: 220px; height: 262px; margin-bottom: 20px;}*/
+		#content.recipes #recipe_filtered .panel .trigger {width: 100%; height: 100%; position: relative;}
+			#content.recipes #recipe_filtered .panel .trigger img {position: absolute; min-height: 270px;}
+			#content.recipes #recipe_filtered .panel .trigger .copy {min-height: 95px; position: absolute; bottom: 0px; left: 0; right: 0; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/event-module-bg.png) 0 0 repeat; overflow: hidden;}
+			/*#content.recipes #recipe_filtered .panel .trigger .copy {position: absolute; bottom: 0; left: 0; right: 0; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/event-module-bg.png) 0 0 repeat; overflow: hidden;}*/
+			
+				#content.recipes #recipe_filtered .panel .trigger .copy h3 {color: #666666; height: 44px; font-family: Georgia,"Times New Roman",Times,serif; font-size: 19px; line-height: 22px; padding: 10px; margin: 0;}
+					#content.recipes #recipe_filtered .panel .trigger .copy h3 a {color: #666666; text-decoration: none;}
+					#content.recipes #recipe_filtered .panel .trigger .copy h3 a:hover {color: #47a8d8;}
+					#content.recipes #recipe_filtered .panel .trigger .copy span {border: 1px solid #E2E2E2; border-radius: 3px 3px 3px 3px; color: #666666; float: left; font-size: 12px; padding: 0 9px; margin: 0 0 10px 10px;}
+					    #content.recipes #recipe_filtered .panel .trigger .copy span a {color: #666666; text-decoration: none;}
+					    #content.recipes #recipe_filtered .panel .trigger .copy span a:hover {color: #47a8d8;}		
+					
+	#content.recipes #recipe_filtered .panel .trigger .copy .tools {display: block; background: none repeat scroll 0 0 #FFFFFF; bottom: 0; float: right; height: 20px; text-align: right; margin-right: 10px;}
+	#content.recipes #recipe_filtered .panel.hover .trigger .copy .tools {display: none;}
+		#content.recipes #recipe_filtered .panel .trigger .copy .tools a {display: block; float: right; height: 15px; margin: 3px 3px; text-indent: 5000px; width: 15px;}
+			#content.recipes #recipe_filtered .panel .trigger .copy .tools a.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 -15px transparent;}
+			#content.recipes #recipe_filtered .panel .trigger .copy .tools a:hover.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 0 transparent;}
+			#content.recipes #recipe_filtered .panel .trigger .copy .tools a.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 -15px transparent; display: none;}
+				#content.recipes #recipe_filtered .panel .trigger .copy .tools a:hover.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 0 transparent;}
+			#content.recipes #recipe_filtered .panel .trigger .copy .tools a.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 -15px transparent; display: none;}
+				#content.recipes #recipe_filtered .panel .trigger .copy .tools a:hover.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 0 transparent;}
+	
+	#content.recipes #recipe_filtered .panel .trigger .copy dl {display: none; clear: both; float: left; border-top: 1px dashed #cccccc; width: 100%; margin: 0 0 0 0; padding: 10px 10px 10px 10px;}				
+	#content.recipes #recipe_filtered .panel.hover .trigger .copy dl {display: none;}	
+		#content.recipes #recipe_filtered .panel .trigger .copy dt {width: 110px; float: left; clear: left; font-size: 12px; color: #666666; font-weight: bold;}
+		#content.recipes #recipe_filtered .panel .trigger .copy dd {float: left; font-size: 12px; color: #666666; font-weight: normal;}
+
+/* Filtered recipe video */
+#content.recipes #recipe_filtered_videos {}
+	#content.recipes #recipe_filtered_videos .panel {height: 225px; width: 220px; margin: 0 20px 20px 40px; overflow: hidden; background: #ffffff;}
+		#content.recipes #recipe_filtered_videos .panel .video_pic {display: block; float: left; height: 122px; overflow: hidden; position: relative; width: 220px;}
+		#content.recipes #recipe_filtered_videos .panel a {text-decoration: none;}
+		#content.recipes #recipe_filtered_videos .panel a .play_arrow {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/featured_video_play_btn.gif) no-repeat scroll 0 0 transparent; bottom: 0; display: block; height: 30px; left: 0; position: absolute; width: 30px; z-index: 9;}
+		#content.recipes #recipe_filtered_videos .panel a:hover .play_arrow {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/featured_video_play_btn_hover.gif) no-repeat scroll 0 0 transparent;}
+		#content.recipes #recipe_filtered_videos .panel div.crop_thumb {width: 220px; height: 122px; overflow: hidden;}
+			#content.recipes #recipe_filtered_videos .panel div.crop_thumb img {margin: -22px 0 0; width: 220px; min-width: 220px; max-width: 220px;}
+		#content.recipes #recipe_filtered_videos .panel a h3 {font-family: Georgia,"Times New Roman",Times,serif; text-decoration: none; float: left; font-size: 19px; height: 55px; margin: 10px 40px 0 10px; color: #666666;}
+		#content.recipes #recipe_filtered_videos .panel a:hover h3 {color: #47a8d8;}
+		#content.recipes #recipe_filtered_videos .panel a.video_post_btn {border: 1px solid #E2E2E2; border-radius: 3px 3px 3px 3px; color: #666666; float: left; font-size: 12px; margin: 8px 0 10px 10px; padding: 2px 9px; box-shadow: none; text-transform: none;}
+		
+
+/* Filtered top (new) */
+#content.recipes #top_results {margin: 0;}
+#content.recipes #top_results .panel {width: 220px; height: 360px; margin-bottom: 20px; overflow: hidden; position: relative;}
+	#content.recipes #top_results .panel .internal_ad {margin-bottom: 14px;}
+	#content.recipes #top_results .panel .trigger {width: 100%; height: 100%; }
+		#content.recipes #top_results .panel .trigger img {position: absolute; min-width: 220px; max-width: 220px;}
+		#content.recipes #top_results .panel .trigger .copy {min-height: 95px; position: absolute; bottom: 0px; left: 0; right: 0; background: #ffffff url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/event-module-bg.png) 0 0 repeat; overflow: hidden;}
+		#content.recipes #top_results .col1,
+		#content.recipes #top_results .col2 {display: block; margin-right: 20px; margin-left: 40px;}
+	
+#content.recipes #top_results .panel .trigger .copy h3 {color: #666666; height: 44px; font-family: Georgia,"Times New Roman",Times,serif; font-size: 19px; line-height: 22px; padding: 10px; margin: 0;}
+	#content.recipes #top_results .panel .trigger .copy h3 a {color: #666666; text-decoration: none;}
+	#content.recipes #top_results .panel .trigger .copy h3 a:hover {color: #47a8d8;}
+	#content.recipes #top_results .panel .trigger .copy span {border: 1px solid #E2E2E2; border-radius: 3px 3px 3px 3px; color: #666666; float: left; font-size: 12px; padding: 0 9px; margin: 0 0 10px 10px;}
+	    #content.recipes #top_results .panel .trigger .copy span a {color: #666666; text-decoration: none;}
+	    #content.recipes #top_results .panel .trigger .copy span a:hover {color: #47a8d8;}		
+				
+#content.recipes #top_results .panel .trigger .copy .tools {display: block; background: none repeat scroll 0 0 #FFFFFF; bottom: 0; float: right; height: 20px; text-align: right; margin-right: 10px;}
+#content.recipes #top_results .panel.hover .trigger .copy .tools {display: none;}
+	#content.recipes #top_results .panel .trigger .copy .tools a {display: block; float: right; height: 15px; margin: 3px 3px; text-indent: 5000px; width: 15px;}
+		#content.recipes #top_results .panel .trigger .copy .tools a.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 -15px transparent;}
+		#content.recipes #top_results .panel .trigger .copy .tools a:hover.network {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/network.png) no-repeat scroll 0 0 transparent;}
+		#content.recipes #top_results .panel .trigger .copy .tools a.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 -15px transparent; display: none;}
+			#content.recipes #top_results .panel .trigger .copy .tools a:hover.tick {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/tick.png) no-repeat scroll 0 0 transparent;}
+		#content.recipes #top_results .panel .trigger .copy .tools a.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 -15px transparent; display: none;}
+			#content.recipes #top_results .panel .trigger .copy .tools a:hover.plus {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/images/global/plus.png) no-repeat scroll 0 0 transparent;}
+
+#content.recipes #top_results .panel .trigger .copy dl {display: none; clear: both; float: left; border-top: 1px dashed #cccccc; width: 100%; margin: 0 0 0 0; padding: 10px 10px 10px 10px;}				
+#content.recipes #top_results .panel.hover .trigger .copy dl {display: none;}	
+	#content.recipes #top_results .panel .trigger .copy dt {width: 110px; float: left; clear: left; font-size: 12px; color: #666666; font-weight: bold;}
+	#content.recipes #top_results .panel .trigger .copy dd {float: left; font-size: 12px; color: #666666; font-weight: normal;}
+		
+/* Search filter */
+#content.recipes #recipe_filtered_filter {display: none; position: relative; margin: 0 0 80px 0;}
+	#content.recipes #recipe_filtered_filter a.filter_toggle {width: 300px; height: 70px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/recipe_filter.png) 0 -70px no-repeat; display: block; outline: none; border: none; position: absolute; left: 50%; bottom: -35px; margin-left: -150px;}
+	#content.recipes #recipe_filtered_filter.toggle a.filter_toggle {background-position: 0 0; z-index: 1000;}
+		#content.recipes #recipe_filtered_filter a.filter_toggle span {font-size: 12px; color: #666666; position: absolute; bottom: -20px; width: 300px; text-align: center;}
+	#content.recipes #recipe_filtered_filter .sorting {display: none; width: 190px; height: 19px; position: absolute; bottom: -55px; right: 0;}
+		#content.recipes #recipe_filtered_filter #recipe_sorting {width: 190px;}
+		#content.recipes #recipe_filtered_filter .sorting label {float: left; font-size: 12px; line-height: 19px; color: #666666; margin: 0 0 0 0;}
+			#content.recipes #recipe_filtered_filter .sorting .sbHolder {float: right; width: 100px;}
+			#content.recipes #recipe_filtered_filter .sorting #recipe_sorting ul {width: 98px;}
+				#content.recipes #recipe_filtered_filter .sorting #recipe_sorting ul li {width: 98px;}
+	
+#content.recipes #recipe_filtered_filter #recipe_filter {background: #ffffff; position: relative; overflow: hidden; padding: 0 0 0 0; margin: 0 0 0 0; height: auto;}
+#content.recipes #recipe_filtered_filter.toggle #recipe_filter	{height: 0;}
+	#content.recipes #recipe_filter #filter_list {}
+		#content.recipes #recipe_filter #filter_list form {clear: both;}
+		#content.recipes #recipe_filter a.clear_filters,
+		#content.recipes #recipe_filter a.filter_close {font-size: 10px; color: #666666; text-decoration: none; display: block; width: 100%; text-align: center; padding: 10px 0; border: none; outline: none;}
+		#content.recipes #recipe_filter a.filter_update {display: block; width: 100%; height: 35px; background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/update-button.png) center 0 no-repeat; margin: 0 0 40px 0; overflow: hidden;}
+		#content.recipes #recipe_filter a.filter_update:hover {background: url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/update-button.png) center -35px no-repeat;}
+			#content.recipes #recipe_filter a.filter_update span {visibility: hidden;}
+		#content.recipes #recipe_filter #filter_list .col {float: left; width: 300px; padding: 0 0; margin: 0 0;}
+		#content.recipes #recipe_filter #filter_list .col1 {margin-left: 0;}
+		#content.recipes #recipe_filter #filter_list .col2 {}
+		#content.recipes #recipe_filter #filter_list .col3 {margin-left: 0;}
+		#content.recipes #recipe_filter #filter_list ul {text-align:center; margin: 0 0 10px 0;}
+		#content.recipes #recipe_filter #filter_list ul.margin {margin-bottom: 40px;}
+			#content.recipes #recipe_filter #filter_list ul li {width: 300px; display:inline-block; margin: 0 0 2px 0; font-size: 11px; color: #333333;}
+					#content.recipes #recipe_filter #filter_list ul li a{color: #333333; text-decoration: none;}
+				#content.recipes #recipe_filter #filter_list ul li h5 {font-size: 15px; color: #333333; text-transform: uppercase;}
+				#content.recipes #recipe_filter #filter_list ul li .input_check {margin: 0 5px 0 0;}
+
+				#content.recipes #sponsor { text-align: center; margin-bottom: -25px; padding: 15px 0px 0px 0px; }
+
+/* 4 columns - equal widths */
+section.grid10 {}
+	section.grid10 .col {float: left;}
+	section.grid10 .col1{width: 220px; margin: 0 20px 0 0; display: none;}
+	section.grid10 .col2{width: 300px; margin: 0 20px 0 0;}
+	section.grid10 .col3{width: 220px; margin: 0 0 0 0; display: none;}
+	
+				
+@media only screen and (min-width: 480px){	
+	
+	#content.recipes .top {padding: 10px 0 47px 0; height: 42px;}
+	
+	/* Filtered recipe video */
+	#content.recipes #recipe_filtered_videos {}
+		#content.recipes #recipe_filtered_videos .panel {margin: 0 20px 20px 0;}
+	
+	#content.recipes #category_top {}
+		#content.recipes #category_top .col1 {width: 460px; height: 306px; overflow: hidden; margin: 0 0 0 10px; background: transparent none;}
+			#content.recipes #category_top .col1 .image-container,
+			#content.recipes #category_top .col1 .image-container2 {width: 230px; height: 306px; height: auto; overflow: hidden; float: left; min-height: 10px;}
+				#content.recipes #category_top .col1 .image-container img {max-width: 230px;}
+				#content.recipes #category_top .col1 .image-container .recipe_title,
+				#content.recipes #category_top .col1 .image-container2 .recipe_title {width: 326px; bottom: 5px;}
+		#content.recipes #category_top .col1 .content-container {width: 230px; height: 306px; overflow: hidden; float: left;}
+			#content.recipes #category_top .col1 .content-container .heading h3 {font-size: 19px; margin: 5px 0;}
+			#content.recipes #category_top .col1 .content-container .heading h5 {font-size: 12px;}
+			#content.recipes #category_top .col1 .content-container p {font-size: 10px; line-height: 18px; margin: 0 0 10px;}
+			#content.recipes #category_top .col1 .content-container a.linkout {text-decoration: underline; color: #666666;}
+			#content.recipes #category_top .col1 .content-container a:hover {color: #47a8d8;}
+			#content.recipes #category_top .col1 .content-container blockquote {padding: 0; font-size: 12px; line-height: 20px;}
+			#content.recipes #category_top .col1 .content-container a.explore {margin: 0; left: 55px;}
+		#content.recipes #category_top .col2 {display: none;}
+			#content.recipes #category_top .col2 .internal_ad {float: left; margin: 0 13px 20px 13px;}
+			#content.recipes #category_top .col2 .mpu {float: left; margin: 0 13px 20px 13px;}
+			
+	#content.recipes #category_top .category_meta {float: left; width: 460px; overflow: hidden; margin: 10px 0 0 10px;}
+		#content.recipes #category_top .category_meta p {color: #666666; width: 460px; text-align: center; float: left; font-size: 12px; line-height: 20px; margin: 5px 0;}
+			#content.recipes #category_top .category_meta p a {color: #33d3a7;}
+		#content.recipes #category_top .category_meta span {display: none;}
+	
+	#content.recipes #explore_jamieoliver {}		
+		#content.recipes #explore_jamieoliver .col2 img {margin-left: 0;}
+		#content.recipes #explore_jamieoliver .col2 h3 {width: 260px; padding: 10px; letter-spacing: 1px; position: absolute; font-family: helvetica, arial; font-size: 27px; line-height: 31px; font-weight: bold; top: 80px; left: 80px; z-index: 2; background: #ffffff;}
+		#content.recipes #explore_jamieoliver .col3 h3 {width: 200px;}
+		
+		#content.recipes #featured_recipe_list .panel {margin: 0;}
+		
+	/* Filtered top (new) */
+	#content.recipes #top_results .panel {width: 220px; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative;}
+		#content.recipes #top_results .col1 {margin: 0 20px 20px 0;}
+		#content.recipes #top_results .col2 {display: block; margin-right: 20px; margin-left: 0;}
+		
+	/* Search filter */
+	#content.recipes #recipe_filtered_filter {margin: 0 0 80px 0; background: #ffffff;}
+		#content.recipes #recipe_filtered_filter .cntr {position: relative; overflow: visible;}
+		#content.recipes #recipe_filtered_filter a.filter_toggle {width: 300px; height: 70px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/recipe_filter.png) 0 -70px no-repeat; display: block; outline: none; border: none; position: absolute; left: 50%; bottom: -35px; margin-left: -150px;}
+		#content.recipes #recipe_filtered_filter.toggle a.filter_toggle {background-position: 0 0; z-index: 1000;}
+	
+	#content.recipes #recipe_filter {background: #ffffff; position: relative; overflow: hidden; padding: 0 0 0 0; margin: 0 0 0 0;}
+		#content.recipes #recipe_filter #filter_list {padding-bottom: 40px;}
+			#content.recipes #recipe_filter #filter_list form {clear: both;}
+			#content.recipes #recipe_filter #filter_list a.clear_filters,
+			#content.recipes #recipe_filter #filter_list a.filter_close {font-size: 10px; color: #666666; text-decoration: none; display: block; width: 100%; text-align: center; padding: 10px 0; border: none; outline: none;}
+			#content.recipes #recipe_filter #filter_list .col {width: 460px; float: left;  padding: 0 0; margin: 0 0;}
+			#content.recipes #recipe_filter #filter_list .col1 {margin-left: 0;}
+			#content.recipes #recipe_filter #filter_list .col2 {width: 460px; border-left: none; border-right: none; margin-bottom: 30px !important;}
+			#content.recipes #recipe_filter #filter_list .col3 {width: 460px; margin-left: 0;}
+			#content.recipes #recipe_filter #filter_list ul {float: left; width: 230px; text-align:center; margin: 0 0 10px 0;}
+				#content.recipes #recipe_filter #filter_list ul li {width: 230px; display:inline-block; margin: 0 0 2px 0; font-size: 11px; color: #333333;}
+					#content.recipes #recipe_filter #filter_list ul li h5 {font-size: 15px; color: #333333; text-transform: uppercase;}
+					#content.recipes #recipe_filter #filter_list ul li .input_check {margin: 0 5px 0 0;}
+	
+	#content.recipes #recipe_filtered .panel {margin-left: 0; margin-right: 0;}
+	#content.recipes #recipe_filtered .col1 {margin-right: 20px;}
+	#content.recipes #recipe_filtered .col2 {margin-right: 20px;}
+	#content.recipes #recipe_filtered .col3 {margin-right: 0;}
+	
+	#content.recipes #featured_recipe_list .col1 {margin-right: 20px;}
+	#content.recipes #featured_recipe_list .col2 {margin-right: 20px;}
+	#content.recipes #featured_recipe_list .col3 {margin-right: 0;}
+	
+				
+	/* 4 columns - equal widths */
+	section.grid10 {}
+		section.grid10 .col {float: left;}
+		section.grid10 .col1{width: 220px; margin: 0 20px 0 0;}
+		section.grid10 .col2{width: 460px; margin: 0 0 0 0;}
+		section.grid10 .col3{width: 220px; margin: 0 0 0 0;}
+				
+}
+
+		
+@media only screen and (min-width: 700px){ 
+	
+	#content.recipes #sponsor { text-align: right; margin-bottom: -75px; }
+	
+	/* Filtered recipe video */
+	#content.recipes #recipe_filtered_videos {}
+		#content.recipes #recipe_filtered_videos .panel {margin: 0 20px 20px 0;}
+		#content.recipes #recipe_filtered_videos .col3 {margin-right: 0;}
+
+	#content.recipes .banner_outer {display: block;}
+	#content.recipes .top {height: 32px; padding: 6px 0 0 0;}
+	
+	#content.recipes #category_top {}
+		#content.recipes #category_top .col1 {width: 680px; height: 386px; overflow: hidden; margin: 0 20px 0 10px; background: transparent none;}
+			#content.recipes #category_top .col1 .image-container,
+			#content.recipes #category_top .col1 .image-container2 {width: 326px; height: 386px; float: left;}
+				#content.recipes #category_top .col1 .image-container img {max-width: 326px;}
+				#content.recipes #category_top .col1 .image-container .recipe_title,
+				#content.recipes #category_top .col1 .image-container2 .recipe_title {width: 326px; bottom: 0px;}
+				#content.recipes #category_top .col1 .image-container2 {margin-left: 20px;}
+		#content.recipes #category_top .col1 .content-container {width: 354px; height: 400px; float: left; margin-top: 0;}
+			#content.recipes #category_top .col1 .content-container .heading h3 {font-size: 31px; margin: 12px 0 10px;}
+			#content.recipes #category_top .col1 .content-container .heading h5 {font-size: 16px;}
+			#content.recipes #category_top .col1 .content-container p {font-size: 12px; line-height: 18px; margin: 0 0 20px 0;}
+			
+			
+			#content.recipes #category_top .col1 .content-container p a {
+				color: #666;
+			}
+			
+			
+			#content.recipes #category_top .col1 .content-container blockquote {padding: 0 30px; font-size: 16px; line-height: 26px;}
+			#content.recipes #category_top .col1 .content-container a.explore {margin: 0; left: 120px;}
+		#content.recipes #category_top .col2 {width: 680px; margin: 20px 0 0 10px; display: block;}
+			#content.recipes #category_top .col2 .internal_ad {display: block; float: right; margin: 0 24px 0 0;}
+			#content.recipes #category_top .col2 .mpu {float: left; margin: 0 0 0 30px;}
+			
+	#content.recipes #category_top .category_meta {float: left; width: 640px; overflow: hidden; margin: 10px 0 0 30px;}
+		#content.recipes #category_top .category_meta p {color: #666666; width: 640px; text-align: center; float: left; font-size: 12px; line-height: 20px; margin: 5px 0;}
+			#content.recipes #category_top .category_meta p a {color: #33d3a7;}
+		#content.recipes #category_top .category_meta span {display: none;}	
+	
+	/* Filtered top (new) */
+	#content.recipes #top_results .panel {width: 300px; height: 480px;}
+	#content.recipes #top_results .col1 {margin-right: 100px;}
+	#content.recipes #top_results .panel.col1 .trigger img {max-width: 300px; min-width: 300px;}
+	#content.recipes #top_results .panel.col2 .trigger img {max-width: 300px; min-width: 300px;}
+	#content.recipes #top_results .col2 {display: none;}
+		#content.recipes #top_results .panel .trigger .copy h3 {font-size: 19px; line-height: 22px; padding: 10px; margin: 0;}	
+
+	/* Search filter */
+	#content.recipes #recipe_filtered_filter {display: block; position: relative; margin: 0 0 80px 0;}
+		#content.recipes #recipe_filtered_filter a.filter_toggle {width: 300px; height: 70px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/recipe_filter.png) 0 -70px no-repeat; display: block; outline: none; border: none; position: absolute; left: 50%; bottom: -35px; margin-left: -150px;}
+		#content.recipes #recipe_filtered_filter.toggle a.filter_toggle {background-position: 0 0; z-index: 1000;}
+		#content.recipes #recipe_filtered_filter .sorting {display: block;}
+			
+	#content.recipes #recipe_filter {background: #ffffff; position: relative; overflow: hidden; padding: 0 0 0 0; margin: 0 0 0 0;}
+		#content.recipes #recipe_filter #filter_list {padding-bottom: 0;}
+			#content.recipes #recipe_filter #filter_list form {clear: both;}
+			#content.recipes #recipe_filter #filter_list a.clear_filters,
+			#content.recipes #recipe_filter #filter_list a.filter_close {font-size: 10px; color: #666666; text-decoration: none; display: block; width: 100%; text-align: center; padding: 10px 0; border: none; outline: none;}
+			#content.recipes #recipe_filter #filter_list .col {float: left; width: 220px; padding: 0 0; margin: 0 0;}
+			#content.recipes #recipe_filter #filter_list .col1 {margin-left: 0;}
+			#content.recipes #recipe_filter #filter_list .col2 {width: 218px; border-left: 1px dashed #cccccc; border-right: 1px dashed #cccccc;}
+			#content.recipes #recipe_filter #filter_list .col3 {margin-left: 0;}
+			#content.recipes #recipe_filter #filter_list ul {text-align:center; margin: 0 0 10px 0;}
+				#content.recipes #recipe_filter #filter_list ul li {width: 220px; display:inline-block; margin: 0 0 2px 0;}
+						#content.recipes #recipe_filter #filter_list ul li a {font-size: 11px; color: #333333; text-decoration: none;}
+					#content.recipes #recipe_filter #filter_list ul li h5 {font-size: 15px; color: #333333; text-transform: uppercase;}
+					#content.recipes #recipe_filter #filter_list ul li .input_check {margin: 0 5px 0 0;}
+					
+	#content.recipes #recipe_filtered .col3 {margin-right: 0;}
+	#content.recipes #featured_recipe_list .col3 {margin-right: 0;}
+			
+	/* 4 columns - equal widths */
+	section.grid10 {}
+		section.grid10 .col {float: left;}
+		section.grid10 .col1{width: 220px; margin: 0 20px 0 0; display: block;}
+		section.grid10 .col2{width: 460px; margin: 0 0 0 0;}
+		section.grid10 .col3{width: 220px; margin: 0 0 0 0;}
+
+	
+}	
+
+@media only screen and (min-width: 960px){  
+	
+	#content.recipes #category_top {}
+		#content.recipes #category_top .col1 {width: 620px; height: 400px; margin: 0 0 0 0; overflow: hidden;}
+			#content.recipes #category_top .col1 .image-container,
+			#content.recipes #category_top .col1 .image-container2 {width: 300px; height: auto; float: left;}
+				#content.recipes #category_top .col1 .image-container img {max-width: 300px;}
+				#content.recipes #category_top .col1 .image-container .recipe_title,
+				#content.recipes #category_top .col1 .image-container2 .recipe_title {width: 300px; bottom: 0;}
+
+			#content.recipes #category_top .col1 .image-container2 {width: 300px; height: auto; float: left; margin-left: 20px;}
+				#content.recipes #category_top .col1 .image-container2 img {max-width: 300px;}
+
+		#content.recipes #category_top .col1 .content-container {width: 320px; float: left;}
+		#content.recipes #category_top .col1 .content-container a.explore {margin: 0; left: 65px;}
+		#content.recipes #category_top .col2 {width: 300px; margin: 0 0 0 0;}
+			#content.recipes #category_top .col2 .internal_ad {float: left; margin: 0 0 24px 0;}
+			#content.recipes #category_top .col2 .mpu {float: left; margin: 0;}
+			
+	/* Filtered recipe video */
+	#content.recipes #recipe_filtered_videos {}
+		#content.recipes #recipe_filtered_videos .panel {margin: 0 20px 20px 0;}
+		#content.recipes #recipe_filtered_videos .col3 {margin-right: 20px;}
+		#content.recipes #recipe_filtered_videos .col4 {margin-right: 0;}
+			
+	#content.recipes #category_top .category_meta {
+		float: left;
+		width: 940px; 
+		overflow: hidden; 
+		margin: 5px 0;
+		padding: 10px 0 0;
+	}
+		#content.recipes #category_top .category_meta img {margin: 0 0 0 80px;}
+		#content.recipes #category_top .category_meta p {width: 940px; text-align: center; color: #666666; float: left; font-size: 12px; margin: 0; line-height: 20px;}
+			#content.recipes #category_top .category_meta p a {color: #33d3a7;}
+		#content.recipes #category_top .category_meta span {display: block; color: #666666; float: left; margin: 0 10px;}
+
+	/* Filtered top (new) */
+	#content.recipes #top_results .panel {width: 300px; height: 480px; margin-bottom: 20px; overflow: hidden; position: relative;}
+		#content.recipes #top_results .col1 {margin-right: 20px;}
+		#content.recipes #top_results .col2 {display: block;}
+		#content.recipes #top_results .panel .trigger .copy h3 {font-size: 19px; line-height: 22px; padding: 10px; margin: 0;}
+	
+
+	/* Search filter */
+	#content.recipes #recipe_filtered_filter {position: relative; margin: 0 0 80px 0;}
+		#content.recipes #recipe_filtered_filter a.filter_toggle {width: 300px; height: 70px; background: transparent url(http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_beta/recipes/images/recipe_filter.png) 0 -70px no-repeat; display: block; outline: none; border: none; position: absolute; left: 50%; bottom: -35px; margin-left: -150px;}
+		#content.recipes #recipe_filtered_filter.toggle a.filter_toggle {background-position: 0 0; z-index: 1000;}
+	
+	#content.recipes #recipe_filter {background: #ffffff; position: relative; overflow: hidden; padding: 0 0 0 0; margin: 0 0 0 0;}
+		#content.recipes #recipe_filter #filter_list {}
+			#content.recipes #recipe_filter #filter_list form {clear: both;}
+			#content.recipes #recipe_filter #filter_list a.clear_filters,
+			#content.recipes #recipe_filter #filter_list a.filter_close {font-size: 10px; color: #666666; text-decoration: none; display: block; width: 100%; text-align: center; padding: 10px 0; border: none; outline: none;}
+			#content.recipes #recipe_filter #filter_list .col {float: left; width: 260px; padding: 0 10px; margin: 0 10px;}
+			#content.recipes #recipe_filter #filter_list .col1 {margin-left: 25px;}
+			#content.recipes #recipe_filter #filter_list .col2 {border-left: 1px dashed #cccccc; border-right: 1px dashed #cccccc;}
+			#content.recipes #recipe_filter #filter_list .col3 {margin-left: 20px;}
+			#content.recipes #recipe_filter #filter_list ul {text-align:center; margin: 0 0 10px 0;}
+				#content.recipes #recipe_filter #filter_list ul li {width: 260px; display:inline-block; margin: 0 0 2px 0; font-size: 11px; color: #333333;text-align: left;
+margin-left: 50px;}
+					#content.recipes #recipe_filter #filter_list ul li h5 {font-size: 15px; color: #333333; text-transform: uppercase;}
+					#content.recipes #recipe_filter #filter_list ul li .input_check {margin: 0 5px 0 0;}
+	
+	#content.recipes #recipe_filtered .col3 {margin-right: 20px;}
+	#content.recipes #featured_recipe_list .col3 {margin-right: 20px;}
+	
+	/* 4 columns - equal widths */
+	section.grid10 {}
+		section.grid10 .col {float: left;}
+		section.grid10 .col1{width: 220px; margin: 0 20px 0 0;}
+		section.grid10 .col2{width: 460px; margin: 0 20px 0 0;}
+		section.grid10 .col3{width: 220px; margin: 0 0 0 0; display: block;}
+
+		
+}
+
+@media only screen and (min-width: 1025px){  
+}

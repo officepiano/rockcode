@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../skin/css/aiju.css" rel="stylesheet" media="screen">
+  <link href="../skin/css/jcarousel.basic.css" rel="stylesheet" media="screen"></head>
+<body>
+  <div class="wrapbox">
+    <div class="main clearfix">
+        <div class="mainbox">
+              <div class="topbg"></div>
+              <div class="wall header">
+                <div class="w headbg">
+                  <div class="navbar-right">
+                    <a href="#">首页</a>
+                    <span>|</span>
+                    <a href="#">产品</a>
+                  </div>
+                  <div class="logo">
+                    <img src="../skin/img/logo.png" />
+                  </div>
+                  <div class="nav-font">
+                    <ul>
+                      <li class="on">
+                        <a href="#" class="topa">装修日记</a>
+                        <div class="left">
+                          <a href="#">■ 前期准备</a>
+                          <a href="#">■ 设计方案</a>
+                          <a href="#">■ 选购主材</a>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#" class="topa">装修指南</a>
+                        <div class="left">
+                          <a href="#">■ 装修施工 </a>
+                          <a href="#">■ 监理验收</a>
+                          <a href="#">■ 后期配饰</a>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#" class="topa">了解大公</a>
+                        <div class="left">
+                          <a href="#">■ 走进大公</a>
+                          <a href="#">■ 公司年志</a>
+                          <a href="#">■ 加入大公</a>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#" class="topa">服务承诺</a>
+                      </li>
+                      
+                    </ul>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+              <div class="w product">
+                <div class="sidebar">
+                  <h2>ABOUT INPLUS</h2>
+                  <h3>my title</h3>
+                  <ul class="sidelist">
+                    <% for(var key in itemdata) {%>
+                      <% if( key == cur_item){%>
+                        <li class="on"><a href=""><%= itemdata[key]['title'] %></a></li> 
+                      <%} else {%>
+                        <li class=""><a href=""><%= itemdata[key]['title'] %></a></li>
+                      <%}%>
+                    <% } %>
+                  </ul>
+                  <ul class="imglist">
+                    <li>
+                      <a href="#">
+                        <img src="../skin/img/temp/side1.jpg" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="../skin/img/temp/side2.jpg" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="../skin/img/temp/side3.jpg" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <div class="prban">
+                    <img src="../skin/img/temp/650-160.jpg" />
+                  </div>
+
+                  <h1>
+                    <%=title%>
+                    
+                  </h1>
+
+                  <div class="conbox">
+                    <div class="l">
+                      
+                      <p>
+                        <%=des%>
+                      </p>
+                      
+
+                    </div>
+                    <div class="r">
+                      <a href="#">
+                        <img src="../skin/img/temp/173-412.jpg" />
+                      </a>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+        </div>
+    </div>
+  </div>
+  <div class="footer-w">
+    <div class="w foot">
+      <div class="footlogo">
+        <img src="../skin/img/temp/footlogo.gif"></div>
+      <div class="address">
+        <p>北京市朝阳区东三环中路 | TEL : 010-67832265 | FAX : 010-67832265</p>
+        <p> <b>www.xxxxxx.com</b>
+          COPYRIGHT 2012
+        </p>
+      </div>
+      <div class="info">
+        <a href="#">联系我们</a>
+        |
+        <a href="#">微信号</a>
+        |
+        <a href="#">微博关注号</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <script src="../skin/js/jquery.js"></script>
+  <script src="../skin/js/jcarousel.js"></script>
+  <script src="../skin/js/jcarousel.basic.js"></script>
+  <script src="../skin/js/index.js"></script>
+
+</body>
+</html>

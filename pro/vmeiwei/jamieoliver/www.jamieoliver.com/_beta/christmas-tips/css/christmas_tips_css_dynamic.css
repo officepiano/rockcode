@@ -1,0 +1,261 @@
+/*#content.photos {background: url(../images/bg-tile.gif) 0 0 repeat; margin: 0; padding: 0 0 40px 0;}*/
+
+#content.photos {background: url(http://www.jamieoliver.com/_beta/xmas-images/120px-tile-body-lighter.jpg) 0 0 repeat; margin: 0; padding: 0 0 40px 0;}
+
+#content.photos .grid .cntr {position: relative;}
+
+#content.photos .grid article {
+    float: left; 
+	margin: 7px 0 0 40px;
+    background: #ffffff;
+    padding: 0px;
+    width: 220px;
+	-moz-box-shadow: 0 0 3px 3px #aaaaaa;
+	-webkit-box-shadow: 0 0 3px 3px #aaaaaa;
+	box-shadow: 0 0 3px 3px #aaaaaa;
+}
+
+
+
+#content.photos .top {height: 32px; padding: 25px 0 0; background: transparent none;}
+	#content.photos .top .breadcrumb {float: left; width: auto;}
+	
+#content.photos .grid article {position: relative;}	
+#content.photos .grid article .image {width: 206px; height: 206px; position: relative; margin: 8px;}
+	#content.photos .grid article .image img {max-width: 206px;}
+	#content.photos .grid article .image img.photo {position: absolute; left: 0; top: 0;}
+	#content.photos .grid article .image img.instagram_logo {position: absolute; right: 10px; bottom: 10px;}
+#content.photos .grid article .meta {width: 206px; height: 20px; margin: 8px; font-family: arial, sans-serif; font-size: 10px; color: #999999;}
+	#content.photos .grid article .meta .user {float: left; margin: 0 20px 0 0;}
+	#content.photos .grid article .meta .date {float: left;}
+	#content.photos .grid article .meta .faves {float: right; background: #ffffff url(../images/heart.png) 0 6px no-repeat; padding: 0 0 0 15px;}
+#content.photos .grid article .interaction {position: absolute; top: 3px; right: 3px; width: 139px; height: 26px; overflow: hidden; z-index: 100; display: none;}
+#content.photos .grid article.active .interaction {display: block;}
+	#content.photos .grid article .interaction a {display: block; float: left; height: 26px; overflow: hidden;}
+	#content.photos .grid article .interaction a.comment {width: 77px; background: transparent url(../images/btn-comment.png) 0 0 no-repeat; margin: 0 5px 0 0;}
+	#content.photos .grid article .interaction a.comment:hover {background: transparent url(../images/btn-comment.png) 0 -26px no-repeat;}
+	#content.photos .grid article .interaction a.like {width: 57px; background: transparent url(../images/btn-like.png) 0 0 no-repeat; }
+	#content.photos .grid article .interaction a.like:hover {background: transparent url(../images/btn-like.png) 0 -26px no-repeat; }
+		#content.photos .grid article .interaction span {visibility: hidden;}
+#content.photos .grid article .description {}
+	#content.photos .grid article .description p {font-family: "Courier New", Courier, monospace; color: #666666; font-size: 12px; line-height: 18px; padding: 8px;}
+
+
+	#content.photos header.full-width {margin: 0; text-align: center; position: relative; margin: 0 0 40px 0;}
+		#content.photos header h2 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 35px; color: #4d5762; letter-spacing: -1px; font-weight: normal; margin: 0; position: relative;}
+		#content.photos header .bottom-dcorative-hr {margin-bottom: 5px; margin-top: 8px;}
+		#content.photos header #photo_sorting {position: absolute; right: 50px; top: 80px;}
+		
+	#content.photos header #photo_sorting {width: 190px;}
+	#content.photos header #photo_sorting label {float: left; font-size: 12px; line-height: 19px; color: #666666; margin: 0 0 0 0;}
+		#content.photos header .sorting #photo_sorting ul {width: 98px;}
+			#content.photos header .sorting #photo_sorting ul li {width: 98px;}
+			
+	#content.photos #load_more {position: relative; margin: 70px 0; float: left; clear: left;}
+		#content.photos #load_more a.load_more_photos {width: 300px; height: 70px; background: transparent url(../images/recipe_filter.png) 0 0 no-repeat; display: block; outline: none; border: none; position: absolute; left: 50%; bottom: -35px; margin-left: -150px;}
+		#content.photos #load_more.toggle a.load_more_photos {background-position: 0 0; z-index: 1000;}
+			#content.photos #load_more a.load_more_photos span {font-size: 12px; color: #666666; position: absolute; bottom: -20px; width: 300px; text-align: center;}
+					
+	#content.photos .banner {margin: 20px 0;}
+	#content.photos .banner_outer {border-bottom: 1px dashed #CCCCCC; float: left; height: 130px; margin: 0 0 20px 0; width: 100%;}
+	.banner {float: left; left: 50%; margin: 20px auto 0; position: relative;}
+	.banner-cntr {float: left; position: relative; right: 50%; }
+	
+	#content.photos .facebook {width: 940px; height: 25px; float: left; margin: 15px 0 0 0; text-align: center;}
+	#content.photos .facebook .fb-like {display: inline-block; margin: 0 auto; width: auto;}
+
+
+
+#morephotonav-left{
+background:url('../../images/global/car-arrow-left.gif') 0 0 no-repeat;
+width:40px;
+height:40px;
+overflow:hidden;
+}
+
+#morephotonav-right{
+width:40px;
+height:40px;
+overflow:hidden;
+background:url('../../images/global/car-arrow-right.gif') 0 0 no-repeat;
+}
+
+#morephotonav-left:hover{
+background:url('../../images/global/car-arrow-left-lighter.gif') 0 0 no-repeat;
+}
+
+#morephotonav-right:hover{
+background:url('../../images/global/car-arrow-right-lighter.gif') 0 0 no-repeat;
+}
+
+.photo-nav{
+background:#ffffff;
+box-shadow:0 3px 3px 0px #aaaaaa; 
+overflow:hidden; 
+width:200px; 
+padding:10px; 
+text-align:center;
+line-height:0px;
+}
+
+.xmas-tips-top-article{
+margin-top:8px !important; 
+margin-bottom:8px !important;
+
+}
+.tips-padding{
+
+padding:8px;
+}
+.tip-title{
+
+color: #666666;
+font-weight:bold;
+
+}
+
+.tip-title a{
+color:#666666;
+text-decoration:none;
+}
+
+.tip-title  a:hover{
+color:#47A8D8 !important;
+}
+
+
+.tip-copy{
+color:#666666;
+
+}
+
+.maincontainer-tips{
+float:left;
+ width:700px;
+ margin-left:10px;
+
+
+}
+.outer-container-tip{
+width:32.5%;
+padding-right:3px; 
+padding-top:3px;
+}
+.individualtip{
+width:auto;
+margin:7px;
+
+}
+.xmas-tips-top-container{
+float:left; 
+box-shadow: 0px 0px 3px 3px #AAAAAA;
+background:#ffffff;
+width:680px; 
+margin-right:22px;
+ margin-left:0px; 
+ margin-top:8px;
+
+}
+.xmas-tip-of-the-daytop{
+
+float:left;
+padding-right:15px;
+
+}
+
+.tip-width{
+width:32.5%;
+padding-right:3px; 
+padding-top:3px;
+}
+
+.side-boxes{
+overflow:hidden; 
+padding-left:5px;
+padding-right:5px;
+
+}
+
+.tips-box-img{
+overflow:hidden;
+display:block;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 480px){ 
+.maincontainer-tips{
+float:none;
+ width:100%;
+ margin-left:10px;
+
+
+}
+
+.tip-width{
+width:100%;
+padding-right:3px; 
+padding-top:3px;
+}
+.side-boxes{
+
+margin-left:10px;
+padding-left:0px;
+}
+
+#content .tip-copy{ 
+font-family: "Courier New",Courier,monospace !important;
+}
+.tips-box-img{
+display:none;
+}
+
+.xmas-tips-top-container{
+width:220px;
+margin:7px 0 0 40px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1023px){ 
+#content.photos .grid .sidebox{
+width:31%;
+margin-right:10px; 
+
+}
+#content .sideboxpadding{
+margin:5px;
+}
+.sidebox{
+padding-left:5px;
+}
+.side-boxes{
+margin-left:10px;
+
+}
+}
+
+@media only screen and (min-width: 480px){ 
+	#content.photos header #photo_sorting {position: absolute; right: 140px; top: 80px;}
+	#content.photos .grid article {margin: 7px 0 0 0;}
+	
+	section.grid2 .col1 {margin: 0 10px;}
+	section.grid2 .col2 {margin: 0 10px;}
+}
+	
+@media only screen and (min-width: 700px){ 
+	
+	#content.photos header.full-width {margin: 0 0 0 0;}
+	
+	#content.photos header #photo_sorting {position: absolute; right: 0; top: 0;}
+	
+        /*margin: 0 10px 0 0;*/
+	section.grid2 .col1 {margin: 0px 15.5px 0px 5px;}
+	section.grid2 .col2 {margin: 0 15.5px 0 0;}
+
+}
+
+@media only screen and (min-width: 960px){  
+	
+	#content.photos header #photo_sorting {position: absolute; right: 0; top: 0;}
+		
+}

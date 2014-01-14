@@ -1,0 +1,356 @@
+/*m*/
+ .m-bt1 {
+}
+.m-bt1 {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    padding: 0 9px;
+    border: 1px solid #e2e2e2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #fff;
+    float: left;
+}
+a.m-bt1, a.m-bt1:visited {
+    color: #666666;
+    text-decoration: none;
+}
+.m-bt1:hover {
+    color: #47a8d8;
+}
+.m-bt2 {
+}
+.m-bt2 a {
+    cursor: pointer;
+    float: left;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    color: #be2525;
+    background: #f5f5f5;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.t-1 h2, .t-1 .h2 {
+    color: #000;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.t-1 {
+    position: relative;
+    height: 46px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+}
+.t-1 .more {
+    float: right;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 10px
+}
+.t-2 {text-align: center;font-size: 24px;line-height: 28px}
+.tags {
+    height: 20px
+}
+.tags li {
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    padding: 0 9px;
+    border: 1px solid #e2e2e2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #fff
+}
+.tags li a {
+    color: #666666;
+    text-decoration: none;
+}
+.tags li a:hover {
+    color: #47A8D8;
+}
+.m-recipe {
+    position: relative;
+}
+.m-recipe .pcell {
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    width: 100%
+}
+.m-recipe .pcell .pad {
+    padding: 5px
+}
+.m-recipe1 {
+    background: #fff
+}
+.m-recipe1 .pcell .tit {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.m-recipe1 .pcell .pad {
+    padding: 5px
+}
+/*cell*/
+ .cell-1 .l {
+    width: 480px;
+    float: left;
+}
+.cell-1 .r {
+    width: 480px;
+    float: right;
+}
+.cell-2 .l {
+    width: 720px;
+    float: left;
+}
+.cell-2 .r {
+    width: 240px;
+    float: right;
+}
+.cell-3 {margin-top: 20px}
+.cell-3 .l {
+    width: 720px;
+    float: left;
+}
+.cell-3 .r {
+    width: 240px;
+    float: right;
+}
+/*mm*/
+ .m-recipe1 {
+    margin-top: 20px
+}
+.m-recipe1 .imgcell {
+    width: 220px;
+    height: 124px;
+    overflow: hidden;
+}
+.m-recipe1 .imgcell img {
+    max-width: 220px;
+    width: 220px
+}
+.m-recipe1 {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 20px;
+    display: inline;
+}
+.m-recipe1 .pcell .tit {
+    height: 40px
+}
+.m-recipe1 .pcell p {
+    margin-top: 10px
+}
+.m2 {
+    background: #fff;
+    margin-top: 20px
+}
+.m2 .imgcell {
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+.m2 .imgcell img {
+    width: 250px;
+    height:350px
+}
+.m2 .pcell {
+    width: 230px;
+    float: right;
+}
+.m2 .pad {
+    padding: 15px
+}
+.m2 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px
+}
+.m2 .tit {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px dashed #d2d2d2;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px
+}
+.m3 {
+    height: 100px;
+    background: #fff;
+    font-size: 14px;
+    padding-top: 10px
+}
+.m3 li {
+    width: 220px;
+    float: left;
+    height: 20px;
+    padding: 6px 10px
+}
+.m4 {
+    
+}
+.m4 .m-recipe1 .pcell .tit {
+    height: 20px
+}
+.m4 .m-recipe1 {
+    height: 280px;
+    margin-top: 0
+}
+.m4 .left {
+    left: 0;
+    top: 80px
+}
+.m4 .right {
+    right: 20px;
+    top: 80px
+}
+.m5 {
+    width: 220px;
+    padding: 10px;
+    background: #fff;
+
+}
+.m5 .imgcell {
+    width: 220px;
+    height: 124px;
+    overflow: hidden;
+}
+.m5 .imgcell img {
+    width: 220px
+}
+.m5 dd {
+    padding-left: 20px;
+    border-bottom: 1px dashed #d2f2f2;
+    padding-bottom: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 2px;
+    background: url(../img/j.gif) no-repeat 0 8px;
+}
+.m15 {
+   
+}
+.m15 .imgcell {
+    width: 220px;
+    height: 124px;
+    overflow: hidden;
+}
+.m15 .imgcell img {
+    width: 220px
+}
+.m15 dd {
+    padding-left: 20px;
+    border-bottom: 1px dashed #d2f2f2;
+    padding-bottom: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 2px;
+    background: url(../img/j.gif) no-repeat 0 8px;
+}
+.m6 .imgcell {
+    width: 220px;
+    height: 290px
+}
+.m6 .imgcell img {
+    width: 220px;
+    height: 290px
+}
+.m6 .m-recipe1 {
+    height: auto;
+}
+
+.m9 .imgcell {
+    width: 220px;
+    height: 220px
+}
+.m9 .imgcell img {
+    width: 220px;
+    height: 220px
+}
+.m9 .m-recipe1 {
+    height: auto;
+}
+.m9 .tit{text-align: center;}
+
+
+.m7 {margin-bottom: 10px}
+.m7 .imgcell{float: left;width: 630px}
+.m7 .imgcell img{width: 630px}
+.m7 .pcell{float: right;width: 320px}
+.m7 .pcell .pad{padding: 10px 0 }
+.m7 .pcell p{font-size: 16px;line-height: 20px;padding: 10px}
+.m7 .pcell .tit{text-align: center;}
+
+.m8 .imgcell{float: left;width: 400px}
+.m8 .imgcell img{width: 400px}
+.m8 .pcell{float: right;width: 320px}
+.m8 .pcell .pad{padding: 5px}
+.m8 .pcell p{font-size: 14px;line-height: 24px}
+.m8 .pcell .tit{text-align: center;}
+
+.m10 {padding-top: 10px}
+.m10 li{width: 100px;height: 120px; float: left;margin-right: 10px;margin-top: 10px}
+.m10 li img{width: 100px;height: 100px;}
+
+.m10 li a{display: block;text-align: center;}
+
+
+
+.copys {
+    height: 100px;
+    width: 324px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.copys .msk {
+    background: #fff;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;height: 100%;
+    z-index: 10;
+    
+}
+
+.m-p{
+    width: 240px;float: right;margin-top: 20px;
+}
+.m-p .imgcell img{width: 240px}
+.m-p .name{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    line-height: 25px;
+}
+.m-p dd{margin-top: 10px}
+
+.slide .feed .copys h3 {font-size: 20px;font-weight: bold;}
+.slide .feed .copys h3 a{color: #fefefe}
+.slide .feed .copys h3 a:hover{color: #fff}
+.copys .copyscell{position: relative;z-index: 100;width: 100%;height: 100%}

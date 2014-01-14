@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+	<meta name="keywords" content="{$SEO['keyword']}">
+	<meta name="description" content="{$SEO['description']}">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+	<link type="text/css" href="{APP_PATH}static/css/cssreset-min.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/g.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/m.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/mobile-portrait.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/mobile-landscape.css" rel="stylesheet" media="screen and (min-width: 480px)" />
+	<link type="text/css" href="{APP_PATH}static/css/tablet.css" rel="stylesheet" media="screen and (min-width: 700px)" />
+	<link type="text/css" href="{APP_PATH}static/css/desktop.css" rel="stylesheet" media="screen and (min-width: 960px)" />
+	<link type="text/css" href="{APP_PATH}static/css/home.css" rel="stylesheet" media="screen" />
+	<link type="text/css" href="{APP_PATH}static/css/feed.css" rel="stylesheet" media="screen" />
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="{APP_PATH}static/css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="{APP_PATH}static/js/lib/html5.js"></script>
+	<![endif]-->
+
+	<script src="{APP_PATH}static/js/lib/jquery.min.js"></script>
+	<script src="{APP_PATH}static/js/jcarousellite.js"></script>
+	<!-- <script src="{APP_PATH}static/js/lib/jquery.mob.clean.html.js"></script>
+-->
+<!-- <script src="{APP_PATH}static/js/lib/jquery.ui.swipable.min.js"></script>
+-->
+<script src="{APP_PATH}static/js/lib/respond.min.js"></script>
+<script src="{APP_PATH}static/js/lib/bootstrap.min.js"></script>
+<script src="{APP_PATH}static/js/g.js"></script>
+
+
+<link href="{CSS_PATH}reset.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH}default_blue.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="mob_content_wrapper">
+<header>
+	<div id="innerheader" class="w">
+		<div class="header1">
+			<div id="quicklink"></div>
+			<ul class="quick_nav">
+				<li>
+					<a href="#">精选食评</a>
+				</li>
+				<li>
+					<a href="#">时令菜谱</a>
+				</li>
+				<li>
+					<a href="#">特色食材</a>
+				</li>
+				<li>
+					<a href="#">美食生活</a>
+				</li>
+			</ul>
+
+			<div class="share">
+				<div class="bdsharebuttonbox">
+					<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+					<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+					<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+					<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+					<a href="#" class="bds_t163" data-cmd="t163" title="分享到网易微博"></a>
+				</div>
+				<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"vmeiwei","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion='+~(-new Date()/36e5)];</script>
+			</div>
+			<div class="clear"></div>
+		</div><!-- header1 -->
+		<div class="header2">
+			<div class="logo"><img src="{APP_PATH}static/img/logo.png"></div>
+			<form action="{APP_PATH}index.php" id="global_search" method="get" target="_blank">
+				<input type="hidden" name="m" value="search" />
+				<input type="hidden" name="c" value="index" />
+				<input type="hidden" name="a" value="init" />
+				<input type="hidden" name="typeid" value="1" />
+				<input type="hidden" name="siteid" value="1" />
+	            <input type="text" name="q" class="input_text clear_search" placeholder="搜索" value="">
+	            <input type="submit" class="input_submit" value="Search" title="Search">
+	        </form>
+	        <div class="login">
+	        	<a href="{APP_PATH}index.php?m=member&c=index&a=register"><span>登陆</span></a>
+	        	<a href="{APP_PATH}index.php?m=member&c=index&a=login"><span>注册</span></a>
+	        </div>
+	        <div class="clear"></div>
+		</div><!-- header2 -->
+		<div class="header3">
+			<nav>
+				<ul>
+				{pc:content action="allcategory" catid="0" num="4" siteid="$siteid" order="listorder ASC"}
+				<li><a href="{siteurl($siteid)}">首页</a></li>
+				{php $i = 0}
+				{loop $data $r}
+				{php ++$i}
+					<li>
+						<span class="navdrop down" id="navtag_{$i}"><a href="{$r[url]}" class="nava">{$r[catname]}</a></span>
+						<div class="navdrop_list" id="navlist_{$i}" style="display:none">
+							<dl>
+							{loop $r[childcategorys] $r1}
+								<dd><a href="{$r1[url]}">{$r1[catname]}</a></dd>
+							{/loop}
+							{/pc}
+							</dl>
+						</div>
+					</li>
+					{/loop}
+				{/pc}
+				<div class="clear"></div>
+			</nav>
+		</div><!-- header3 -->
+	</div><!-- innerheader -->
+
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

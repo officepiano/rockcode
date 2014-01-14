@@ -1,0 +1,153 @@
+{template "content","header"}
+
+
+<div class="m">
+
+    <section class="w-1">
+        <div class="w">
+            <div class="cell-2">
+                <div class="l">
+                    <div class="t-1" style="width:700px">
+                        <a class="more" href="#">更多</a><h2>他的食评</h2>
+                    </div>
+                    <div class="m6">
+                        <article class="m-recipe1">
+                            <div class="imgcell">
+                                <a>
+                                    <img src="static/img/c/m61.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="pcell">
+                                <div class="pad">
+                                    <div class="tit">
+                                        <a href="#">奶油培根面</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="m-recipe1">
+                            <div class="imgcell">
+                                <a>
+                                    <img src="static/img/c/m61.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="pcell">
+                                <div class="pad">
+                                    <div class="tit">
+                                        <a href="#">奶油培根面</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="m-recipe1">
+                            <div class="imgcell">
+                                <a>
+                                    <img src="static/img/c/m61.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="pcell">
+                                <div class="pad">
+                                    <div class="tit">
+                                        <a href="#">奶油培根面</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- m -->
+
+                </div>
+                <!-- l -->
+                <div class="r">
+                    <div class="m-p">
+                        <dl>
+                            <dt class="imgcell">
+                                <a href="#">
+                                    <img src="static/img/c/p.jpeg" alt=""/>
+                                </a>
+                            </dt>
+                            <dd class="name">
+                                美食名厨1
+                            </dd>
+                            <dd class="des">
+                                美食名厨1的描述美食名厨1的描述美食名厨1的描述美食名厨1的描述美食名厨1的描述美食名厨1的描述
+                            </dd>
+                            
+                        </dl>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="m15 top10">
+                        <div class="t-1">
+                            <h2>最热排行</h2>
+                        </div>
+                        <dl>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+                            <dd>
+                                <a href="#">西餐 三文鱼肉蔬菜汤三文鱼肉蔬菜汤三文鱼肉蔬菜汤</a>
+                            </dd>
+
+                        </dl>
+                    </div>
+                    <!-- m -->
+                </div>
+                <!-- r -->
+                <div class="clear"></div>
+            </div><!-- cell -->
+        </div>
+    </section>
+</div>
+<!-- m -->
+<!--main-->
+<div class="main">
+	<div class="col-left">
+    	<div class="crumbs"><a href="{siteurl($siteid)}">首页</a><span> > </span>{catpos($catid)} 列表</div>
+    	{pc:member action="grouplists" groupid="$groupid" num="10" order="userid ASC" page="$page"}
+        <ul class="list lh24 f14">
+{loop $data $r}
+	<li><img src="{$r['avatar']}" width="300" /><a href="{$r['url']}" target="_blank">{$r['nickname']}</a><br />{$r['introduce']}</li>
+	{if $n%5==0}<li class="bk20 hr"></li>{/if}
+{/loop}
+        </ul>
+        <div id="pages" class="text-c">{$pages}</div>
+{/pc}
+  </div>
+    <div class="col-auto">
+        <div class="box">
+            <h5 class="title-2">频道总排行</h5>
+             {pc:content action="hits" catid="$catid" num="10" order="views DESC" cache="3600"}
+            <ul class="content digg">
+				{loop $data $r}
+					<li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+				{/loop}
+            </ul>
+            {/pc}
+        </div>
+        <div class="bk10"></div>
+        <div class="box">
+            <h5 class="title-2">频道本月排行</h5>
+             {pc:content action="hits" catid="$catid" num="8" order="monthviews DESC" cache="3600"}
+            <ul class="content rank">
+				{loop $data $r}
+				<li><span>{number_format($r[monthviews])}</span><a href="{$r[url]}"{title_style($r[style])} class="title" title="{$r[title]}">{str_cut($r[title],56,'...')}</a></li>
+				{/loop}
+            </ul>
+            {/pc}
+        </div>
+    </div>
+</div>
+{template "content","footer"}

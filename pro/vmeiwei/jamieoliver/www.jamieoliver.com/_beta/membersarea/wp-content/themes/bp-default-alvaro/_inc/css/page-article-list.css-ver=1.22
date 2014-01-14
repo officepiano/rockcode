@@ -1,0 +1,735 @@
+/*
+	This is included in 
+	
+	 Page of news and blogs (which is repeated in 3 cases)
+			News and blog landing page (archive.php, displays just News)
+			Member's blog page (author.php, displays just blog posts)
+			Search results for posts (search.php In cat News, Blogs or Both)
+		
+*/
+
+	
+	.widget .red-btn, .widget .grey-btn {
+		width: 100% !important;
+	}
+
+	.grey-btn {
+    	font: 1.3em "Courier New", Courier, monospace;
+		color: #BE2525 !important;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		cursor: pointer;
+		width: 100%;
+		float: left;
+		display: block;
+		
+		padding: 8px 0 5px;
+		margin: 0;
+		
+		background: #f6f6f6;
+		border: 1px solid #c5c5c5;
+		
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+		     -o-border-radius: 5px;
+		        border-radius: 5px;
+		
+		-webkit-box-shadow: 0px 0px 1px #b4b4b4;
+		   -moz-box-shadow: 0px 0px 1px #b4b4b4;
+		     -o-box-shadow: 0px 0px 1px #b4b4b4;
+			    box-shadow: 0px 0px 1px #b4b4b4;
+	}
+	
+	.grey-btn:hover {
+		background: #fff;
+	}
+	
+	.grey-btn span {
+    	text-align: center;
+		background: none;
+    	display: inline;
+    	float: none;
+    	padding: inherit;
+    	width: auto;
+	}
+	
+	
+	div#content aside.big-margin-bottom {
+		float: left;
+		display: block;
+	}
+	
+	#content .widget-search-news-and-blogs h2 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+/* featured article on top */
+/* ALV: this is the small font in gray and Arial, there should be a class for all the site when this format is used. */
+	
+	div#content.article-list small { 
+		color: #999;  
+		display: inline;  
+		font: 0.8em Arial, Helvetica, sans-serif;  
+		margin: 0;  
+		padding: 0; 
+		letter-spacing: 0px;
+	}
+	/*
+	#featured-post-content {float:left; width:625px; background:white;}
+	#featured-post-content img { float:left; }
+	#featured-post-content h2{ font-family:Courier; font-size: 20px; font-weight: bold !important; text-transform:uppercase;}
+	#featured-post-content  .padded{ padding: 16px 40px 10px 40px; text-align:center;}
+		#featured-post-content .read-more {	width: 207px;margin: 20px 10px 0 20px; }
+	*/
+	
+	.promo-content h2 a {
+		color: #4D5762;
+	}
+	
+	.promo-content h2 a:hover {
+		color: #01B1ED;
+	}
+	
+	#other-featured-news{ 
+		font: 0.9em "Courier New", Courier, monospace;
+		padding: 25px 0 0 17px; 
+		text-align: left; 
+		overflow: inherit;
+		border-top: 1px dashed #ccc;
+	}
+	
+	ul#other-featured-news li { 			
+		float: none;
+		margin-left: 0px;
+		margin-bottom: 8px;
+		line-height: 15px;
+	}
+	
+	ul#other-featured-news  li a { 
+		float: none; 
+		color: #666; 
+		font-weight: bold; 
+		font-size: 11px; 
+		padding-left: 15px;
+		background: #fff url('../images/little-arrow-right-hover.png') no-repeat left 2px;
+	}
+	
+	ul#other-featured-news li a:hover { 
+		color: #01B1ED;
+		background: #fff url('../images/little-arrow-right-hover.png') no-repeat left -90px;
+		}
+
+	/*before list of articles*/
+	/* list of articles */
+	div#content.article-list .post-content {
+		margin: 0;
+	}
+	
+	section.grid1.grey-back2 {
+	 	padding-bottom: 38px;
+	}
+	section.grid6.blog-page {
+	 	margin-top:4px;
+	}
+	
+	.sbHolder { 
+		float: right; 
+		margin-right: 10px;
+	} 
+	
+	
+	
+	
+	
+	
+	/* all this is copied from frontend guys. This is just to stlye the featured article, so there are many things to delete here 
+	TO_DO: delete from here everything that has not to do with the header featured article.
+	*/
+	
+	/* ALV: we remove the margin bottom of grid6 (featured article) */
+	.grid6{ 
+		margin-bottom:0 !important;
+	}
+	
+	div#content.article-list .promotions-top {
+    	position: relative;
+	}
+	
+	div#content.article-list .promo-family {
+    	display: none;
+	}
+	
+	div#content .promo-content {
+    	float: left;
+    	padding: 16px 25px;
+    	width: 270px;
+		position: relative;
+	}
+	
+	div#content .promo-content h2 {
+		line-height: 23px;
+		margin-bottom: 5px;
+		margin-top: 5px;	
+		letter-spacing: 0;
+	}
+	
+	div#content .overflowed-div{
+    	height: 45px;
+    	line-height: 1.55em;
+    	margin: 11px 0 25px;
+    	overflow: hidden;
+    	padding-bottom: 27px;
+	}
+	
+	div#content .promo-content header {
+    	font-family: "Courier New", Courier, monospace;
+	}
+	
+	div#content .promo-content .month {
+    	display: block;
+	}
+	div#content .promo-content h1 {
+    	margin: 5px 0 10px;
+	}
+	
+	div#content .promo-share {
+    	background: url("../img/network-big.gif") no-repeat scroll 0 0 transparent;
+    	height: 30px;
+    	position: absolute;
+    	right: 0;
+    	text-indent: -5000px;
+    	top: 0;
+    	width: 30px;
+    	z-index: 20;
+	}
+	
+	div#content .promo-share:hover {
+    	background: url("../img/network-big.gif") no-repeat scroll 0 -30px transparent;
+	}
+	
+	div#content.article-list .promotions-top .pager-link {
+    	background: none #fff;
+    	border-radius: 13px;
+    	display: block;
+    	float: left;
+    	height: 13px;
+    	margin: 5px;
+    	text-indent: -5000px;
+    	width: 13px;
+	}
+	
+	div#content.article-list .promotions-top .bx-pager {
+    	bottom: -30px;
+    	left: 40%;
+    	position: absolute;
+    	text-align: center;
+	}
+	
+	div#content.article-list .promotions-top .pager-active {
+		background: none repeat scroll 0 0 #33D4AA;
+	}
+	
+	div#content.article-list aside {
+		margin-top: 0px; /* it was set to 50, dont know the reason */
+	}
+	
+	div#content.article-list .dotted-bottom {
+		border-bottom: 1px dashed #ccc;
+	}
+	
+	div#content.article-list .promotions-bottom {
+		position: relative;
+	}
+	
+	.no-margin-section { 
+		margin-bottom: 0;
+	}
+
+
+
+	
+	div#content .promo-image {
+		display: block;
+		float: left;
+		position: relative;
+		width: 300px;
+	}
+	div#content .promo-image a {
+		overflow: hidden;
+		width: 300px;
+		display: block;
+	}
+	div#content ul#promo-slider {
+		background: none repeat scroll 0 0 #FFFFFF;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	div#content ul#promo-slider li.promo-slider-li {
+		height: auto;
+		width: 100%;
+	}
+	div#content .promotions-top .bx-pager {
+		bottom: -30px;
+		left: 50%;
+		position: absolute;
+		text-align: center;
+	}
+	div#content aside {
+		margin-top: 0;
+	}
+
+	.blog-page .col2 div.widget:first-child { 
+		margin-top:2px;
+	} /* the 1st widget in right column is a little bit down in design */
+	
+	.widget { 
+		margin-bottom:30px;
+	}
+
+
+/* posts in news and blog listing page  TO_DO: i added this without checking if it works or screws everything */
+	
+	#content .landscape-posts { 
+		overflow: inherit !important;
+	}
+	
+	#content .landscape-posts .post { 
+		width: 610px;
+		padding-bottom: 10px;
+		border-bottom: 1px dashed #ccc;
+		margin-bottom: 24px;		
+	}
+	
+	#content .landscape-posts .post-content{ 
+		width: 100%;
+		/*margin: 0 10px 15px 0;*/
+	}
+
+	#content .landscape-posts .landscape-hero { 
+		width:100%;
+	}
+	#content .landscape-posts .grey-small {
+		margin-bottom: 15px;
+	}
+	
+	#content .landscape-posts .post-content h2{ 	
+		font-size: 19px;	
+		font-weight: bold;	
+		text-transform: uppercase; 
+		margin: 0px; 
+		line-height: 16px;
+		letter-spacing: 0;
+		margin-top: 10px;
+	}
+		
+	#content .landscape-posts .post-content h2 a {
+		color: #4d5762;
+	}
+			
+	#content .landscape-posts .post-content h2 a:hover { 
+		color: #01B1ED;	
+	}		
+	
+	#content .landscape-posts .post-content .entry { 
+		font-size: 13px;
+		line-height: 22px;	
+		margin-top: 5px;		
+	}
+	
+	#content .landscape-posts .post-content .entry .read-more { 
+		width: 300px; 
+		height: 30px; 
+		padding: 9px 0 20px 0; 
+		margin: auto;
+	}
+
+
+
+/* TEMPORARY HTML WIDGETS */
+	
+	#content #temp-bloggers-widget {
+		padding-bottom: 15px;
+	}
+	#content #temp-bloggers-widget li { 
+		padding-bottom: 14px; 
+		margin-bottom: 14px; 
+		border-bottom: 1px dashed #ccc;
+	}
+	#content #temp-bloggers-widget li.author {
+		width: 260px;
+		display: block;
+		float: left;
+	}
+	#content #temp-bloggers-widget .avatar-wrap { 
+		float: left;
+		width: 77px; 
+		height: 75px;
+		margin-right: 10px;
+		border: 1px solid #ccc; 
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: block;
+	}
+	#content #temp-bloggers-widget .avatar-wrap a { 
+		display: block; 
+		height: 73px; 
+		overflow: hidden;
+	}
+	
+	#content #temp-bloggers-widget .avatar-wrap  a img { 
+		height: 85px;
+	}
+	
+	#content #temp-bloggers-widget .lmb-author-post-preview {
+		width: 165px; 
+		float: left; 
+		margin-top: -5px;
+		display: block;
+	}
+	#content #temp-bloggers-widget h4 { 
+		display: block; 
+		line-height: 14px; 
+		margin-bottom: 5px; 
+		font-family: Georgia;
+		float: left;
+		width: 165px;
+		text-align: left;
+	}
+	#content #temp-bloggers-widget span.desc {
+		width: 165px;
+		display: block;
+		float: left;
+	}
+	
+	#content #temp-bloggers-widget span.small-link { 
+		font-size: 10px;
+	} 
+	#content #temp-bloggers-widget .author-link { 
+		font-size: 11px;
+	}
+	#content #temp-bloggers-widget .lmb-author-post-preview h4 {
+		margin: 0 0 10px 0;
+		font-family: georgia;
+		font-size: 13px;
+		line-height: 16px;
+	}
+	#content #temp-bloggers-widget .lmb-author-post-preview h4 a { 
+	}
+	#content #temp-bloggers-widget .lmb-author-post-preview span.desc{ 
+		color: #999;
+		display: block;
+		line-height: 15px;
+		letter-spacing: 0;
+	}
+	
+/* repeat it in members 	
+#temp-bloggers-widget {
+	width: 259px;
+	padding: 9px 20px;
+}
+*/
+
+
+
+
+
+
+	
+@media only screen and (min-width: 320px){ 
+
+	#content .widget.widget_sp_image {
+		width: 300px;
+		float: left;
+		margin-top: 30px;
+	}
+	
+	#content .landscape-posts .post-content {
+    	width: 300px;
+	}
+	
+	#content .landscape-posts .post {
+    	border-bottom: 1px dashed #ccc;
+    	margin-bottom: 24px;
+    	padding-bottom: 10px;
+    	width: 300px;
+	}
+	
+	aside.dotted-vertical-left {
+    	background: none;
+	}
+	
+	.bx-wrapper {
+		margin-bottom: 30px;
+	}
+	
+	#content .landscape-posts .post-content { 
+		width: 300px; 
+	} /* initially for mobile */
+
+}	
+	
+
+
+
+@media only screen and (min-width: 480px){ 
+
+	#content .landscape-posts .post-content { 
+		width:460px; 
+	}
+	
+	#content .widget.widget_sp_image {
+		width: 460px;
+		float: left;
+		margin-top: 30px;
+	}
+	
+	#content .landscape-posts .post {
+    	border-bottom: 1px dashed #CCCCCC;
+    	margin-bottom: 24px;
+    	padding-bottom: 10px;
+    	width: 460px;
+	}
+	
+	aside.dotted-vertical-left {
+    	background: none;
+	}
+	
+	#content .widget.widget-image-log {
+		width: 300px;
+		display: block;
+		float: left;
+		clear: none;
+		background: none;
+	}
+	
+	#content .widget.widget_sp_image {
+		width: 300px;
+		display: block;
+		float: left;
+		clear: none;
+		background: none;
+	}
+	
+	#content #temp-bloggers-widget .lmb-author-post-preview {
+		text-align: right;
+	}
+	
+
+	
+}	
+
+
+
+
+@media only screen and (min-width: 700px){ 
+
+	#content .landscape-posts .post-content { 
+		width:610px;
+	}
+	
+	#content .landscape-posts .post {
+    	border-bottom: 1px dashed #ccc;
+    	margin-bottom: 24px;
+    	padding-bottom: 10px;
+    	width: 610px;
+	}
+	
+	#content .widget {
+	}
+	
+	.bx-wrapper {
+		margin-bottom: 30px;
+	}
+	
+	#content .widget.widget-image-log {
+		width: 300px;
+		display: block;
+		float: left;
+		clear: none;
+		background: none;
+	}
+	
+	#content .widget.widget_sp_image {
+		width: 300px;
+		display: block;
+		float: right;
+		clear: none;
+		background: none;
+		margin-top: 0;
+	}
+
+	.shadow-input {
+    	width: 260px;
+	}
+	
+	.shadow-input .lens-button{	
+		margin-left: -51px;
+	}
+	
+	#content .widget-search-news-and-blogs .sbHolder {
+		margin: 0 0 0 -105px; 
+		top: 5px;
+	}
+	
+	aside.dotted-vertical-left {
+    	background: none;
+	}
+	
+	.clearfix .widget.widget_text {
+		clear: none;
+		width: 620px;
+		display: block;
+		float: left;
+	}
+	#text-2 {
+		width: 300px !important;
+	}
+	
+	#text-10 {
+		margin-left: 20px;
+	}
+	
+	#content .landscape-posts .post-content .entry .read-more {
+    	height: 30px;
+    	margin: auto;
+    	padding: 9px 0 20px;
+    	width: 300px;
+	}
+	
+	div#content ul#promo-slider {
+    	height: 389px;
+	}
+	
+	div#content ul#promo-slider li.promo-slider-li {
+    	height: 389px;
+	}
+	
+	/*
+	grey-btn {
+    	background: url("../images/global/grey-left.png") no-repeat scroll left top transparent;
+    	color: #BE2525 !important;
+    	float: left;
+    	font-family: courier,monospace;
+    	letter-spacing: 0;
+    	margin: 0;
+    	padding: 0 0 0 4px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	width: 100%;
+	}
+	.grey-btn span {
+    	background: url("../images/global/grey-right.png") no-repeat scroll right top transparent;
+    	display: block;
+    	float: left;
+    	padding: 5px 0 3px;
+    	text-align: center;
+    	width: 100%;
+	}
+	*/
+	
+
+}
+
+
+@media only screen and (min-width: 960px){
+	
+	#content .widget {
+	}
+	
+	#content .landscape-posts .post-content { 
+		width: 610px; 
+	}
+	
+	.bx-wrapper {
+		margin-bottom: 0px;
+	}
+	
+	#content .widget.widget-image-log {
+		clear: both;
+	}
+	
+	#content .widget.widget_sp_image {
+		float: left;
+		clear: both;
+		margin-top: 0;
+	}
+	
+	.shadow-input {
+    	width: 100%;
+	}
+	
+	.shadow-input .lens-button{	
+		margin-left: -50px;
+	}
+	
+	#content .widget-search-news-and-blogs .sbHolder {
+		margin: 0 0 0 162px; 
+		top: -30px;
+	}
+
+	aside.dotted-vertical-left {
+		background: url("../images/dotted-vertical.png") repeat-y scroll 3px 30px transparent;
+	}
+	
+	.clearfix .widget.widget_text {
+		clear: both;
+	}
+	
+	#text-10 {
+		margin-left: 0;
+	}
+	
+	#content .landscape-posts .post {
+    	border-bottom: 1px dashed #CCCCCC;
+    	margin-bottom: 24px;
+    	padding-bottom: 10px;
+    	width: 610px;
+	}
+	
+	#content #temp-bloggers-widget .lmb-author-post-preview {
+    	text-align: left;
+	}
+	
+	.clearfix .widget.widget_text {
+		clear: none;
+		width: 300px;
+		display: block;
+		float: left;
+	}
+	
+
+}
+
+
+
+
+/* ALV: */
+.post-content .post-edit-link{ margin:-35px 0 0 0;}
+.entry_post_img_holder .post-edit-link{ margin:-22px 0 0 0;}
+
+#content.blog-and-news .slider_holder ul li div.right_pic_data .quote_box_slider .quote_slider::before {
+content: '';
+padding-right: 0;
+}
+#content.blog-and-news .slider_holder ul li div.right_pic_data .quote_box_slider .quote_slider::after {
+content: '';
+padding-right: 0;
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+

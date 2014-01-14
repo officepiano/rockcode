@@ -1,0 +1,27 @@
+@import url(mobile-699mq.2.0.css) (max-width: 699px);
+@import url(menu-mob.2.0.css) (max-width: 699px);
+@import url(mobile-400mq.2.0.css) (max-width: 460px);
+@import url(menu-mob.2.0.css) (max-width: 460px);
+/* max screen size of 699px */
+/* max screen size of 460px */
+@media screen and (min-width: 700px) {
+  #mob_menu, .popular_video_cats_menu,
+  #screen_hide,
+  .header_icons-mob_site_logo,
+  .close_right_btn,
+  #mob_popup_search_box {
+    display: none !important;
+  }
+
+  .intro_content_right .you_tube_holder {
+    display: block !important;
+  }
+
+  .home_page_mob_content {
+    display: none !important;
+  }
+
+  .mob_hidden_content {
+    display: none !important;
+  }
+}

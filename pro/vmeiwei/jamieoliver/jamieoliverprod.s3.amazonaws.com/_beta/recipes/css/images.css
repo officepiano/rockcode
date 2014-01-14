@@ -1,0 +1,67 @@
+#content.recipes {}
+	
+	#content.recipes p.theme_crop {
+		height: 214px;	
+		overflow: hidden;
+	}
+
+	#content.recipes p.theme_crop img {
+		margin-top: -50px;
+	}
+
+	#content.recipes #individual_top .recipe_image_main .crop img {
+		margin: 2px 0px 0px 1px;
+		border: 1px solid #ba2126;
+		border-top: 0px;
+	}
+
+
+	#recipe_filtered .crop, #featured_recipe_list .crop, #recipe_collections .crop {
+		overflow:hidden; 
+		height: 340px;
+	}
+
+	#recipe_filtered .crop, #featured_recipe_list .crop {
+		position:relative;
+	}
+
+
+	#recipe_filtered .crop img, #featured_recipe_list .crop img, #recipe_collections .crop img {
+		width: 300px;
+	}
+
+	#category_top .crop {
+		overflow:hidden; 
+		position:relative;
+		height: 400px;	
+	}
+
+	#results_top .crop {
+		overflow:hidden; 
+		height: 107px;
+	}
+
+	#results_top .crop img {
+		margin-top: -30px;
+	}
+
+@media only screen and (min-width: 480px){ 
+
+	#recipe_filtered .crop img, #featured_recipe_list .crop img, #recipe_collections .crop img {
+		width: 220px;
+	}
+
+@media only screen and (min-width: 700px){ 
+
+	#content.recipes {}
+
+}
+
+@media only screen and (min-width: 960px){  
+	
+	#content.recipes {}
+
+}
+
+
+}
